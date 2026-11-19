@@ -20,6 +20,16 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentIndex = 0;
   let timer = null;
   let isHovered = false;
+  let transitionTimeout = null;
+
+  // Preload all slide images immediately to prevent black/blank gaps on mobile networks
+  slides.forEach((slide) => {
+    const img = slide.querySelector('.slide-img');
+    if (img && img.src) {
+      const preloader = new Image();
+      preloader.src = img.src;
+    }
+  });
 
   // Build Indicator Dots
   if (indicatorsContainer) {
@@ -37,13 +47,38 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function updateSlideClasses(newIndex) {
+    if (newIndex === currentIndex && slides[currentIndex].classList.contains('active')) return;
+
+    if (transitionTimeout) {
+      clearTimeout(transitionTimeout);
+      transitionTimeout = null;
+    }
+
+    const oldIndex = currentIndex;
+
     slides.forEach((slide, i) => {
+      slide.classList.remove('last-active');
+      if (i === oldIndex && i !== newIndex) {
+        // Retain previous active slide underneath during 750ms cross-fade to prevent black background exposure
+        slide.classList.add('last-active');
+      }
       if (i === newIndex) {
         slide.classList.add('active');
+        slide.classList.remove('last-active');
       } else {
         slide.classList.remove('active');
       }
     });
+
+    // Remove last-active class once incoming slide transition completes
+    transitionTimeout = setTimeout(() => {
+      slides.forEach((slide, i) => {
+        if (i !== newIndex) {
+          slide.classList.remove('last-active');
+        }
+      });
+      transitionTimeout = null;
+    }, 800);
 
     const dots = slider.querySelectorAll('.indicator-dot');
     dots.forEach((dot, i) => {
