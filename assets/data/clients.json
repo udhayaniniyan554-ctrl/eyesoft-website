@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "name": "Bannari Amman Institute Of Technology",
+    "location": "Sathyamangalam",
+    "category": "Higher Education & Engineering",
+    "icon": "graduation-cap",
+    "solutions_deployed": "Auditorium AV, Digital Classrooms, Seminar Hall Sound Reinforcement",
+    "logo": "assets/images/clients/bannari_amman_tech.png"
+  },
+  {
+    "id": 2,
+    "name": "Bannari Amman Sugars Limited",
+    "location": "Coimbatore",
+    "category": "Corporate & Industry",
+    "icon": "building",
+    "solutions_deployed": "Executive Boardroom, Video Conferencing, Telepresence Suites",
+    "logo": "assets/images/clients/bannari_amman_sugars.svg"
+  },
+  {
+    "id": 3,
+    "name": "Sri Krishna Institutions",
+    "location": "Coimbatore",
+    "category": "Higher Education & Engineering",
+    "icon": "university",
+    "solutions_deployed": "Campus-Wide Smart Classrooms, Seminar Halls, Multimedia Podiums",
+    "logo": "assets/images/clients/sri_krishna_inst.png"
+  },
+  {
+    "id": 4,
+    "name": "GRD Institutions",
+    "location": "Coimbatore",
+    "category": "Higher Education & Engineering",
+    "icon": "university",
+    "solutions_deployed": "Digital Classrooms, Multi-Purpose Auditorium, Audio Visual Systems",
+    "logo": "assets/images/clients/grd_institutions.svg"
+  },
+  {
+    "id": 5,
+    "name": "DJ Academy",
+    "location": "Coimbatore",
+    "category": "Higher Education & Arts",
+    "icon": "palette",
+    "solutions_deployed": "Interactive Display Studios, High-Definition Projection",
+    "logo": "assets/images/clients/dj_academy.svg"
+  },
+  {
+    "id": 6,
+    "name": "Nehru Group Of Institutions",
+    "location": "Coimbatore",
+    "category": "Higher Education & Engineering",
+    "icon": "university",
+    "solutions_deployed": "Lecture Hall Sound Reinforcement, Digital Podiums, Boardrooms",
+    "logo": "assets/images/clients/nehru_group.svg"
+  },
+  {
+    "id": 7,
+    "name": "Kamadhenu Arts And Science College",
+    "location": "Dharmapuri",
+    "category": "Higher Education & Arts",
+    "icon": "book-open",
+    "solutions_deployed": "Digital Classroom Setups, Projection Screens, Audio Systems",
+    "logo": "assets/images/clients/kamadhenu_college.svg"
+  },
+  {
+    "id": 8,
+    "name": "Vidya Vikas Group Of Institutions",
+    "location": "Tamil Nadu",
+    "category": "Higher Education & Schools",
+    "icon": "school",
+    "solutions_deployed": "Training Rooms, Smart Whiteboards, Multimedia Projectors",
+    "logo": "assets/images/clients/vidya_vikas.svg"
+  },
+  {
+    "id": 9,
+    "name": "Amrita Vishwa Vidyapeetham",
+    "location": "Coimbatore",
+    "category": "Higher Education & Research",
+    "icon": "award",
+    "solutions_deployed": "Advanced Research Seminar Halls, High-End Video Walls, Video Conferencing",
+    "logo": "assets/images/clients/amrita_university.svg"
+  },
+  {
+    "id": 10,
+    "name": "RJ Matriculation Higher Secondary School",
+    "location": "Coimbatore",
+    "category": "Schools & K-12",
+    "icon": "chalkboard-teacher",
+    "solutions_deployed": "Smart Classrooms, Paging & Background Music, Ceramic Boards",
+    "logo": "assets/images/clients/rj_matriculation.svg"
+  },
+  {
+    "id": 11,
+    "name": "St. Francis Anglo Indian Girls High School",
+    "location": "Coimbatore",
+    "category": "Schools & K-12",
+    "icon": "school",
+    "solutions_deployed": "School Assembly Audio System, Interactive Classrooms, Projection",
+    "logo": "assets/images/clients/st_francis_school.svg"
+  },
+  {
+    "id": 12,
+    "name": "St. Joseph's Matriculation Higher Secondary School",
+    "location": "Coimbatore",
+    "category": "Schools & K-12",
+    "icon": "school",
+    "solutions_deployed": "Digital Classrooms, Auditorium Sound, Projector Maintenance",
+    "logo": "assets/images/clients/st_joseph_matric.svg"
+  },
+  {
+    "id": 13,
+    "name": "Sri Ramakrishna Mission Vidyalaya",
+    "location": "Coimbatore",
+    "category": "Higher Education & Schools",
+    "icon": "sun",
+    "solutions_deployed": "Spiritual & Academic Seminar Halls, Centralized Paging, Audio Systems",
+    "logo": "assets/images/clients/sri_ramakrishna_vidyalaya.png"
+  },
+  {
+    "id": 14,
+    "name": "NGM College Autonomous",
+    "location": "Pollachi",
+    "category": "Higher Education & Arts",
+    "icon": "landmark",
+    "solutions_deployed": "Large Seminar Hall AV, Digital Classrooms, Interactive Panels",
+    "logo": "assets/images/clients/ngm_college.png"
+  },
+  {
+    "id": 15,
+    "name": "SNS Groups of Institutions",
+    "location": "Coimbatore",
+    "category": "Higher Education & Engineering",
+    "icon": "university",
+    "solutions_deployed": "Innovation Hub AV, Smart Boardrooms, Interactive Displays",
+    "logo": "assets/images/clients/sns_institutions.svg"
+  },
+  {
+    "id": 16,
+    "name": "Firebird Institute of Research in Management",
+    "location": "Coimbatore",
+    "category": "Higher Education & Management",
+    "icon": "briefcase",
+    "solutions_deployed": "Executive Management Boardrooms, Real Presence Teleconferencing",
+    "logo": "assets/images/clients/firebird_institute.svg"
+  },
+  {
+    "id": 17,
+    "name": "Hindusthan Group of Institutions",
+    "location": "Coimbatore",
+    "category": "Higher Education & Engineering",
+    "icon": "graduation-cap",
+    "solutions_deployed": "Campus Auditoriums, Multi-Point Video Conferencing, Smart Podiums",
+    "logo": "assets/images/clients/hindusthan_group.svg"
+  },
+  {
+    "id": 18,
+    "name": "Holy Family Convent School",
+    "location": "Coimbatore",
+    "category": "Schools & K-12",
+    "icon": "heart",
+    "solutions_deployed": "Smart Classrooms, School PA Systems, Multimedia Projection",
+    "logo": "assets/images/clients/holy_family_school.svg"
+  },
+  {
+    "id": 19,
+    "name": "Coimbatore Marine College",
+    "location": "Coimbatore",
+    "category": "Specialized Maritime Training",
+    "icon": "anchor",
+    "solutions_deployed": "Maritime Simulation Room AV, High-Definition Projection, Podiums",
+    "logo": "assets/images/clients/coimbatore_marine_college.png"
+  },
+  {
+    "id": 20,
+    "name": "St. Joseph Polytechnic College",
+    "location": "Coimbatore",
+    "category": "Technical & Polytechnic",
+    "icon": "tools",
+    "solutions_deployed": "Technical Workshop AV, Smart Classrooms, Projector Screens",
+    "logo": "assets/images/clients/st_joseph_polytechnic.svg"
+  },
+  {
+    "id": 21,
+    "name": "Government College of Technology (GCT)",
+    "location": "Coimbatore",
+    "category": "Premier Government Institution",
+    "icon": "landmark",
+    "solutions_deployed": "Main Auditorium AV Integration, Seminar Halls, Multimedia Displays",
+    "logo": "assets/images/clients/gct_coimbatore.png"
+  },
+  {
+    "id": 22,
+    "name": "CMS School",
+    "location": "Ooty",
+    "category": "Schools & K-12",
+    "icon": "mountain",
+    "solutions_deployed": "Hill Station School AV, Interactive Digital Classrooms, Sound Systems",
+    "logo": "assets/images/clients/cms_school.svg"
+  },
+  {
+    "id": 23,
+    "name": "Airforce School",
+    "location": "Coimbatore",
+    "category": "Defense & Schools",
+    "icon": "shield-alt",
+    "solutions_deployed": "Defense Educational AV, Campus Paging, Smart Projection",
+    "logo": "assets/images/clients/airforce_school.svg"
+  },
+  {
+    "id": 24,
+    "name": "Craftsman",
+    "location": "Coimbatore",
+    "category": "Corporate & Industrial Precision",
+    "icon": "cogs",
+    "solutions_deployed": "Corporate Boardroom, Operations Control Room Video Wall, Telepresence",
+    "logo": "assets/images/clients/craftsman_automation.svg"
+  },
+  {
+    "id": 25,
+    "name": "Tea Board",
+    "location": "Coonoor",
+    "category": "Government & Commodity Board",
+    "icon": "coffee",
+    "solutions_deployed": "Conference Room AV, High-Definition Display Systems, Sound Reinforcement",
+    "logo": "assets/images/clients/tea_board.png"
+  },
+  {
+    "id": 26,
+    "name": "Tamil Nadu Agricultural University (TNAU)",
+    "location": "Coimbatore",
+    "category": "Premier Agricultural University",
+    "icon": "seedling",
+    "solutions_deployed": "Main Convocation Auditorium, International Conference Hall AV, Digital Signage",
+    "logo": "assets/images/clients/tnau_coimbatore.png"
+  }
+]

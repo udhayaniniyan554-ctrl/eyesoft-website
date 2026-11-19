@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <defs>
+    <linearGradient id="snsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="80" rx="8" fill="#FFFFFF"/>
+  <g transform="translate(14, 14)">
+    <!-- Triangular Tech Emblem -->
+    <polygon points="26,4 50,44 2,44" fill="url(#snsGrad)"/>
+    <polygon points="26,14 42,40 10,40" fill="#FFFFFF"/>
+    <text x="26" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="900" fill="#EA580C" text-anchor="middle">SNS</text>
+  </g>
+  <text x="74" y="29" font-family="'Plus Jakarta Sans', sans-serif" font-size="14.5" font-weight="800" fill="#EA580C">SNS GROUPS</text>
+  <text x="74" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#1E3A8A" letter-spacing="0.04em">OF INSTITUTIONS</text>
+  <text x="74" y="60" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600" fill="#64748B">Engineering &#8226; Tech &#8226; Coimbatore</text>
+</svg>

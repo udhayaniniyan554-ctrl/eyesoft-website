@@ -1,0 +1,223 @@
+[
+  {
+    "id": "board-room",
+    "name": "Board Room Solutions",
+    "brochure_pages": [4],
+    "image": "assets/images/solutions/boardroom_conference.jpg",
+    "summary": "High-impact audio visual aids engineered for modern executive boardrooms to improve collaboration, productive meetings, and faster decision making.",
+    "description": "In today's competitive business environment, use of audio visual aids has become a necessity for any organization. Most of the modern boardrooms / conference rooms / huddle rooms have undergone major changes through the adaptation of audio visual technology. The use of audio visual technology in boardroom is helping in improved collaboration, productive meetings and faster decision making. Also, it must be designed to be user-friendly and highly reliable.\n\nWe at Eyesoft understand the collaboration needs of modern organizations. Our expert sales and design consultants work closely with organizations to evaluate AV requirements and ensure right solutions are offered to meet those needs.",
+    "features": [
+      "High definition multimedia projection / Display systems for crystal clear images",
+      "High definition video conference system for ease of collaboration",
+      "Wireless presentation and microphone systems for hassle-free presentations",
+      "Sound reinforcement systems for clarity of speech",
+      "Interactive display systems for ease of use",
+      "Visualizers or document camera systems for sharing documents and 3D objects",
+      "Room booking systems for ease of convenience",
+      "Preset lighting systems to suit various lighting scenarios",
+      "Centralized equipment control through intuitive touch panel"
+    ]
+  },
+  {
+    "id": "conference-room",
+    "name": "Conference Room Solutions",
+    "brochure_pages": [4],
+    "image": "assets/images/solutions/conference_room.jpg",
+    "summary": "State-of-the-art conference and huddle room systems integrating audio, video, display, lighting and touch controls for seamless meetings.",
+    "description": "A typical state-of-the-art AV Solution in conference rooms and huddle rooms integrates various technologies like audio, video, display, lighting and system control to function effectively. Designed to be completely intuitive so participants can connect their laptops wirelessly and begin meetings in seconds without technical hurdles.",
+    "features": [
+      "High definition multimedia projection and large format commercial displays",
+      "Crystal clear multi-zone sound reinforcement",
+      "Automated acoustic echo cancellation and noise suppression",
+      "Wireless BYOD (Bring Your Own Device) presentation",
+      "Integrated motorized screen and projector lift automation",
+      "One-touch meeting launch controller"
+    ]
+  },
+  {
+    "id": "video-conferencing",
+    "name": "Video Conferencing",
+    "brochure_pages": [5],
+    "image": "assets/images/solutions/video_conferencing.jpg",
+    "summary": "Real-time face-to-face visual communication solutions that bridge geographically dispersed teams, customers, and partners seamlessly.",
+    "description": "The organizations need to move faster than ever and adapt to changing environment. It is important for geographically dispersed teams to collaborate with each other to achieve organizational objectives. Often, the interaction is done even with customers and partners. The time and cost involved in travelling from one place to another is a major challenge for having face to face meetings.\n\nThis is where visual communication solution comes in, as it allows people to have real-time, face-to-face interactions amongst colleagues, customers, suppliers, no matter where they are located. Apart from saving time and cost, such solutions help organizations in quick and effective decision making.\n\nEyesoft, one of the most experienced and a market leader in providing video conferencing solutions, brings a host of solutions for its customers. Our expert design and sales consultants understand the collaboration needs and expectations of customers and offer appropriate solutions.",
+    "features": [
+      "Ultra-clear 4K/Full HD video conferencing codecs",
+      "Intelligent speaker-tracking cameras with auto-framing",
+      "Full duplex audio with beamforming ceiling microphone arrays",
+      "Multi-party conference bridging and cloud interoperability",
+      "Interactive content sharing with dual-screen output support",
+      "Hassle-free calendar and room booking integration"
+    ]
+  },
+  {
+    "id": "real-presence",
+    "name": "Real Presence / Telepresence",
+    "brochure_pages": [5],
+    "image": "assets/images/solutions/real_presence.jpg",
+    "summary": "Immersive telepresence environments providing life-size participant display and true eye-to-eye contact across remote locations.",
+    "description": "Real Presence brings participants across the globe into the same virtual conference room. With true life-size high definition video, spatialized directional audio that makes voices appear to come from the speaker's exact seat, and precision calibrated room acoustics, Real Presence transforms executive interactions.",
+    "features": [
+      "True-to-life 1:1 scale participant reproduction",
+      "Spatial acoustic placement matching physical seating position",
+      "Architecturally concealed environmental cameras and lighting",
+      "Zero-latency interactive document and design collaboration",
+      "Integrated touch scheduling console"
+    ]
+  },
+  {
+    "id": "digital-classroom",
+    "name": "Digital Class Room",
+    "brochure_pages": [6],
+    "image": "assets/images/solutions/digital_classroom.jpg",
+    "summary": "Transforming passive classrooms into interactive multimedia learning centers with smart projectors, interactive panels, and digital podiums.",
+    "description": "Over the last few years, there has been a major change in the way education and training are imparted. Modern classrooms and training centers demand interactive tools that engage learners, accommodate diverse teaching methodologies, and enable digital curriculum delivery.",
+    "features": [
+      "High-lumen interactive multimedia projectors",
+      "Vitreous ceramic interactive boards and multi-touch panels",
+      "Digital podiums with integrated touch controllers and microphone goosenecks",
+      "Document visualizers for displaying physical textbooks and 3D specimens",
+      "Speech-optimized audio reinforcement for clear teacher intelligibility",
+      "Hybrid lecture recording and streaming integration"
+    ]
+  },
+  {
+    "id": "training-room",
+    "name": "Training Room Solutions",
+    "brochure_pages": [6],
+    "image": "assets/images/solutions/training_room.jpg",
+    "summary": "Flexible, multi-screen corporate and institutional training suites designed for active workshop engagement and skill development.",
+    "description": "Training rooms require flexible AV architecture capable of transitioning between trainer-led lectures, group workshops, and hands-on digital simulations. EYESOFT delivers high-visibility display arrangements, interactive writing surfaces, and clear distributed audio across the entire seating layout.",
+    "features": [
+      "Dual-display setups for simultaneous presentation and hands-on guidance",
+      "Wireless screen mirroring from trainee laptops and tablets",
+      "Ceiling distributed audio with uniform sound coverage",
+      "Integrated digital podium with master instructor controls",
+      "Automated lighting scene presets for presentation and note-taking modes"
+    ]
+  },
+  {
+    "id": "auditorium",
+    "name": "Auditorium AV Systems",
+    "brochure_pages": [7],
+    "image": "assets/images/solutions/auditorium.jpg",
+    "summary": "State-of-the-art audiovisual architecture for multi-purpose auditoriums hosting live concerts, plays, seminars, and academic convocations.",
+    "description": "Auditoriums are constantly evolving and are becoming multi-purpose. This space is used for live concerts/plays, meetings, seminars etc. The AV technology in an auditorium needs to be state-of-the-art for the communication to be effective and impactful.\n\nThe AV design for the auditorium must ensure uniform acoustic coverage, high-lumen laser projection onto large-format motorized screens, and effortless stage automation control.",
+    "features": [
+      "High-lumen commercial laser projection systems for massive screens",
+      "Precision-tuned line-array sound reinforcement systems",
+      "Multi-channel digital audio mixing consoles with stage digital snakes",
+      "Stage lighting and ambient architectural illumination control",
+      "Wireless podium and handheld microphone systems with frequency agility",
+      "Centralized master touchscreen control panel for the entire hall"
+    ]
+  },
+  {
+    "id": "large-seminar-hall",
+    "name": "Large Seminar Hall",
+    "brochure_pages": [7],
+    "image": "assets/images/solutions/large_seminar_hall.jpg",
+    "summary": "Acoustically balanced, high-visibility AV infrastructure tailored for university and institutional seminar halls.",
+    "description": "Large seminar halls require balanced audio dispersion so every student and delegate hears every word with absolute clarity. EYESOFT installs high-gain projection screens, repeater confidence monitors, beam-steered loudspeaker arrays, and synchronized presenter microphones.",
+    "features": [
+      "Large-venue projection with motorized tensioned screens",
+      "Distributed acoustic reinforcement preventing echoes and feedback",
+      "Presenter confidence monitors and visualizer integration",
+      "Audio recording and webcasting output feeds",
+      "Digital podium with complete room AV switcher"
+    ]
+  },
+  {
+    "id": "video-wall",
+    "name": "Video Wall Solutions",
+    "brochure_pages": [8],
+    "image": "assets/images/solutions/video_wall.jpg",
+    "summary": "Ultra-narrow bezel and fine-pitch LED video wall matrices for mission-critical displays, lobbies, and high-impact presentation venues.",
+    "description": "Video wall solutions give power to communicate more effectively with dynamic and engaging messages. These are generally designed for demanding applications with high durability and stringent performance requirements.\n\nApplications of video wall include Network Operating Centres (NOC), Control Rooms, Reception / Lobbies, Boardrooms, Auditoriums / Convention Centres, and Broadcast Studios.",
+    "features": [
+      "Ultra-narrow bezel LCD and direct-view fine pitch LED displays",
+      "Multi-window hardware video wall controllers with 4K/8K processing",
+      "24/7 continuous mission-critical commercial reliability",
+      "Dynamic source switching across live video feeds, data, and PC displays",
+      "Redundant power supplies and failsafe backup signal routing"
+    ]
+  },
+  {
+    "id": "digital-signage",
+    "name": "Digital Signage Systems",
+    "brochure_pages": [8],
+    "image": "assets/images/solutions/digital_signage.jpg",
+    "summary": "Centralized networked electronic information display systems delivering dynamic content, announcements, and emergency notices.",
+    "description": "Digital signage delivers specific and dynamic content to target audiences. Our solutions help organisations deliver a variety of dynamic information using audio, video, still, or moving images to their target audience.",
+    "features": [
+      "Electronic information display systems to showcase real-time information",
+      "Present useful information, images, videos and messages at eye-catching positions",
+      "Communicate messages, announcements, emergency bulletins and event promotions",
+      "Digital building directories and navigation for campus wayfinding",
+      "Efficient content distribution over a network of multiple displays",
+      "Central monitoring and scheduling for easy management"
+    ]
+  },
+  {
+    "id": "control-room",
+    "name": "Control Room & NOC",
+    "brochure_pages": [8],
+    "image": "assets/images/solutions/control_room.jpg",
+    "summary": "Mission-critical 24/7 command and control environments with multi-screen monitoring, operator consoles, and instant incident visualization.",
+    "description": "Control rooms and Network Operating Centres require continuous reliability and real-time situational awareness. EYESOFT designs comprehensive control room architectures integrating video wall matrices, operator workstation switching, and multi-source emergency overrides.",
+    "features": [
+      "Continuous 24/7/365 commercial grade display walls",
+      "KVM over IP switching for seamless operator workstation control",
+      "Multi-channel IP video streaming and surveillance matrix feeds",
+      "Ergonomic display positioning for zero operator fatigue",
+      "Centralized supervisory management console"
+    ]
+  },
+  {
+    "id": "paging",
+    "name": "Paging & Public Address",
+    "brochure_pages": [9],
+    "image": "assets/images/solutions/paging_system.jpg",
+    "summary": "IP-networked and analog multi-zone public address systems for crystal-clear announcements across campuses, complexes, and facilities.",
+    "description": "Quite often the sound systems installed are fraught with feedback, unnatural sound, hums or buzzes, and areas of seating that are too loud or too soft. An audio system needs to be designed properly to get the right level of performance. Audio systems are now part of networks for applications like paging and background music.",
+    "features": [
+      "Multi-zone selective and all-call paging stations",
+      "Network IP audio distribution over standard campus Ethernet",
+      "Acoustic feedback suppression and automatic gain control",
+      "Emergency broadcast priority override integration with fire systems",
+      "High-efficiency weatherproof horn speakers and ceiling speakers"
+    ]
+  },
+  {
+    "id": "background-music",
+    "name": "Background Music Systems",
+    "brochure_pages": [9],
+    "image": "assets/images/solutions/background_music.jpg",
+    "summary": "Acoustically engineered ambient background music systems creating inviting, premium soundscapes for retail, dining, and corporate spaces.",
+    "description": "Background music systems provide pleasant, consistent ambient audio without hotspots or dead zones. Properly engineered sound reinforcement ensures music enriches the atmosphere without intruding on conversation.",
+    "features": [
+      "High-fidelity distributed ceiling and surface-mount architectural speakers",
+      "Multi-zone volume control with individual room source selection",
+      "Scheduled playlist automation and cloud streaming integration",
+      "Balanced low-impedance and 70V/100V line distribution for large spaces",
+      "Uniform acoustic coverage with crystal-clear tonal balance"
+    ]
+  },
+  {
+    "id": "cafeteria-breakout",
+    "name": "Cafeteria / Break-out Room AV",
+    "brochure_pages": [9],
+    "image": "assets/images/solutions/cafeteria_breakout.jpg",
+    "summary": "Multi-functional audiovisual spaces for employee unwinding, company town-hall meetings, and live entertainment.",
+    "description": "Cafeteria / Break-out rooms are typical places where employees like to unwind while at work. These places are required to offer a pleasant experience to employees. Sometimes these locations also double up as meeting places when an organisation wants to communicate with a larger group of employees or used as venue for large gathering of employees. It is necessary that these spaces are provided with right audio visual technologies.\n\nWe have a team of qualified people who will help develop the appropriate solutions for such flexible work/leisure spaces.",
+    "features": [
+      "High brightness multimedia projection systems for presentations and gatherings",
+      "Sound reinforcement for clarity of speech across large dining areas",
+      "Information Display (Digital Signage) systems for company news & entertainment",
+      "DJ systems for live music, celebrations and entertainment events",
+      "Background music systems for playing music and announcements",
+      "Lighting systems for various lighting scenarios (leisure vs. presentation)",
+      "User-friendly touch-panel control interface for control of all equipment"
+    ]
+  }
+]

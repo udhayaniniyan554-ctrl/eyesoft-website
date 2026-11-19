@@ -1,0 +1,12 @@
+# Python temporary scripts and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.DS_Store
+Thumbs.db
+
+# Ignore all helper/audit Python scripts except server.py
+*.py
+!server.py

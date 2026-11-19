@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <defs>
+    <linearGradient id="ngiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="80" rx="8" fill="#FFFFFF"/>
+  <g transform="translate(14, 12)">
+    <circle cx="28" cy="28" r="26" fill="url(#ngiGrad)"/>
+    <!-- NGI Monogram & Torch -->
+    <path d="M28 8 L32 20 L24 20 Z" fill="#F59E0B"/>
+    <circle cx="28" cy="28" r="14" fill="#FFFFFF" opacity="0.15"/>
+    <text x="28" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="900" fill="#FFFFFF" text-anchor="middle">NGI</text>
+  </g>
+  <text x="76" y="29" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#1D4ED8">NEHRU GROUP</text>
+  <text x="76" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#B45309" letter-spacing="0.04em">OF INSTITUTIONS</text>
+  <text x="76" y="60" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600" fill="#64748B">Engineering &#8226; Aero &#8226; Architecture</text>
+</svg>

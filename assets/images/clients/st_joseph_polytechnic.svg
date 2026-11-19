@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <defs>
+    <linearGradient id="polyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="80" rx="8" fill="#FFFFFF"/>
+  <g transform="translate(14, 12)">
+    <circle cx="28" cy="28" r="26" fill="url(#polyGrad)"/>
+    <!-- Polytechnic Cogwheel -->
+    <path d="M28 12 L31 16 L36 14 L37 19 L42 20 L40 25 L44 28 L40 31 L42 36 L37 37 L36 42 L31 40 L28 44 L25 40 L20 42 L19 37 L14 36 L16 31 L12 28 L16 25 L14 20 L19 19 L20 14 L25 16 Z" fill="#F59E0B"/>
+    <circle cx="28" cy="28" r="6" fill="#FFFFFF"/>
+  </g>
+  <text x="74" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="800" fill="#1E293B">ST. JOSEPH</text>
+  <text x="74" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#D97706" letter-spacing="0.03em">POLYTECHNIC COLLEGE</text>
+  <text x="74" y="59" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600" fill="#64748B">Technical Education &#8226; Coimbatore</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <defs>
+    <linearGradient id="craftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E11D48"/>
+      <stop offset="100%" stop-color="#BE123C"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="80" rx="8" fill="#FFFFFF"/>
+  <g transform="translate(14, 14)">
+    <rect x="2" y="2" width="48" height="48" rx="10" fill="url(#craftGrad)"/>
+    <!-- Precision C monogram -->
+    <path d="M38 18 C34 14 22 14 18 26 C14 38 26 42 38 34" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="34" cy="26" r="3.5" fill="#FFFFFF"/>
+  </g>
+  <text x="74" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#0F172A" letter-spacing="-0.02em">CRAFTSMAN</text>
+  <text x="74" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#E11D48" letter-spacing="0.06em">AUTOMATION</text>
+  <text x="74" y="61" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600" fill="#64748B">Precision Engineering &#8226; Coimbatore</text>
+</svg>

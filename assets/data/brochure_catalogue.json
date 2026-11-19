@@ -1,0 +1,221 @@
+[
+  {
+    "page_number": 8,
+    "page_title": "Brochure Page 8",
+    "section_name": "VIDEO WALL • DIGITAL SIGNAGE • CONTROL ROOM",
+    "description": "Video wall solutions give power to communicate more effectively with dynamic and engaging messages. These are generally designed for demanding applications with high durability and stringent performance requirements.",
+    "items": [
+      {
+        "id": "brochure-video-wall",
+        "name": "Video Wall",
+        "category": "Brochure Page 8",
+        "image": "assets/images/solutions/video_wall.jpg",
+        "description": "Ultra-narrow bezel and fine-pitch LED video wall matrices for NOCs, reception lobbies, and demanding mission-critical applications.",
+        "features": [
+          "Continuous 24/7 reliability",
+          "Multi-window hardware controllers",
+          "Redundant power supplies"
+        ],
+        "target_url": "corporate-video-wall.html"
+      },
+      {
+        "id": "brochure-digital-signage",
+        "name": "Digital Signage",
+        "category": "Brochure Page 8",
+        "image": "assets/images/solutions/digital_signage.jpg",
+        "description": "Centralized electronic information display systems delivering dynamic content, emergency bulletins, and announcements across campus networks.",
+        "features": [
+          "Dynamic content scheduling",
+          "Central network monitoring",
+          "High-visibility eye-catching displays"
+        ],
+        "target_url": "corporate-digital-signage.html"
+      },
+      {
+        "id": "brochure-control-room",
+        "name": "Control Room",
+        "category": "Brochure Page 8",
+        "image": "assets/images/solutions/control_room.jpg",
+        "description": "High-durability 24/7 command and control consoles, surveillance display matrices, and KVM workstation switching.",
+        "features": [
+          "NOC & Command centers",
+          "Ergonomic operator layouts",
+          "Multi-source IP video streaming"
+        ],
+        "target_url": "corporate-control-room.html"
+      }
+    ]
+  },
+  {
+    "page_number": 9,
+    "page_title": "Brochure Page 9",
+    "section_name": "PAGING • BACKGROUND MUSIC • CAFETERIA / BREAK-OUT ROOM",
+    "description": "An audio system needs to be designed properly to get the right level of performance, eliminating feedback, hums, or buzzes. Audio systems are now part of networks for applications like paging, background music, and flexible leisure spaces.",
+    "items": [
+      {
+        "id": "brochure-paging",
+        "name": "Paging",
+        "category": "Brochure Page 9",
+        "image": "assets/images/solutions/paging_system.jpg",
+        "description": "Multi-zone public address and IP paging systems engineered for crystal-clear announcements across facilities without feedback.",
+        "features": [
+          "Multi-zone selective paging",
+          "Emergency fire priority broadcast",
+          "Acoustic feedback suppression"
+        ],
+        "target_url": "corporate-paging.html"
+      },
+      {
+        "id": "brochure-background-music",
+        "name": "Background Music",
+        "category": "Brochure Page 9",
+        "image": "assets/images/solutions/background_music.jpg",
+        "description": "Acoustically tuned distributed ambient music systems providing pleasant atmosphere for retail, dining, and executive suites.",
+        "features": [
+          "Architectural ceiling speakers",
+          "Multi-zone independent volume",
+          "Balanced 70V/100V line distribution"
+        ],
+        "target_url": "corporate-background-music.html"
+      },
+      {
+        "id": "brochure-cafeteria",
+        "name": "Cafeteria / Break-out Room",
+        "category": "Brochure Page 9",
+        "image": "assets/images/solutions/cafeteria_breakout.jpg",
+        "description": "Multi-functional spaces equipped with high-brightness projection, sound reinforcement, digital signage, and DJ music systems.",
+        "features": [
+          "High brightness multimedia projection",
+          "Speech clarity sound reinforcement",
+          "Touch-panel room controller"
+        ],
+        "target_url": "corporate-cafeteria.html"
+      }
+    ]
+  },
+  {
+    "page_number": 10,
+    "page_title": "Brochure Page 10",
+    "section_name": "OTHER PRODUCTS & SERVICE",
+    "description": "Official commercial hardware categories and comprehensive multi-brand equipment servicing for all brand Projectors, Laptops, Desktops, Video walls, and Interactive Panels.",
+    "items": [
+      {
+        "id": "brochure-projector",
+        "name": "Projector",
+        "category": "Brochure Page 10 • Other Products",
+        "image": "assets/images/products/product_projector.jpg",
+        "description": "High-lumen laser venue projectors and ultra short throw interactive projectors for classrooms, boardrooms, and auditoriums.",
+        "features": [
+          "Ultra-bright laser diode engines",
+          "Zero-shadow short throw optics",
+          "Interchangeable powered lenses"
+        ],
+        "target_url": "education-projector-solutions.html"
+      },
+      {
+        "id": "brochure-laptop",
+        "name": "Laptop",
+        "category": "Brochure Page 10 • Other Products",
+        "image": "assets/images/products/product_laptop.jpg",
+        "description": "Commercial laptops and control workstations configured for multi-display AV management, video conferencing, and digital podiums.",
+        "features": [
+          "Multi-head graphics outputs",
+          "Enterprise reliability",
+          "Dedicated AV software configurations"
+        ],
+        "target_url": "product-laptop.html"
+      },
+      {
+        "id": "brochure-digital-podium",
+        "name": "Digital Podium",
+        "category": "Brochure Page 10 • Other Products",
+        "image": "assets/images/products/product_digital_podium.jpg",
+        "description": "All-in-one metallic presentation lectern with motorized 21.5\" touch display, gooseneck condenser mics, and centralized controller.",
+        "features": [
+          "Motorized tilt touch screen",
+          "Dual gooseneck microphones",
+          "Master equipment switcher"
+        ],
+        "target_url": "education-digital-podium.html"
+      },
+      {
+        "id": "brochure-ceramic-board",
+        "name": "Ceramic Board",
+        "category": "Brochure Page 10 • Other Products",
+        "image": "assets/images/products/product_ceramic_board.jpg",
+        "description": "Vitreous porcelain enamel ceramic steel interactive projection whiteboards. 100% scratch-resistant with lifetime durability.",
+        "features": [
+          "Scratch-proof porcelain enamel",
+          "Low gloss projection surface",
+          "Magnetic receptive dry-erase"
+        ],
+        "target_url": "product-ceramic-board.html"
+      },
+      {
+        "id": "brochure-cables",
+        "name": "Cables",
+        "category": "Brochure Page 10 • Other Products",
+        "image": "assets/images/products/product_cables.jpg",
+        "description": "High-bandwidth 4K/8K active optical HDMI cables, balanced XLR microphone cables, audio snakes, and shielded Cat6A cables.",
+        "features": [
+          "Gold-plated copper connectors",
+          "Active optical uncompressed 4K",
+          "Triple-layer noise shielding"
+        ],
+        "target_url": "product-cables.html"
+      },
+      {
+        "id": "brochure-projector-screen",
+        "name": "Projector Screen",
+        "category": "Brochure Page 10 • Other Products",
+        "image": "assets/images/products/product_projector_screen.jpg",
+        "description": "Motorized electric screens, manual pull-down screens, and fixed frame screens with matte white high-gain woven fabric.",
+        "features": [
+          "Tubular motor with RF remote",
+          "160-degree wide viewing angle",
+          "Black borders for sharp contrast"
+        ],
+        "target_url": "education-projection-screens.html"
+      },
+      {
+        "id": "brochure-projector-peripherals",
+        "name": "Projector Peripherals",
+        "category": "Brochure Page 10 • Other Products",
+        "image": "assets/images/products/product_projector_peripherals.jpg",
+        "description": "Wireless HDMI presentation dongles, document visualizer cameras, OEM replacement lamp modules, and interactive styluses.",
+        "features": [
+          "Click-and-share wireless dongles",
+          "Full HD document cameras",
+          "OEM replacement projector lamps"
+        ],
+        "target_url": "product-projector-peripherals.html"
+      },
+      {
+        "id": "brochure-mounting-kit",
+        "name": "Projector Mounting Kit",
+        "category": "Brochure Page 10 • Other Products",
+        "image": "assets/images/products/product_mounting_kit.jpg",
+        "description": "Universal ceiling brackets with micro-adjustment pitch/roll dials, telescopic drop pipes, and motorized scissor ceiling lifts.",
+        "features": [
+          "Heavy-duty universal spider arms",
+          "Internal cable concealment",
+          "Motorized ceiling scissor lifts"
+        ],
+        "target_url": "product-mounting-kit.html"
+      },
+      {
+        "id": "brochure-service",
+        "name": "Service (All Brands)",
+        "category": "Brochure Page 10 • Service",
+        "image": "assets/images/services/service_engineer.jpg",
+        "description": "Prominent service provider for all brand Projectors, Laptops, Desktops, Video walls, and Interactive Panels based on customer needs.",
+        "features": [
+          "Prompt phone & on-site support",
+          "High product knowledge",
+          "Timely complaint resolution"
+        ],
+        "target_url": "services.html"
+      }
+    ]
+  }
+]

@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products Catalogue | EYESOFT - Experience The Live</title>
+  <meta name="description" content="Explore commercial projectors, digital podiums, motorized screens, ceramic whiteboards, and AV peripherals from EYESOFT Coimbatore.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" type="image/png" href="assets/logo/eyesoft_new_logo.png">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="header-logo-link" title="EYESOFT - Experience The Live">
+        <img src="assets/logo/eyesoft_new_logo.png" alt="EYESOFT Logo" class="site-logo">
+      </a>
+
+      <!-- Desktop Navigation Menu (Positioned towards the right side) -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link ">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link " id="navAbout">About Us</a>
+          </li>
+          
+          <!-- Products Dropdown (Corporate, Education, Government - Screenshots 1 to 4) -->
+          <li class="nav-item has-products-dropdown">
+            <a href="products.html" class="nav-link active">
+              Products
+              <svg class="dropdown-icon" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+            
+            <div class="products-dropdown-menu">
+              <ul class="dropdown-categories">
+                
+                <!-- Category 1: Corporate (Screenshot 2) -->
+                <li class="category-item has-submenu">
+                  <a href="corporate.html" class="category-link">
+                    <span class="category-text">Corporate</span>
+                    <span class="category-plus">+</span>
+                  </a>
+                  <div class="category-submenu">
+                    <ul class="submenu-links">
+                      <li><a href="corporate-board-room.html">Board Room &amp; Conference Room Solutions</a></li>
+                      <li><a href="corporate-training-room.html">Training Room</a></li>
+                      <li><a href="corporate-audio-visual.html">Audio Visual Solutions</a></li>
+                      <li><a href="corporate-campus-networking.html">Campus Networking</a></li>
+                      <li><a href="corporate-video-wall.html">Signage &amp; Video Wall Solutions</a></li>
+                      <li><a href="corporate-security-surveillance.html">Surveillance &amp; Security Solutions</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <!-- Category 2: Education (Screenshot 3) -->
+                <li class="category-item has-submenu">
+                  <a href="education.html" class="category-link">
+                    <span class="category-text">Education</span>
+                    <span class="category-plus">+</span>
+                  </a>
+                  <div class="category-submenu">
+                    <ul class="submenu-links">
+                      <li><a href="education-digital-classroom.html">Digital Classroom Systems</a></li>
+                      <li><a href="education-smart-kg-curriculum.html">Smart KG Curriculum</a></li>
+                      <li><a href="education-language-lab.html">Language Lab</a></li>
+                      <li><a href="education-digital-information-display.html">Digital Information Display</a></li>
+                      <li><a href="education-lecture-capturing.html">Lecture Capturing And Broadcasting</a></li>
+                      <li><a href="education-campus-security.html">Campus Security Surveillance</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <!-- Category 3: Government (Screenshot 4) -->
+                <li class="category-item has-submenu">
+                  <a href="government.html" class="category-link">
+                    <span class="category-text">Government</span>
+                    <span class="category-plus">+</span>
+                  </a>
+                  <div class="category-submenu">
+                    <ul class="submenu-links">
+                      <li><a href="government-digital-classroom.html">Digital Classroom Systems (Institutions)</a></li>
+                      <li><a href="government-digital-signage.html">Digital Signage &amp; Display</a></li>
+                      <li><a href="government-security-surveillance.html">Security Surveillance</a></li>
+                      <li><a href="government-teleconferencing.html">Video &amp; Audio Tele Conferencing</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a href="clients.html" class="nav-link " id="navOurClients">Our Clients</a>
+          </li>
+          <li class="nav-item">
+            <a href="news.html" class="nav-link " id="navNews">News</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link " id="navContact">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer-backdrop"></div>
+  <div class="mobile-drawer" aria-label="Mobile Navigation">
+    <div class="mobile-drawer-header">
+      <img src="assets/logo/eyesoft_new_logo.png" alt="EYESOFT Logo" class="mobile-drawer-logo">
+      <button class="mobile-drawer-close" aria-label="Close menu">&times;</button>
+    </div>
+    
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link ">Home</a>
+      <a href="about.html" class="mobile-nav-link " id="mobileNavAbout">About Us</a>
+      
+      <!-- Mobile Products Accordion -->
+      <div class="mobile-nav-accordion">
+        <button class="mobile-nav-accordion-toggle" aria-expanded="false">
+          <span>Products</span>
+          <svg class="mobile-accordion-arrow" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </button>
+        <div class="mobile-nav-accordion-content">
+          
+          <!-- Mobile Corporate -->
+          <div class="mobile-category-item">
+            <button class="mobile-category-toggle" aria-expanded="false">
+              <span class="category-text-green">Corporate</span>
+              <span class="category-plus-icon">+</span>
+            </button>
+            <div class="mobile-submenu-list">
+              <a href="corporate-board-room.html">Board Room &amp; Conference Room Solutions</a>
+              <a href="corporate-training-room.html">Training Room</a>
+              <a href="corporate-audio-visual.html">Audio Visual Solutions</a>
+              <a href="corporate-campus-networking.html">Campus Networking</a>
+              <a href="corporate-video-wall.html">Signage &amp; Video Wall Solutions</a>
+              <a href="corporate-security-surveillance.html">Surveillance &amp; Security Solutions</a>
+            </div>
+          </div>
+
+          <!-- Mobile Education -->
+          <div class="mobile-category-item">
+            <button class="mobile-category-toggle" aria-expanded="false">
+              <span class="category-text-green">Education</span>
+              <span class="category-plus-icon">+</span>
+            </button>
+            <div class="mobile-submenu-list">
+              <a href="education-digital-classroom.html">Digital Classroom Systems</a>
+              <a href="education-smart-kg-curriculum.html">Smart KG Curriculum</a>
+              <a href="education-language-lab.html">Language Lab</a>
+              <a href="education-digital-information-display.html">Digital Information Display</a>
+              <a href="education-lecture-capturing.html">Lecture Capturing And Broadcasting</a>
+              <a href="education-campus-security.html">Campus Security Surveillance</a>
+            </div>
+          </div>
+
+          <!-- Mobile Government -->
+          <div class="mobile-category-item">
+            <button class="mobile-category-toggle" aria-expanded="false">
+              <span class="category-text-green">Government</span>
+              <span class="category-plus-icon">+</span>
+            </button>
+            <div class="mobile-submenu-list">
+              <a href="government-digital-classroom.html">Digital Classroom Systems (Institutions)</a>
+              <a href="government-digital-signage.html">Digital Signage &amp; Display</a>
+              <a href="government-security-surveillance.html">Security Surveillance</a>
+              <a href="government-teleconferencing.html">Video &amp; Audio Tele Conferencing</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <a href="clients.html" class="mobile-nav-link " id="mobileNavOurClients">Our Clients</a>
+      <a href="news.html" class="mobile-nav-link " id="mobileNavNews">News</a>
+      <a href="contact.html" class="mobile-nav-link " id="mobileNavContact">Contact Us</a>
+    </div>
+
+    <div class="mobile-drawer-contact">
+      <div style="font-size:0.875rem; color:#6B7280; text-align:center;">
+        Coimbatore Headquarters: <a href="tel:9942436956" style="color:var(--electric-blue); font-weight:700;">+91 99424 36956</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Page Hero Banner -->
+    <section class="page-hero" style="background: linear-gradient(135deg, #0B0B0E 0%, #1A1A24 100%); color:#FFFFFF; padding: 4.5rem 0 3.5rem;">
+      <div class="container" style="text-align: center; max-width: 860px;">
+        <span class="tagline-badge" style="color: #A855F7;">EXPERIENCE THE LIVE</span>
+        <h1 class="section-title" style="color:#FFFFFF; margin-bottom: 1rem; font-size: 2.75rem;">Products &amp; Audio Visual Hardware</h1>
+        <p class="section-subtitle" style="color: #94A3B8; font-size: 1.125rem;">
+          Enterprise projectors, motorized projection screens, commercial digital podiums, interactive flat panels, and broadcast-grade AV connectivity.
+        </p>
+      </div>
+    </section>
+
+    <!-- Customer Journey: 3 Sector Categories (Requirement #6) -->
+    <section class="section" style="padding: 3.5rem 0 2rem; background: #FFFFFF;">
+      <div class="container">
+        <div class="section-header" style="text-align: center; margin-bottom: 2.5rem;">
+          <span class="section-badge">Customer Navigation Journey</span>
+          <h2 class="section-title">Select Customer Category</h2>
+          <p class="section-subtitle">Choose your sector vertical to explore customized AV architectures and dedicated hardware solutions.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+          
+          <!-- Category 1: Government -->
+          <a href="government.html" class="sector-card-link" style="text-decoration:none;">
+            <div style="background:#FFFFFF; border-radius:14px; overflow:hidden; border:1.5px solid #E2E8F0; box-shadow:0 6px 18px rgba(0,0,0,0.06); transition:transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;">
+              <div style="height:190px; overflow:hidden; position:relative;">
+                <img src="assets/images/sectors/sector_government.jpg" alt="Government AV" style="width:100%; height:100%; object-fit:cover;">
+                <span style="position:absolute; top:12px; left:12px; background:rgba(15,23,42,0.85); color:#FFFFFF; font-size:0.75rem; font-weight:700; padding:0.25rem 0.65rem; border-radius:4px; backdrop-filter:blur(4px);">Public Sector</span>
+              </div>
+              <div style="padding:1.5rem;">
+                <h3 style="font-family:var(--font-display); font-size:1.375rem; font-weight:800; color:#0F172A; margin-bottom:0.5rem;">Government</h3>
+                <p style="font-size:0.875rem; color:#64748B; line-height:1.6; margin-bottom:1.25rem;">
+                  Security surveillance integration, 24/7 command control rooms, video teleconferencing, and assembly display systems.
+                </p>
+                <div style="color:var(--electric-blue); font-weight:700; font-size:0.875rem; display:inline-flex; align-items:center; gap:0.35rem;">
+                  Explore Government Category &rarr;
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Category 2: Corporation -->
+          <a href="corporate.html" class="sector-card-link" style="text-decoration:none;">
+            <div style="background:#FFFFFF; border-radius:14px; overflow:hidden; border:1.5px solid #E2E8F0; box-shadow:0 6px 18px rgba(0,0,0,0.06); transition:transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;">
+              <div style="height:190px; overflow:hidden; position:relative;">
+                <img src="assets/images/sectors/sector_corporate.jpg" alt="Corporation AV" style="width:100%; height:100%; object-fit:cover;">
+                <span style="position:absolute; top:12px; left:12px; background:rgba(15,23,42,0.85); color:#FFFFFF; font-size:0.75rem; font-weight:700; padding:0.25rem 0.65rem; border-radius:4px; backdrop-filter:blur(4px);">Enterprise</span>
+              </div>
+              <div style="padding:1.5rem;">
+                <h3 style="font-family:var(--font-display); font-size:1.375rem; font-weight:800; color:#0F172A; margin-bottom:0.5rem;">Corporation</h3>
+                <p style="font-size:0.875rem; color:#64748B; line-height:1.6; margin-bottom:1.25rem;">
+                  Executive boardrooms, video conferencing suites, corporate auditoriums, seminar halls, and digital signage.
+                </p>
+                <div style="color:var(--electric-blue); font-weight:700; font-size:0.875rem; display:inline-flex; align-items:center; gap:0.35rem;">
+                  Explore All 13 Corporate AV Solutions &rarr;
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Category 3: Education -->
+          <a href="education.html" class="sector-card-link" style="text-decoration:none;">
+            <div style="background:#FFFFFF; border-radius:14px; overflow:hidden; border:1.5px solid #E2E8F0; box-shadow:0 6px 18px rgba(0,0,0,0.06); transition:transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;">
+              <div style="height:190px; overflow:hidden; position:relative;">
+                <img src="assets/images/sectors/sector_educational.jpg" alt="Education AV" style="width:100%; height:100%; object-fit:cover;">
+                <span style="position:absolute; top:12px; left:12px; background:rgba(15,23,42,0.85); color:#FFFFFF; font-size:0.75rem; font-weight:700; padding:0.25rem 0.65rem; border-radius:4px; backdrop-filter:blur(4px);">Academic</span>
+              </div>
+              <div style="padding:1.5rem;">
+                <h3 style="font-family:var(--font-display); font-size:1.375rem; font-weight:800; color:#0F172A; margin-bottom:0.5rem;">Education</h3>
+                <p style="font-size:0.875rem; color:#64748B; line-height:1.6; margin-bottom:1.25rem;">
+                  Smart classrooms, multimedia digital podiums, interactive display panels, projection screens, and campus learning tech.
+                </p>
+                <div style="color:var(--electric-blue); font-weight:700; font-size:0.875rem; display:inline-flex; align-items:center; gap:0.35rem;">
+                  Explore Education Category &rarr;
+                </div>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Hardware Products Showcase (8 Official Categories) -->
+    <section class="section" style="padding: 4rem 0 5rem; background: #F8FAFC;" id="catalogue-section">
+      <div class="container">
+        
+        <div class="section-header" style="text-align: center; margin-bottom: 2.5rem;">
+          <span class="section-badge">Verified Hardware Lineup</span>
+          <h2 class="section-title">Hardware Product Catalogue</h2>
+          <p class="section-subtitle">Click directly on any product card to access its dedicated detail page with specifications and WhatsApp enquiry.</p>
+        </div>
+
+        <!-- Filter Pills & Search Bar -->
+        <div style="max-width: 900px; margin: 0 auto 3rem;">
+          <div style="margin-bottom: 1.5rem;">
+            <input type="text" id="liveSearchInput" placeholder="Search products by name or category (e.g. Projector, Podium, Cables)..." 
+                   style="width:100%; padding: 0.85rem 1.25rem; font-size: 1rem; border: 1.5px solid #CBD5E1; border-radius: 10px; background:#FFFFFF; box-shadow: 0 2px 6px rgba(0,0,0,0.04);">
+          </div>
+          
+          <div style="display:flex; flex-wrap:wrap; gap:0.5rem; justify-content:center;" id="categoryFilterContainer">
+            <button class="filter-btn active" data-cat="all">All Products</button>
+            <button class="filter-btn" data-cat="projectors">Projectors</button>
+            <button class="filter-btn" data-cat="projection-screens">Projection Screens</button>
+            <button class="filter-btn" data-cat="digital-podiums">Digital Podiums</button>
+            <button class="filter-btn" data-cat="ceramic-boards">Ceramic Boards</button>
+            <button class="filter-btn" data-cat="laptops">Laptops</button>
+            <button class="filter-btn" data-cat="cables">Cables</button>
+            <button class="filter-btn" data-cat="projector-peripherals">Projector Peripherals</button>
+            <button class="filter-btn" data-cat="mounting-kits">Projector Mounting Kits</button>
+          </div>
+        </div>
+
+        <!-- Product Cards Grid (Each Card Directly Clickable to its Detail Page) -->
+        <div id="productsGrid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 2rem;">
+
+          <!-- Product 1: High-Lumen Laser Venue Projector -->
+          <a href="product-projector.html" class="product-item-card" data-cat="projectors" data-title="high-lumen laser venue projector commercial projector" style="text-decoration:none; color:inherit;">
+            <div style="background:#FFFFFF; border-radius:12px; overflow:hidden; border:1px solid #E2E8F0; box-shadow:0 4px 12px rgba(0,0,0,0.05); height:100%; display:flex; flex-direction:column; transition:transform 0.2s ease, box-shadow 0.2s ease;">
+              <div style="height:210px; background:#F8FAFC; overflow:hidden; display:flex; align-items:center; justify-content:center; padding:1rem;">
+                <img src="assets/images/products/product_projector.jpg" alt="High-Lumen Laser Venue Projector" style="max-height:100%; max-width:100%; object-fit:contain;">
+              </div>
+              <div style="padding:1.5rem; flex:1; display:flex; flex-direction:column;">
+                <span style="font-size:0.75rem; font-weight:700; color:#6A1B9A; text-transform:uppercase; margin-bottom:0.35rem;">Projectors</span>
+                <h3 style="font-family:var(--font-display); font-size:1.1875rem; font-weight:700; color:#0F172A; margin-bottom:0.5rem; line-height:1.35;">
+                  High-Lumen Laser Venue Projector
+                </h3>
+                <p style="font-size:0.875rem; color:#64748B; line-height:1.5; margin-bottom:1.25rem; flex:1;">
+                  Ultra-bright laser projection engineered for auditoriums, seminar halls, and large lecture theatres.
+                </p>
+                <div style="border-top:1px solid #F1F5F9; padding-top:1rem; display:flex; align-items:center; justify-content:space-between;">
+                  <span style="color:var(--electric-blue); font-weight:700; font-size:0.875rem;">View Specifications &rarr;</span>
+                  <span style="background:#25D366; color:#FFF; font-size:0.6875rem; font-weight:700; padding:0.2rem 0.5rem; border-radius:4px;">Enquire</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Product 2: Interactive Ultra Short Throw Projector -->
+          <a href="product-short-throw-projector.html" class="product-item-card" data-cat="projectors" data-title="interactive ultra short throw projector digital classroom" style="text-decoration:none; color:inherit;">
+            <div style="background:#FFFFFF; border-radius:12px; overflow:hidden; border:1px solid #E2E8F0; box-shadow:0 4px 12px rgba(0,0,0,0.05); height:100%; display:flex; flex-direction:column; transition:transform 0.2s ease, box-shadow 0.2s ease;">
+              <div style="height:210px; background:#F8FAFC; overflow:hidden; display:flex; align-items:center; justify-content:center; padding:1rem;">
+                <img src="assets/images/products/product_projector.jpg" alt="Interactive Ultra Short Throw Projector" style="max-height:100%; max-width:100%; object-fit:contain;">
+              </div>
+              <div style="padding:1.5rem; flex:1; display:flex; flex-direction:column;">
+                <span style="font-size:0.75rem; font-weight:700; color:#6A1B9A; text-transform:uppercase; margin-bottom:0.35rem;">Projectors</span>
+                <h3 style="font-family:var(--font-display); font-size:1.1875rem; font-weight:700; color:#0F172A; margin-bottom:0.5rem; line-height:1.35;">
+                  Interactive Ultra Short Throw Projector
+                </h3>
+                <p style="font-size:0.875rem; color:#64748B; line-height:1.5; margin-bottom:1.25rem; flex:1;">
+                  Shadow-free finger and stylus touch projection engineered for modern digital interactive classrooms.
+                </p>
+                <div style="border-top:1px solid #F1F5F9; padding-top:1rem; display:flex; align-items:center; justify-content:space-between;">
+                  <span style="color:var(--electric-blue); font-weight:700; font-size:0.875rem;">View Specifications &rarr;</span>
+                  <span style="background:#25D366; color:#FFF; font-size:0.6875rem; font-weight:700; padding:0.2rem 0.5rem; border-radius:4px;">Enquire</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Product 3: High-Gain Motorized Projector Screen -->
+          <a href="product-projector-screen.html" class="product-item-card" data-cat="projection-screens" data-title="high-gain motorized projector screen display screen" style="text-decoration:none; color:inherit;">
+            <div style="background:#FFFFFF; border-radius:12px; overflow:hidden; border:1px solid #E2E8F0; box-shadow:0 4px 12px rgba(0,0,0,0.05); height:100%; display:flex; flex-direction:column; transition:transform 0.2s ease, box-shadow 0.2s ease;">
+              <div style="height:210px; background:#F8FAFC; overflow:hidden; display:flex; align-items:center; justify-content:center; padding:1rem;">
+                <img src="assets/images/products/product_projector_screen.jpg" alt="High-Gain Motorized Projector Screen" style="max-height:100%; max-width:100%; object-fit:contain;">
+              </div>
+              <div style="padding:1.5rem; flex:1; display:flex; flex-direction:column;">
+                <span style="font-size:0.75rem; font-weight:700; color:#6A1B9A; text-transform:uppercase; margin-bottom:0.35rem;">Projection Screens</span>
+                <h3 style="font-family:var(--font-display); font-size:1.1875rem; font-weight:700; color:#0F172A; margin-bottom:0.5rem; line-height:1.35;">
+                  High-Gain Motorized Projector Screen
+                </h3>
+                <p style="font-size:0.875rem; color:#64748B; line-height:1.5; margin-bottom:1.25rem; flex:1;">
+                  Precision tensioned motorized projection surface for vivid, high-contrast imagery in boardrooms and halls.
+                </p>
+                <div style="border-top:1px solid #F1F5F9; padding-top:1rem; display:flex; align-items:center; justify-content:space-between;">
+                  <span style="color:var(--electric-blue); font-weight:700; font-size:0.875rem;">View Specifications &rarr;</span>
+                  <span style="background:#25D366; color:#FFF; font-size:0.6875rem; font-weight:700; padding:0.2rem 0.5rem; border-radius:4px;">Enquire</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Product 4: Smart Multimedia Digital Podium -->
+          <a href="product-digital-podium.html" class="product-item-card" data-cat="digital-podiums" data-title="smart multimedia digital podium rostrum presenter lecture" style="text-decoration:none; color:inherit;">
+            <div style="background:#FFFFFF; border-radius:12px; overflow:hidden; border:1px solid #E2E8F0; box-shadow:0 4px 12px rgba(0,0,0,0.05); height:100%; display:flex; flex-direction:column; transition:transform 0.2s ease, box-shadow 0.2s ease;">
+              <div style="height:210px; background:#F8FAFC; overflow:hidden; display:flex; align-items:center; justify-content:center; padding:1rem;">
+                <img src="assets/images/products/product_digital_podium.jpg" alt="Smart Multimedia Digital Podium" style="max-height:100%; max-width:100%; object-fit:contain;">
+              </div>
+              <div style="padding:1.5rem; flex:1; display:flex; flex-direction:column;">
+                <span style="font-size:0.75rem; font-weight:700; color:#6A1B9A; text-transform:uppercase; margin-bottom:0.35rem;">Digital Podiums</span>
+                <h3 style="font-family:var(--font-display); font-size:1.1875rem; font-weight:700; color:#0F172A; margin-bottom:0.5rem; line-height:1.35;">
+                  Smart Multimedia Digital Podium
+                </h3>
+                <p style="font-size:0.875rem; color:#64748B; line-height:1.5; margin-bottom:1.25rem; flex:1;">
+                  All-in-one interactive presenter rostrum with integrated touch console, gooseneck microphones, and switcher.
+                </p>
+                <div style="border-top:1px solid #F1F5F9; padding-top:1rem; display:flex; align-items:center; justify-content:space-between;">
+                  <span style="color:var(--electric-blue); font-weight:700; font-size:0.875rem;">View Specifications &rarr;</span>
+                  <span style="background:#25D366; color:#FFF; font-size:0.6875rem; font-weight:700; padding:0.2rem 0.5rem; border-radius:4px;">Enquire</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Product 5: 4K Multi-Touch Interactive Flat Panel -->
+          <a href="product-interactive-panel.html" class="product-item-card" data-cat="digital-podiums" data-title="4k multi-touch interactive flat panel touch screen smart board" style="text-decoration:none; color:inherit;">
+            <div style="background:#FFFFFF; border-radius:12px; overflow:hidden; border:1px solid #E2E8F0; box-shadow:0 4px 12px rgba(0,0,0,0.05); height:100%; display:flex; flex-direction:column; transition:transform 0.2s ease, box-shadow 0.2s ease;">
+              <div style="height:210px; background:#F8FAFC; overflow:hidden; display:flex; align-items:center; justify-content:center; padding:1rem;">
+                <img src="assets/images/products/product_interactive_panel.jpg" alt="4K Multi-Touch Interactive Flat Panel" style="max-height:100%; max-width:100%; object-fit:contain;">
+              </div>
+              <div style="padding:1.5rem; flex:1; display:flex; flex-direction:column;">
+                <span style="font-size:0.75rem; font-weight:700; color:#6A1B9A; text-transform:uppercase; margin-bottom:0.35rem;">Digital Podiums / Panels</span>
+                <h3 style="font-family:var(--font-display); font-size:1.1875rem; font-weight:700; color:#0F172A; margin-bottom:0.5rem; line-height:1.35;">
+                  4K Multi-Touch Interactive Flat Panel
+                </h3>
+                <p style="font-size:0.875rem; color:#64748B; line-height:1.5; margin-bottom:1.25rem; flex:1;">
+                  Ultra-HD collaborative touch display with 40-point multi-touch, wireless casting, and digital whiteboard.
+                </p>
+                <div style="border-top:1px solid #F1F5F9; padding-top:1rem; display:flex; align-items:center; justify-content:space-between;">
+                  <span style="color:var(--electric-blue); font-weight:700; font-size:0.875rem;">View Specifications &rarr;</span>
+                  <span style="background:#25D366; color:#FFF; font-size:0.6875rem; font-weight:700; padding:0.2rem 0.5rem; border-radius:4px;">Enquire</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Product 6: Magnetic Ceramic Steel Whiteboard -->
+          <a href="product-ceramic-board.html" class="product-item-card" data-cat="ceramic-boards" data-title="magnetic ceramic steel whiteboard porcelain projection board" style="text-decoration:none; color:inherit;">
+            <div style="background:#FFFFFF; border-radius:12px; overflow:hidden; border:1px solid #E2E8F0; box-shadow:0 4px 12px rgba(0,0,0,0.05); height:100%; display:flex; flex-direction:column; transition:transform 0.2s ease, box-shadow 0.2s ease;">
+              <div style="height:210px; background:#F8FAFC; overflow:hidden; display:flex; align-items:center; justify-content:center; padding:1rem;">
+                <img src="assets/images/products/product_ceramic_board.jpg" alt="Magnetic Ceramic Steel Whiteboard" style="max-height:100%; max-width:100%; object-fit:contain;">
+              </div>
+              <div style="padding:1.5rem; flex:1; display:flex; flex-direction:column;">
+                <span style="font-size:0.75rem; font-weight:700; color:#6A1B9A; text-transform:uppercase; margin-bottom:0.35rem;">Ceramic Boards</span>
+                <h3 style="font-family:var(--font-display); font-size:1.1875rem; font-weight:700; color:#0F172A; margin-bottom:0.5rem; line-height:1.35;">
+                  Magnetic Ceramic Steel Whiteboard
+                </h3>
+                <p style="font-size:0.875rem; color:#64748B; line-height:1.5; margin-bottom:1.25rem; flex:1;">
+                  Ultra-durable, scratch-proof magnetic vitreous enamel ceramic surface engineered for dry-erase and short-throw projection.
+                </p>
+                <div style="border-top:1px solid #F1F5F9; padding-top:1rem; display:flex; align-items:center; justify-content:space-between;">
+                  <span style="color:var(--electric-blue); font-weight:700; font-size:0.875rem;">View Specifications &rarr;</span>
+                  <span style="background:#25D366; color:#FFF; font-size:0.6875rem; font-weight:700; padding:0.2rem 0.5rem; border-radius:4px;">Enquire</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Product 7: Commercial Laptops & Control Workstations -->
+          <a href="product-laptop.html" class="product-item-card" data-cat="laptops" data-title="commercial laptops control workstations pc compute" style="text-decoration:none; color:inherit;">
+            <div style="background:#FFFFFF; border-radius:12px; overflow:hidden; border:1px solid #E2E8F0; box-shadow:0 4px 12px rgba(0,0,0,0.05); height:100%; display:flex; flex-direction:column; transition:transform 0.2s ease, box-shadow 0.2s ease;">
+              <div style="height:210px; background:#F8FAFC; overflow:hidden; display:flex; align-items:center; justify-content:center; padding:1rem;">
+                <img src="assets/images/products/product_laptop.jpg" alt="Commercial Laptops & Control Workstations" style="max-height:100%; max-width:100%; object-fit:contain;">
+              </div>
+              <div style="padding:1.5rem; flex:1; display:flex; flex-direction:column;">
+                <span style="font-size:0.75rem; font-weight:700; color:#6A1B9A; text-transform:uppercase; margin-bottom:0.35rem;">Laptops &amp; Compute</span>
+                <h3 style="font-family:var(--font-display); font-size:1.1875rem; font-weight:700; color:#0F172A; margin-bottom:0.5rem; line-height:1.35;">
+                  Commercial Laptops &amp; Control Workstations
+                </h3>
+                <p style="font-size:0.875rem; color:#64748B; line-height:1.5; margin-bottom:1.25rem; flex:1;">
+                  Enterprise hardware tested and configured for zero-latency presentation switching, control rooms, and video walls.
+                </p>
+                <div style="border-top:1px solid #F1F5F9; padding-top:1rem; display:flex; align-items:center; justify-content:space-between;">
+                  <span style="color:var(--electric-blue); font-weight:700; font-size:0.875rem;">View Specifications &rarr;</span>
+                  <span style="background:#25D366; color:#FFF; font-size:0.6875rem; font-weight:700; padding:0.2rem 0.5rem; border-radius:4px;">Enquire</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Product 8: Professional AV Cables & Connectivity -->
+          <a href="product-cables.html" class="product-item-card" data-cat="cables" data-title="professional av cables interface connectivity hdmi optical audio" style="text-decoration:none; color:inherit;">
+            <div style="background:#FFFFFF; border-radius:12px; overflow:hidden; border:1px solid #E2E8F0; box-shadow:0 4px 12px rgba(0,0,0,0.05); height:100%; display:flex; flex-direction:column; transition:transform 0.2s ease, box-shadow 0.2s ease;">
+              <div style="height:210px; background:#F8FAFC; overflow:hidden; display:flex; align-items:center; justify-content:center; padding:1rem;">
+                <img src="assets/images/products/product_cables.jpg" alt="Professional AV Cables" style="max-height:100%; max-width:100%; object-fit:contain;">
+              </div>
+              <div style="padding:1.5rem; flex:1; display:flex; flex-direction:column;">
+                <span style="font-size:0.75rem; font-weight:700; color:#6A1B9A; text-transform:uppercase; margin-bottom:0.35rem;">Cables &amp; Infrastructure</span>
+                <h3 style="font-family:var(--font-display); font-size:1.1875rem; font-weight:700; color:#0F172A; margin-bottom:0.5rem; line-height:1.35;">
+                  Professional AV Cables &amp; Connectivity
+                </h3>
+                <p style="font-size:0.875rem; color:#64748B; line-height:1.5; margin-bottom:1.25rem; flex:1;">
+                  Broadcast-grade 4K/8K active optical HDMI cables, shielded balanced interconnects, and commercial in-wall cable runs.
+                </p>
+                <div style="border-top:1px solid #F1F5F9; padding-top:1rem; display:flex; align-items:center; justify-content:space-between;">
+                  <span style="color:var(--electric-blue); font-weight:700; font-size:0.875rem;">View Specifications &rarr;</span>
+                  <span style="background:#25D366; color:#FFF; font-size:0.6875rem; font-weight:700; padding:0.2rem 0.5rem; border-radius:4px;">Enquire</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Product 9: Projector Peripherals & Presentation Hubs -->
+          <a href="product-projector-peripherals.html" class="product-item-card" data-cat="projector-peripherals" data-title="projector peripherals presentation hubs wireless switchers remotes" style="text-decoration:none; color:inherit;">
+            <div style="background:#FFFFFF; border-radius:12px; overflow:hidden; border:1px solid #E2E8F0; box-shadow:0 4px 12px rgba(0,0,0,0.05); height:100%; display:flex; flex-direction:column; transition:transform 0.2s ease, box-shadow 0.2s ease;">
+              <div style="height:210px; background:#F8FAFC; overflow:hidden; display:flex; align-items:center; justify-content:center; padding:1rem;">
+                <img src="assets/images/products/product_projector_peripherals.jpg" alt="Projector Peripherals" style="max-height:100%; max-width:100%; object-fit:contain;">
+              </div>
+              <div style="padding:1.5rem; flex:1; display:flex; flex-direction:column;">
+                <span style="font-size:0.75rem; font-weight:700; color:#6A1B9A; text-transform:uppercase; margin-bottom:0.35rem;">Projector Peripherals</span>
+                <h3 style="font-family:var(--font-display); font-size:1.1875rem; font-weight:700; color:#0F172A; margin-bottom:0.5rem; line-height:1.35;">
+                  Projector Peripherals &amp; Presentation Hubs
+                </h3>
+                <p style="font-size:0.875rem; color:#64748B; line-height:1.5; margin-bottom:1.25rem; flex:1;">
+                  Wireless collaboration transmitters, tabletop pop-up interface boxes, and presentation controllers.
+                </p>
+                <div style="border-top:1px solid #F1F5F9; padding-top:1rem; display:flex; align-items:center; justify-content:space-between;">
+                  <span style="color:var(--electric-blue); font-weight:700; font-size:0.875rem;">View Specifications &rarr;</span>
+                  <span style="background:#25D366; color:#FFF; font-size:0.6875rem; font-weight:700; padding:0.2rem 0.5rem; border-radius:4px;">Enquire</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Product 10: Universal Projector Ceiling Mounting Kits & Lifts -->
+          <a href="product-mounting-kit.html" class="product-item-card" data-cat="mounting-kits" data-title="universal projector ceiling mounting kits lifts motorized brackets" style="text-decoration:none; color:inherit;">
+            <div style="background:#FFFFFF; border-radius:12px; overflow:hidden; border:1px solid #E2E8F0; box-shadow:0 4px 12px rgba(0,0,0,0.05); height:100%; display:flex; flex-direction:column; transition:transform 0.2s ease, box-shadow 0.2s ease;">
+              <div style="height:210px; background:#F8FAFC; overflow:hidden; display:flex; align-items:center; justify-content:center; padding:1rem;">
+                <img src="assets/images/products/product_mounting_kit.jpg" alt="Projector Mounting Kits" style="max-height:100%; max-width:100%; object-fit:contain;">
+              </div>
+              <div style="padding:1.5rem; flex:1; display:flex; flex-direction:column;">
+                <span style="font-size:0.75rem; font-weight:700; color:#6A1B9A; text-transform:uppercase; margin-bottom:0.35rem;">Mounting Kits</span>
+                <h3 style="font-family:var(--font-display); font-size:1.1875rem; font-weight:700; color:#0F172A; margin-bottom:0.5rem; line-height:1.35;">
+                  Universal Projector Ceiling Mounting Kits &amp; Lifts
+                </h3>
+                <p style="font-size:0.875rem; color:#64748B; line-height:1.5; margin-bottom:1.25rem; flex:1;">
+                  Heavy-duty steel ceiling mount brackets, telescopic extension columns, and concealed motorized scissor lifts.
+                </p>
+                <div style="border-top:1px solid #F1F5F9; padding-top:1rem; display:flex; align-items:center; justify-content:space-between;">
+                  <span style="color:var(--electric-blue); font-weight:700; font-size:0.875rem;">View Specifications &rarr;</span>
+                  <span style="background:#25D366; color:#FFF; font-size:0.6875rem; font-weight:700; padding:0.2rem 0.5rem; border-radius:4px;">Enquire</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+    <!-- ========================================================================
+       6 & 7. FOOTER: Exactly TWO Columns (Sri Hanum Sastha Screenshot 2 Allocation)
+       Left: Eyesoft Company Info | Right: Contact Us with Location, Phone, Email, Web
+       Copyright: ONE row with TWO sides (Flexbox space-between)
+       ======================================================================== -->
+    <!-- ========================================================================
+       SITE FOOTER: Sri Hanum Sastha Inspiration
+       1. Left: Original EYESOFT Logo, EXPERIENCE THE LIVE tagline, Company Description
+       2. Middle: Useful Navigation Links (NO heading word 'Navigation', NO Admin, NO Categories)
+       3. Right: Contact Us with Location, Phone, Email, Website Icons
+       ======================================================================== -->
+  <footer class="site-footer" style="background-color: #0B0E17; color: #FFFFFF; padding: 4.5rem 0 2.5rem; border-top: 1px solid #1E293B;">
+    <div class="container">
+      <div class="footer-three-col-grid">
+        
+        <!-- LEFT COLUMN: Eyesoft Company Information -->
+        <div class="footer-col-company">
+          <a href="index.html" style="display: inline-block; margin-bottom: 1.25rem;">
+            <img src="assets/logo/eyesoft_new_logo.png" alt="EYESOFT Logo" style="height: 48px; width: auto; object-fit: contain;">
+          </a>
+          <div style="font-family: var(--font-display); font-weight: 800; color: #CE93D8; letter-spacing: 0.12em; font-size: 0.875rem; margin-bottom: 1rem; text-transform: uppercase;">
+            EXPERIENCE THE LIVE
+          </div>
+          <p style="font-size: 0.9375rem; color: #94A3B8; line-height: 1.75; margin: 0; max-width: 460px;">
+            EYESOFT is one of the most experienced and leading audio-visual solutions providers in Tamil Nadu. We seamlessly integrate audio, video, high-definition display, lighting equipment, and centralized automation controls for boardrooms, auditoriums, digital classrooms, and 24/7 command centers.
+          </p>
+        </div>
+
+        <!-- MIDDLE COLUMN: Useful Navigation Links (NO Heading Word 'Navigation') -->
+        <div class="footer-col-links" style="padding-top: 0.5rem;">
+          <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.9rem;">
+            <li><a href="index.html" class="footer-nav-link">Home</a></li>
+            <li><a href="about.html" class="footer-nav-link">About Us</a></li>
+            <li><a href="products.html" class="footer-nav-link">Products</a></li>
+            <li><a href="clients.html" class="footer-nav-link">Our Clients</a></li>
+            <li><a href="news.html" class="footer-nav-link">News</a></li>
+            <li><a href="contact.html" class="footer-nav-link">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- RIGHT COLUMN: Contact Us with Professional Icons -->
+        <div class="footer-col-contact">
+          <h3 style="font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; color: #FFFFFF; margin-bottom: 1.5rem; letter-spacing: -0.01em;">
+            Contact Us
+          </h3>
+          
+          <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+            
+            <!-- Address with Location Icon -->
+            <div style="display: flex; align-items: flex-start; gap: 0.85rem;">
+              <div style="width: 24px; height: 24px; flex-shrink: 0; color: var(--electric-blue); margin-top: 2px;">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div style="font-size: 0.9375rem; color: #CBD5E1; line-height: 1.6;">
+                <strong style="color: #FFF;">EYESOFT Headquarters:</strong><br>
+                #270/40, 2nd Floor, Sri Balaji Complex,<br>
+                7th Street Extension, Gandhipuram,<br>
+                Coimbatore – 641012, Tamil Nadu, India.
+              </div>
+            </div>
+
+            <!-- Phone with Phone Icon -->
+            <div style="display: flex; align-items: center; gap: 0.85rem;">
+              <div style="width: 24px; height: 24px; flex-shrink: 0; color: var(--electric-blue);">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div style="font-size: 0.9375rem; color: #CBD5E1;">
+                Phone: <a href="tel:9942436956" style="color: #FFF; font-weight: 700; text-decoration: none;">+91 99424 36956</a>
+              </div>
+            </div>
+
+            <!-- Email with Email Icon -->
+            <div style="display: flex; align-items: center; gap: 0.85rem;">
+              <div style="width: 24px; height: 24px; flex-shrink: 0; color: var(--electric-blue);">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div style="font-size: 0.9375rem; color: #CBD5E1;">
+                Email: <a href="mailto:saleseyesoft@gmail.com" style="color: #FFF; text-decoration: none; font-weight: 600;">saleseyesoft@gmail.com</a>
+              </div>
+            </div>
+
+            <!-- Website with Globe Icon -->
+            <div style="display: flex; align-items: center; gap: 0.85rem;">
+              <div style="width: 24px; height: 24px; flex-shrink: 0; color: var(--electric-blue);">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <div style="font-size: 0.9375rem; color: #CBD5E1;">
+                Website: <a href="http://www.Eyesoft.info" target="_blank" rel="noopener" style="color: var(--electric-blue); text-decoration: none; font-weight: 700;">www.Eyesoft.info</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Copyright Bar (2-Sided Flexbox: Left Copyright, Right Location) -->
+      <div class="footer-bottom-bar" style="border-top: 1px solid #1E293B; padding-top: 1.75rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <div class="footer-copyright-left" style="font-size: 0.875rem; color: #64748B;">
+          &copy; 2026 EYESOFT. All rights reserved. <span style="color: #94A3B8; font-weight: 600;">EXPERIENCE THE LIVE.</span>
+        </div>
+        <div class="footer-copyright-right" style="font-size: 0.875rem; color: #64748B;">
+          Official Corporate Website &bull; Coimbatore, Tamil Nadu
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <style>
+    .filter-btn {
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-size: 0.84375rem;
+      font-weight: 600;
+      border: 1px solid #CBD5E1;
+      background: #FFFFFF;
+      color: #475569;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .filter-btn:hover {
+      border-color: var(--electric-blue);
+      color: var(--electric-blue);
+    }
+    .filter-btn.active {
+      background: var(--electric-blue);
+      color: #FFFFFF;
+      border-color: var(--electric-blue);
+    }
+    .sector-card-link:hover div {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.1) !important;
+      border-color: var(--electric-blue) !important;
+    }
+    .product-item-card:hover div {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.09) !important;
+      border-color: var(--electric-blue) !important;
+    }
+  </style>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Live filter and search implementation
+    document.addEventListener('DOMContentLoaded', () => {
+      const searchInput = document.getElementById('liveSearchInput');
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const cards = document.querySelectorAll('.product-item-card');
+      let activeCategory = 'all';
+
+      function applyFilter() {
+        const query = searchInput.value.toLowerCase().trim();
+        cards.forEach(card => {
+          const cardCat = card.getAttribute('data-cat');
+          const cardTitle = card.getAttribute('data-title').toLowerCase();
+          
+          const matchesCat = (activeCategory === 'all' || cardCat === activeCategory);
+          const matchesQuery = (!query || cardTitle.includes(query));
+
+          card.style.display = (matchesCat && matchesQuery) ? '' : 'none';
+        });
+      }
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeCategory = btn.getAttribute('data-cat');
+          applyFilter();
+        });
+      });
+
+      searchInput.addEventListener('input', applyFilter);
+    });
+  </script>
+  <!-- AI Catalogue Assistant Widget -->
+  <script src="assets/js/ai-assistant.js"></script>
+</body>
+</html>

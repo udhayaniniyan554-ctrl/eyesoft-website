@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <defs>
+    <linearGradient id="vvGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#831843"/>
+      <stop offset="100%" stop-color="#9D174D"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="80" rx="8" fill="#FFFFFF"/>
+  <g transform="translate(14, 12)">
+    <circle cx="28" cy="28" r="26" fill="url(#vvGrad)"/>
+    <!-- Wheel & Sun Rays -->
+    <circle cx="28" cy="28" r="14" fill="#FDE047" opacity="0.9"/>
+    <circle cx="28" cy="28" r="7" fill="#831843"/>
+    <text x="28" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="900" fill="#FFFFFF" text-anchor="middle">VV</text>
+  </g>
+  <text x="74" y="29" font-family="'Plus Jakarta Sans', sans-serif" font-size="13.5" font-weight="800" fill="#831843">VIDYA VIKAS</text>
+  <text x="74" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#B45309" letter-spacing="0.03em">GROUP OF INSTITUTIONS</text>
+  <text x="74" y="60" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600" fill="#64748B">Educational Network &#8226; Tamil Nadu</text>
+</svg>

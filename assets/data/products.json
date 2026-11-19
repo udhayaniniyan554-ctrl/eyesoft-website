@@ -1,0 +1,236 @@
+[
+  {
+    "id": "proj-laser-large-venue",
+    "name": "High-Lumen Laser Venue Projector",
+    "category": "Projectors",
+    "tagline": "Ultra-bright laser projection for auditoriums and seminar halls",
+    "image": "assets/images/products/product_projector.jpg",
+    "brochure_page": 10,
+    "description": "Engineered for auditoriums, large seminar halls, and lecture theatres. Provides exceptional image clarity, vibrant colour reproduction, and continuous reliable operation under demanding commercial environments.",
+    "applications": ["Auditorium", "Large Seminar Hall", "Convention Centre", "Digital Cinema"],
+    "specifications": {
+      "Model Series": "Incoming Verified Supplier Models (Epson / Panasonic / Vivitek)",
+      "Light Source": "Solid-State Laser Diode",
+      "Brightness Range": "5,000 to 12,000+ ANSI Lumens (Venue Dependent)",
+      "Native Resolution": "WUXGA / 4K UHD Enhancement",
+      "Lens Options": "Interchangeable Powered Zoom & Throw Lenses",
+      "Connectivity": "HDMI, HDBaseT, DisplayPort, LAN Control",
+      "Status": "Verified Brochure Category – Model specs updated per supplier sheet"
+    },
+    "key_features": [
+      "20,000+ hours maintenance-free laser light engine",
+      "Motorized lens shift, zoom, and focus",
+      "Edge-blending and geometric correction for curved/multi-projector setups",
+      "Crestron, Extron, and AMX room control integration"
+    ]
+  },
+  {
+    "id": "proj-short-throw-classroom",
+    "name": "Interactive Ultra Short Throw Projector",
+    "category": "Projectors",
+    "tagline": "Shadow-free interactive teaching for modern digital classrooms",
+    "image": "assets/images/products/product_projector.jpg",
+    "brochure_page": 10,
+    "description": "Designed specifically for smart classrooms and corporate training suites. Eliminates glare and presenter shadows while projecting massive widescreen interactive displays onto ceramic boards or walls.",
+    "applications": ["Digital Classroom", "Training Room", "Huddle Spaces"],
+    "specifications": {
+      "Model Series": "Incoming Verified Supplier Models (Epson / Panasonic / Vivitek)",
+      "Throw Ratio": "Ultra Short Throw (0.27:1)",
+      "Brightness": "3,600 to 4,500 ANSI Lumens",
+      "Interactivity": "Dual-Pen & Multi-Finger Touch Compatible",
+      "Audio": "Built-in 16W high-intelligibility classroom speaker",
+      "Status": "Verified Brochure Category – Model specs updated per supplier sheet"
+    },
+    "key_features": [
+      "Zero shadow interference for educators and presenters",
+      "Direct annotation on whiteboards without computer connection",
+      "Instant on/off power management",
+      "Multi-device wireless screen mirroring"
+    ]
+  },
+  {
+    "id": "digital-podium-master",
+    "name": "Smart Multimedia Digital Podium",
+    "category": "Digital Podiums",
+    "tagline": "All-in-one centralized presentation and control lectern",
+    "image": "assets/images/products/product_digital_podium.jpg",
+    "brochure_page": 10,
+    "description": "Premium metallic digital lectern equipped with motorized tilt capacitive touch screen, integrated gooseneck condenser microphones, visualizer bay, and built-in multimedia switching controller.",
+    "applications": ["Auditoriums", "Seminar Halls", "Executive Boardrooms", "University Lecture Theatres"],
+    "specifications": {
+      "Touch Display": "21.5-inch Full HD Electromagnetic / Capacitive Touch",
+      "Microphones": "Dual Professional Gooseneck Condenser Mics with shock mounts",
+      "Central Controller": "Touch-key switcher for projector, screen lift, lights & audio",
+      "Material": "Heavy-duty CRCA steel body with wood-trim finish",
+      "Security": "RFID / key lock access with cable management spine",
+      "Status": "Verified Brochure Category – Custom finishes available"
+    },
+    "key_features": [
+      "Seamless switching between presenter laptop, in-podium PC, and visualizer",
+      "Integrated audio amplifier and wireless microphone receiver bay",
+      "Motorized height and screen angle adjustment",
+      "Centralized master power button for entire auditorium AV setup"
+    ]
+  },
+  {
+    "id": "interactive-flat-panel",
+    "name": "4K Multi-Touch Interactive Flat Panel",
+    "category": "Digital Podiums",
+    "tagline": "Next-generation collaboration touch displays",
+    "image": "assets/images/products/product_interactive_panel.jpg",
+    "brochure_page": 10,
+    "description": "Commercial-grade 4K ultra-high-definition interactive panel with zero-bonding anti-glare toughened glass, 40-point multi-touch, and dual operating system (Android + OPS Windows).",
+    "applications": ["Board Room", "Conference Room", "Smart Training Room"],
+    "specifications": {
+      "Sizes Available": "65-inch, 75-inch, 86-inch, 98-inch",
+      "Resolution": "4K Ultra HD (3840 x 2160) @ 60Hz",
+      "Touch Points": "40 Touch Points with ultra-fine stylus writing",
+      "Glass": "4mm Mohs Level 7 Anti-Glare Toughened Glass",
+      "Status": "Verified Brochure Category"
+    },
+    "key_features": [
+      "Built-in wireless screen sharing for up to 4 devices simultaneously",
+      "Integrated 4K camera and 8-array beamforming microphone",
+      "Cloud whiteboard with handwriting recognition and shape detection",
+      "Dual OS support with pluggable OPS Windows PC slot"
+    ]
+  },
+  {
+    "id": "motorized-projector-screen",
+    "name": "High-Gain Motorized Projector Screen",
+    "category": "Projector Screens",
+    "tagline": "Whisper-quiet motorized screens for crystal-clear projection",
+    "image": "assets/images/products/product_projector_screen.jpg",
+    "brochure_page": 10,
+    "description": "Commercial grade motorized projection screens featuring matte white high-gain fabric, RF remote control, synchronous tubular motors, and ceiling recessed or surface mounting brackets.",
+    "applications": ["Boardrooms", "Auditoriums", "Conference Halls", "Classrooms"],
+    "specifications": {
+      "Aspect Ratios": "16:9, 16:10, and 4:3",
+      "Diagonal Sizes": "84-inch to 300-inch diagonal",
+      "Gain": "1.2 Gain Matte White multi-layer woven fabric",
+      "Viewing Angle": "160-degree wide viewing angle",
+      "Motor": "Heavy-duty tubular motor with thermal overload protection",
+      "Status": "Verified Brochure Category"
+    },
+    "key_features": [
+      "Flame-retardant and mildew-resistant premium screen fabric",
+      "Includes RF wireless remote, wall-mount switch, and 12V projector trigger",
+      "Black borders for enhanced perceived image contrast",
+      "Ceiling-recessed and wall-mounting brackets included"
+    ]
+  },
+  {
+    "id": "ceramic-interactive-board",
+    "name": "Magnetic Ceramic Steel Whiteboard",
+    "category": "Ceramic Boards",
+    "tagline": "Durable, scratch-proof porcelain ceramic writing surfaces",
+    "image": "assets/images/products/product_ceramic_board.jpg",
+    "brochure_page": 10,
+    "description": "Indestructible ceramic-on-steel interactive projection whiteboards. 100% scratch resistant, marker-friendly with zero ghosting, and optimized for low-glare short throw multimedia projection.",
+    "applications": ["Digital Classroom", "Training Rooms", "Colleges & Universities"],
+    "specifications": {
+      "Surface": "Vitreous Porcelain Enamel Ceramic Steel",
+      "Standard Sizes": "4x6 ft, 4x8 ft, 4x10 ft, 4x12 ft custom",
+      "Durability": "Lifetime warranty on ceramic surface integrity",
+      "Frame": "Satin-finish anodized architectural aluminium with safety ABS corners",
+      "Status": "Verified Brochure Category"
+    },
+    "key_features": [
+      "Dual purpose: interactive projection surface and dry-erase marker board",
+      "Ultra-low gloss eliminates hot-spotting from projector lamps",
+      "Magnetic receptive surface holds charts, documents, and sensors",
+      "Chemical, scratch, fire, and stain resistant"
+    ]
+  },
+  {
+    "id": "projector-mounting-kits",
+    "name": "Universal Projector Ceiling Mounting Kits & Lifts",
+    "category": "Projector Mounting Kits",
+    "tagline": "Precision engineered universal ceiling brackets and motorized lifts",
+    "image": "assets/images/products/product_mounting_kit.jpg",
+    "brochure_page": 10,
+    "description": "Heavy-duty universal ceiling mounts with integrated cable management, micro-adjustment pitch/roll/yaw dials, and motorized scissor lifts for concealing projectors into false ceilings.",
+    "applications": ["Conference Rooms", "Auditoriums", "Executive Boardrooms"],
+    "specifications": {
+      "Drop Heights": "1 ft, 2 ft, 3 ft, 4-6 ft telescopic extensions",
+      "Weight Capacity": "Up to 35 kg (Standard) / 75 kg (Heavy-Duty Venue)",
+      "Rotation": "360-degree swivel, +/- 20-degree tilt & roll",
+      "Cable Management": "Internal hollow conduit for clean concealment",
+      "Status": "Verified Brochure Category"
+    },
+    "key_features": [
+      "Universal spider bracket arms fit all major projector brands",
+      "Micro-adjustment thumbscrews for accurate screen alignment",
+      "Vibration-damping ceiling plate",
+      "Available in architectural white and matte black powder coat"
+    ]
+  },
+  {
+    "id": "av-interconnect-cables",
+    "name": "Professional AV Cables & Interface Connectivity",
+    "category": "Cables",
+    "tagline": "High-bandwidth 4K HDMI, optical, snake & HDBaseT cabling",
+    "image": "assets/images/products/product_cables.jpg",
+    "brochure_page": 10,
+    "description": "High-fidelity audiovisual interconnects including 4K/8K active optical HDMI cables, balanced microphone cables, multi-pair audio snakes, and category 6 shielded transmission lines.",
+    "applications": ["All AV Installations", "Control Rooms", "Stage Audios"],
+    "specifications": {
+      "Cable Types": "Optical HDMI 2.1, VGA with 3.5mm, XLR, Speakon, Cat6A SFTP",
+      "Bandwidth": "Up to 48 Gbps for 4K@120Hz / 8K HDR",
+      "Lengths": "1m to 100m active optical without signal degradation",
+      "Shielding": "Triple-layer foil and copper braid against EMI/RFI noise",
+      "Status": "Verified Brochure Category"
+    },
+    "key_features": [
+      "Gold-plated oxygen-free copper connectors",
+      "CL3/FT4 in-wall commercial fire rating",
+      "Heavy-duty strain relief jackets for frequent conference table plugging",
+      "Zero latency uncompressed AV transmission"
+    ]
+  },
+  {
+    "id": "projector-peripherals",
+    "name": "Projector Peripherals & Wireless Presentation Hubs",
+    "category": "Projector Peripherals",
+    "tagline": "Wireless collaboration dongles, document cameras and spare lamps",
+    "image": "assets/images/products/product_projector_peripherals.jpg",
+    "brochure_page": 10,
+    "description": "Comprehensive peripheral ecosystem including wireless HDMI presentation transmitters, desktop document cameras/visualizers, OEM replacement lamps, and interactive stylus pens.",
+    "applications": ["Board Rooms", "Digital Classrooms", "Auditoriums"],
+    "specifications": {
+      "Components": "Wireless Presentation Transmitters, Document Cameras, Replacement Lamps, Remotes",
+      "Compatibility": "Universal compatibility across Epson, Panasonic, Vivitek, etc.",
+      "Wireless Tech": "Dual-band 2.4GHz / 5GHz Wi-Fi with zero driver installation",
+      "Status": "Verified Brochure Category"
+    },
+    "key_features": [
+      "Click-and-share one-button laptop presentation dongles",
+      "Full HD 60fps document visualizers with flexible gooseneck",
+      "Genuine manufacturer replacement projector lamp modules",
+      "Universal IR and RF replacement remotes"
+    ]
+  },
+  {
+    "id": "business-laptops-workstations",
+    "name": "Commercial Laptops & Control Workstations",
+    "category": "Laptops",
+    "tagline": "High-performance processing engines for AV control and conferencing",
+    "image": "assets/images/products/product_laptop.jpg",
+    "brochure_page": 10,
+    "description": "Enterprise-grade laptops and compact rackmount PC workstations configured for room scheduling, multi-display video wall control, zoom rooms, and digital signage playback.",
+    "applications": ["Control Rooms", "NOC", "Podium Host PC", "Boardrooms"],
+    "specifications": {
+      "Processor Options": "Intel Core i5 / i7 / i9 / Xeon Enterprise",
+      "Graphics": "Multi-head NVIDIA graphics for multi-screen output",
+      "Operating System": "Windows 11 Pro Enterprise with remote management",
+      "Warranty": "3-Year on-site business commercial warranty",
+      "Status": "Verified Brochure Category"
+    },
+    "key_features": [
+      "Dual or quad display outputs for simultaneous presentation and confidence monitoring",
+      "Military-spec rugged durability for campus and industrial environments",
+      "Pre-configured AV driver suite and management utilities",
+      "Dedicated EYESOFT on-site technical maintenance support"
+    ]
+  }
+]

@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corporate AV Solutions | EYESOFT Audio Visual Solutions Coimbatore</title>
+  <meta name="description" content="Discover EYESOFT's verified Corporate AV Solutions solutions. Explore dedicated subcategories with genuine catalogue equipment and direct WhatsApp consultation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" type="image/png" href="assets/logo/eyesoft_new_logo.png">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="header-logo-link" title="EYESOFT - Experience The Live">
+        <img src="assets/logo/eyesoft_new_logo.png" alt="EYESOFT Logo" class="site-logo">
+      </a>
+
+      <!-- Desktop Navigation Menu (Positioned towards the right side) -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link ">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link " id="navAbout">About Us</a>
+          </li>
+          
+          <!-- Products Dropdown (Corporate, Education, Government - Screenshots 1 to 4) -->
+          <li class="nav-item has-products-dropdown">
+            <a href="products.html" class="nav-link active">
+              Products
+              <svg class="dropdown-icon" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+            
+            <div class="products-dropdown-menu">
+              <ul class="dropdown-categories">
+                
+                <!-- Category 1: Corporate (Screenshot 2) -->
+                <li class="category-item has-submenu">
+                  <a href="corporate.html" class="category-link">
+                    <span class="category-text">Corporate</span>
+                    <span class="category-plus">+</span>
+                  </a>
+                  <div class="category-submenu">
+                    <ul class="submenu-links">
+                      <li><a href="corporate-board-room.html">Board Room &amp; Conference Room Solutions</a></li>
+                      <li><a href="corporate-training-room.html">Training Room</a></li>
+                      <li><a href="corporate-audio-visual.html">Audio Visual Solutions</a></li>
+                      <li><a href="corporate-campus-networking.html">Campus Networking</a></li>
+                      <li><a href="corporate-video-wall.html">Signage &amp; Video Wall Solutions</a></li>
+                      <li><a href="corporate-security-surveillance.html">Surveillance &amp; Security Solutions</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <!-- Category 2: Education (Screenshot 3) -->
+                <li class="category-item has-submenu">
+                  <a href="education.html" class="category-link">
+                    <span class="category-text">Education</span>
+                    <span class="category-plus">+</span>
+                  </a>
+                  <div class="category-submenu">
+                    <ul class="submenu-links">
+                      <li><a href="education-digital-classroom.html">Digital Classroom Systems</a></li>
+                      <li><a href="education-smart-kg-curriculum.html">Smart KG Curriculum</a></li>
+                      <li><a href="education-language-lab.html">Language Lab</a></li>
+                      <li><a href="education-digital-information-display.html">Digital Information Display</a></li>
+                      <li><a href="education-lecture-capturing.html">Lecture Capturing And Broadcasting</a></li>
+                      <li><a href="education-campus-security.html">Campus Security Surveillance</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <!-- Category 3: Government (Screenshot 4) -->
+                <li class="category-item has-submenu">
+                  <a href="government.html" class="category-link">
+                    <span class="category-text">Government</span>
+                    <span class="category-plus">+</span>
+                  </a>
+                  <div class="category-submenu">
+                    <ul class="submenu-links">
+                      <li><a href="government-digital-classroom.html">Digital Classroom Systems (Institutions)</a></li>
+                      <li><a href="government-digital-signage.html">Digital Signage &amp; Display</a></li>
+                      <li><a href="government-security-surveillance.html">Security Surveillance</a></li>
+                      <li><a href="government-teleconferencing.html">Video &amp; Audio Tele Conferencing</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a href="clients.html" class="nav-link " id="navOurClients">Our Clients</a>
+          </li>
+          <li class="nav-item">
+            <a href="news.html" class="nav-link " id="navNews">News</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link " id="navContact">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer-backdrop"></div>
+  <div class="mobile-drawer" aria-label="Mobile Navigation">
+    <div class="mobile-drawer-header">
+      <img src="assets/logo/eyesoft_new_logo.png" alt="EYESOFT Logo" class="mobile-drawer-logo">
+      <button class="mobile-drawer-close" aria-label="Close menu">&times;</button>
+    </div>
+    
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link ">Home</a>
+      <a href="about.html" class="mobile-nav-link " id="mobileNavAbout">About Us</a>
+      
+      <!-- Mobile Products Accordion -->
+      <div class="mobile-nav-accordion">
+        <button class="mobile-nav-accordion-toggle" aria-expanded="false">
+          <span>Products</span>
+          <svg class="mobile-accordion-arrow" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </button>
+        <div class="mobile-nav-accordion-content">
+          
+          <!-- Mobile Corporate -->
+          <div class="mobile-category-item">
+            <button class="mobile-category-toggle" aria-expanded="false">
+              <span class="category-text-green">Corporate</span>
+              <span class="category-plus-icon">+</span>
+            </button>
+            <div class="mobile-submenu-list">
+              <a href="corporate-board-room.html">Board Room &amp; Conference Room Solutions</a>
+              <a href="corporate-training-room.html">Training Room</a>
+              <a href="corporate-audio-visual.html">Audio Visual Solutions</a>
+              <a href="corporate-campus-networking.html">Campus Networking</a>
+              <a href="corporate-video-wall.html">Signage &amp; Video Wall Solutions</a>
+              <a href="corporate-security-surveillance.html">Surveillance &amp; Security Solutions</a>
+            </div>
+          </div>
+
+          <!-- Mobile Education -->
+          <div class="mobile-category-item">
+            <button class="mobile-category-toggle" aria-expanded="false">
+              <span class="category-text-green">Education</span>
+              <span class="category-plus-icon">+</span>
+            </button>
+            <div class="mobile-submenu-list">
+              <a href="education-digital-classroom.html">Digital Classroom Systems</a>
+              <a href="education-smart-kg-curriculum.html">Smart KG Curriculum</a>
+              <a href="education-language-lab.html">Language Lab</a>
+              <a href="education-digital-information-display.html">Digital Information Display</a>
+              <a href="education-lecture-capturing.html">Lecture Capturing And Broadcasting</a>
+              <a href="education-campus-security.html">Campus Security Surveillance</a>
+            </div>
+          </div>
+
+          <!-- Mobile Government -->
+          <div class="mobile-category-item">
+            <button class="mobile-category-toggle" aria-expanded="false">
+              <span class="category-text-green">Government</span>
+              <span class="category-plus-icon">+</span>
+            </button>
+            <div class="mobile-submenu-list">
+              <a href="government-digital-classroom.html">Digital Classroom Systems (Institutions)</a>
+              <a href="government-digital-signage.html">Digital Signage &amp; Display</a>
+              <a href="government-security-surveillance.html">Security Surveillance</a>
+              <a href="government-teleconferencing.html">Video &amp; Audio Tele Conferencing</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <a href="clients.html" class="mobile-nav-link " id="mobileNavOurClients">Our Clients</a>
+      <a href="news.html" class="mobile-nav-link " id="mobileNavNews">News</a>
+      <a href="contact.html" class="mobile-nav-link " id="mobileNavContact">Contact Us</a>
+    </div>
+
+    <div class="mobile-drawer-contact">
+      <div style="font-size:0.875rem; color:#6B7280; text-align:center;">
+        Coimbatore Headquarters: <a href="tel:9942436956" style="color:var(--electric-blue); font-weight:700;">+91 99424 36956</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Sector Page Hero Banner -->
+    <div class="page-banner" style="background: linear-gradient(135deg, #1A0B2E 0%, #3B0764 100%); color:#fff; padding:3.5rem 0;">
+      <div class="container">
+        <div class="breadcrumb-trail" style="margin-bottom:1rem; font-size:0.875rem;">
+          <a href="index.html" style="color:#E9D5FF;">Home</a>
+          <span style="color:#C4B5FD; margin:0 0.5rem;">/</span>
+          <a href="products.html" style="color:#E9D5FF;">Products</a>
+          <span style="color:#C4B5FD; margin:0 0.5rem;">/</span>
+          <span class="active" style="color:#fff; font-weight:700;">Corporate AV Solutions</span>
+        </div>
+        <span class="badge" style="background:rgba(255,255,255,0.2); color:#fff; font-size:0.8125rem; font-weight:700; padding:6px 14px; border-radius:20px; text-transform:uppercase;">
+          Enterprise & Business &bull; 13 Dedicated Solutions
+        </span>
+        <h1 style="font-family:var(--font-display); font-size:2.5rem; font-weight:800; margin:0.75rem 0 0.5rem 0;">
+          Corporate AV Solutions
+        </h1>
+        <p style="color:#E9D5FF; font-size:1.125rem; max-width:820px; line-height:1.6; margin:0;">
+          Seamless integration of high-definition audio, video, display, and lighting controls engineered for modern corporate boardrooms, executive collaboration, and operations centers.
+        </p>
+      </div>
+    </div>
+
+    <!-- Category Solutions Grid -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header" style="text-align:left; margin-bottom:2.5rem;">
+          <span class="section-badge">Verified catalogue Categories</span>
+          <h2 class="section-title">Explore All 13 Corporate AV Solutions</h2>
+          <p class="section-subtitle" style="margin-left:0; max-width:850px;">
+            Select any subcategory below to open its dedicated page with complete room architecture, key features, verified product details, and pre-filled WhatsApp enquiry.
+          </p>
+        </div>
+
+        <div class="solutions-grid">
+        <div class="solution-card corporate-sol-card" data-href="corporate-board-room.html">
+          <a href="corporate-board-room.html" class="solution-image-container" aria-label="Explore Board Room Solutions">
+            <img src="assets/images/solutions/boardroom_conference.jpg" alt="Board Room Solutions" class="solution-img" loading="lazy">
+            <span class="badge">Boardroom AV Architecture</span>
+            <div class="solution-image-overlay">
+              <span>View Architecture &rarr;</span>
+            </div>
+          </a>
+          <div class="solution-card-body">
+            <h3 class="solution-title">
+              <a href="corporate-board-room.html">Board Room Solutions</a>
+            </h3>
+            <p class="solution-summary">Turnkey executive boardroom integration merging ultra-HD commercial displays, motorized tensioned projection screens, beamforming ceiling microphone arrays, and one-touch centralized room automation.</p>
+            <div class="solution-features-list">
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>4K Commercial Displays</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Beamforming Ceiling Mics</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Touch Room Automation</span>
+            </div>
+            <div class="solution-card-actions">
+              <a href="corporate-board-room.html" class="btn btn-outline btn-sm btn-explore-sol">
+                <span>Explore Solution</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/919942436956?text=Hi%20EYESOFT,%20I%20would%20like%20to%20enquire%20about%20Board Room Solutions%20(Corporate%20AV%20Solutions)." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card corporate-sol-card" data-href="corporate-conference-room.html">
+          <a href="corporate-conference-room.html" class="solution-image-container" aria-label="Explore Conference Room Solutions">
+            <img src="assets/images/solutions/conference_room.jpg" alt="Conference Room Solutions" class="solution-img" loading="lazy">
+            <span class="badge">Boardroom AV Architecture</span>
+            <div class="solution-image-overlay">
+              <span>View Architecture &rarr;</span>
+            </div>
+          </a>
+          <div class="solution-card-body">
+            <h3 class="solution-title">
+              <a href="corporate-conference-room.html">Conference Room Solutions</a>
+            </h3>
+            <p class="solution-summary">Modern conference rooms and huddle spaces featuring intuitive interactive presentation displays, wireless screen sharing, automated camera tracking, and acoustic echo cancellation.</p>
+            <div class="solution-features-list">
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Hybrid Video Collab</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Auto-Framing PTZ</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Wireless Screen Sharing</span>
+            </div>
+            <div class="solution-card-actions">
+              <a href="corporate-conference-room.html" class="btn btn-outline btn-sm btn-explore-sol">
+                <span>Explore Solution</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/919942436956?text=Hi%20EYESOFT,%20I%20would%20like%20to%20enquire%20about%20Conference Room Solutions%20(Corporate%20AV%20Solutions)." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card corporate-sol-card" data-href="corporate-training-room.html">
+          <a href="corporate-training-room.html" class="solution-image-container" aria-label="Explore Corporate Training Room">
+            <img src="assets/images/solutions/training_room.jpg" alt="Corporate Training Room" class="solution-img" loading="lazy">
+            <span class="badge">Interactive Presentation Systems</span>
+            <div class="solution-image-overlay">
+              <span>View Architecture &rarr;</span>
+            </div>
+          </a>
+          <div class="solution-card-body">
+            <h3 class="solution-title">
+              <a href="corporate-training-room.html">Corporate Training Room</a>
+            </h3>
+            <p class="solution-summary">Flexible enterprise training environments equipped with interactive touch displays, digital multimedia podiums, multi-zone sound distribution, and automated lecture capture.</p>
+            <div class="solution-features-list">
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Interactive Touch Displays</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Digital Multimedia Podium</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Lecture Recording</span>
+            </div>
+            <div class="solution-card-actions">
+              <a href="corporate-training-room.html" class="btn btn-outline btn-sm btn-explore-sol">
+                <span>Explore Solution</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/919942436956?text=Hi%20EYESOFT,%20I%20would%20like%20to%20enquire%20about%20Corporate Training Room%20(Corporate%20AV%20Solutions)." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card corporate-sol-card" data-href="corporate-video-conferencing.html">
+          <a href="corporate-video-conferencing.html" class="solution-image-container" aria-label="Explore Video Conferencing Solutions">
+            <img src="assets/images/solutions/video_conferencing.jpg" alt="Video Conferencing Solutions" class="solution-img" loading="lazy">
+            <span class="badge">Telepresence & Conferencing</span>
+            <div class="solution-image-overlay">
+              <span>View Architecture &rarr;</span>
+            </div>
+          </a>
+          <div class="solution-card-body">
+            <h3 class="solution-title">
+              <a href="corporate-video-conferencing.html">Video Conferencing Solutions</a>
+            </h3>
+            <p class="solution-summary">High-definition multi-point video conferencing suites with hardware codecs, beamforming microphone arrays, dual-display video walls, and universal Zoom/Teams compatibility.</p>
+            <div class="solution-features-list">
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Multi-Point HD Codec</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Echo Cancellation DSP</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Universal UC Integration</span>
+            </div>
+            <div class="solution-card-actions">
+              <a href="corporate-video-conferencing.html" class="btn btn-outline btn-sm btn-explore-sol">
+                <span>Explore Solution</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/919942436956?text=Hi%20EYESOFT,%20I%20would%20like%20to%20enquire%20about%20Video Conferencing Solutions%20(Corporate%20AV%20Solutions)." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card corporate-sol-card" data-href="corporate-real-presence.html">
+          <a href="corporate-real-presence.html" class="solution-image-container" aria-label="Explore Real Presence / Telepresence">
+            <img src="assets/images/solutions/real_presence.jpg" alt="Real Presence / Telepresence" class="solution-img" loading="lazy">
+            <span class="badge">Telepresence & Conferencing</span>
+            <div class="solution-image-overlay">
+              <span>View Architecture &rarr;</span>
+            </div>
+          </a>
+          <div class="solution-card-body">
+            <h3 class="solution-title">
+              <a href="corporate-real-presence.html">Real Presence / Telepresence</a>
+            </h3>
+            <p class="solution-summary">Immersive life-size telepresence suites engineered with calibrated studio acoustics, eye-level camera alignment, life-size multi-screen displays, and spatial audio realism.</p>
+            <div class="solution-features-list">
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Life-Size Multi-Screen</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Spatial Audio Realism</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Custom Acoustic Studio</span>
+            </div>
+            <div class="solution-card-actions">
+              <a href="corporate-real-presence.html" class="btn btn-outline btn-sm btn-explore-sol">
+                <span>Explore Solution</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/919942436956?text=Hi%20EYESOFT,%20I%20would%20like%20to%20enquire%20about%20Real Presence / Telepresence%20(Corporate%20AV%20Solutions)." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card corporate-sol-card" data-href="corporate-auditorium.html">
+          <a href="corporate-auditorium.html" class="solution-image-container" aria-label="Explore Corporate Auditorium">
+            <img src="assets/images/solutions/auditorium.jpg" alt="Corporate Auditorium" class="solution-img" loading="lazy">
+            <span class="badge">Auditorium & Large Hall</span>
+            <div class="solution-image-overlay">
+              <span>View Architecture &rarr;</span>
+            </div>
+          </a>
+          <div class="solution-card-body">
+            <h3 class="solution-title">
+              <a href="corporate-auditorium.html">Corporate Auditorium</a>
+            </h3>
+            <p class="solution-summary">World-class corporate auditoriums hosting annual general meetings, product launches, and town halls with high-lumen laser projection, stage illumination, and line-array audio.</p>
+            <div class="solution-features-list">
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>High-Lumen Laser Projection</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Line-Array Audio Systems</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Stage Lighting & DSP</span>
+            </div>
+            <div class="solution-card-actions">
+              <a href="corporate-auditorium.html" class="btn btn-outline btn-sm btn-explore-sol">
+                <span>Explore Solution</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/919942436956?text=Hi%20EYESOFT,%20I%20would%20like%20to%20enquire%20about%20Corporate Auditorium%20(Corporate%20AV%20Solutions)." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card corporate-sol-card" data-href="corporate-seminar-hall.html">
+          <a href="corporate-seminar-hall.html" class="solution-image-container" aria-label="Explore Large Seminar Hall">
+            <img src="assets/images/solutions/large_seminar_hall.jpg" alt="Large Seminar Hall" class="solution-img" loading="lazy">
+            <span class="badge">Auditorium & Large Hall</span>
+            <div class="solution-image-overlay">
+              <span>View Architecture &rarr;</span>
+            </div>
+          </a>
+          <div class="solution-card-body">
+            <h3 class="solution-title">
+              <a href="corporate-seminar-hall.html">Large Seminar Hall</a>
+            </h3>
+            <p class="solution-summary">Spacious tiered seminar halls engineered for balanced acoustic dispersion, multi-angle confidence displays, wireless delegate microphones, and seamless presenter control.</p>
+            <div class="solution-features-list">
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Balanced Sound Dispersion</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Confidence Monitors</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Wireless Delegate Mics</span>
+            </div>
+            <div class="solution-card-actions">
+              <a href="corporate-seminar-hall.html" class="btn btn-outline btn-sm btn-explore-sol">
+                <span>Explore Solution</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/919942436956?text=Hi%20EYESOFT,%20I%20would%20like%20to%20enquire%20about%20Large Seminar Hall%20(Corporate%20AV%20Solutions)." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card corporate-sol-card" data-href="corporate-video-wall.html">
+          <a href="corporate-video-wall.html" class="solution-image-container" aria-label="Explore Video Wall Solutions">
+            <img src="assets/images/solutions/video_wall.jpg" alt="Video Wall Solutions" class="solution-img" loading="lazy">
+            <span class="badge">Control Room & Video Walls</span>
+            <div class="solution-image-overlay">
+              <span>View Architecture &rarr;</span>
+            </div>
+          </a>
+          <div class="solution-card-body">
+            <h3 class="solution-title">
+              <a href="corporate-video-wall.html">Video Wall Solutions</a>
+            </h3>
+            <p class="solution-summary">Architectural ultra-narrow bezel LED and LCD video walls delivering seamless large-format visual storytelling for enterprise headquarters, executive lobbies, and briefing centers.</p>
+            <div class="solution-features-list">
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Ultra-Narrow Bezel Matrix</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>24/7 Duty Reliability</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>4K Multi-Window Processor</span>
+            </div>
+            <div class="solution-card-actions">
+              <a href="corporate-video-wall.html" class="btn btn-outline btn-sm btn-explore-sol">
+                <span>Explore Solution</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/919942436956?text=Hi%20EYESOFT,%20I%20would%20like%20to%20enquire%20about%20Video Wall Solutions%20(Corporate%20AV%20Solutions)." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card corporate-sol-card" data-href="corporate-digital-signage.html">
+          <a href="corporate-digital-signage.html" class="solution-image-container" aria-label="Explore Digital Signage Systems">
+            <img src="assets/images/solutions/digital_signage.jpg" alt="Digital Signage Systems" class="solution-img" loading="lazy">
+            <span class="badge">Digital Displays & Signage</span>
+            <div class="solution-image-overlay">
+              <span>View Architecture &rarr;</span>
+            </div>
+          </a>
+          <div class="solution-card-body">
+            <h3 class="solution-title">
+              <a href="corporate-digital-signage.html">Digital Signage Systems</a>
+            </h3>
+            <p class="solution-summary">Networked commercial 4K digital signage totems and wall displays for dynamic corporate communications, visitor management, executive wayfinding, and real-time dashboard metrics.</p>
+            <div class="solution-features-list">
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Commercial 4K Signage</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Central Cloud CMS</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Dynamic Real-Time Feeds</span>
+            </div>
+            <div class="solution-card-actions">
+              <a href="corporate-digital-signage.html" class="btn btn-outline btn-sm btn-explore-sol">
+                <span>Explore Solution</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/919942436956?text=Hi%20EYESOFT,%20I%20would%20like%20to%20enquire%20about%20Digital Signage Systems%20(Corporate%20AV%20Solutions)." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card corporate-sol-card" data-href="corporate-control-room.html">
+          <a href="corporate-control-room.html" class="solution-image-container" aria-label="Explore Control Room Solutions">
+            <img src="assets/images/solutions/control_room.jpg" alt="Control Room Solutions" class="solution-img" loading="lazy">
+            <span class="badge">Control Room & Operations</span>
+            <div class="solution-image-overlay">
+              <span>View Architecture &rarr;</span>
+            </div>
+          </a>
+          <div class="solution-card-body">
+            <h3 class="solution-title">
+              <a href="corporate-control-room.html">Control Room Solutions</a>
+            </h3>
+            <p class="solution-summary">Mission-critical 24/7 Network Operating Centers (NOC) and Security Operations Centers (SOC) featuring multi-screen video matrices, ergonomic operator consoles, and redundancy.</p>
+            <div class="solution-features-list">
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>24/7 Mission-Critical NOC</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Multi-Source Video Matrix</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Hardware Redundancy</span>
+            </div>
+            <div class="solution-card-actions">
+              <a href="corporate-control-room.html" class="btn btn-outline btn-sm btn-explore-sol">
+                <span>Explore Solution</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/919942436956?text=Hi%20EYESOFT,%20I%20would%20like%20to%20enquire%20about%20Control Room Solutions%20(Corporate%20AV%20Solutions)." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card corporate-sol-card" data-href="corporate-paging.html">
+          <a href="corporate-paging.html" class="solution-image-container" aria-label="Explore Paging & Public Address">
+            <img src="assets/images/solutions/paging_system.jpg" alt="Paging & Public Address" class="solution-img" loading="lazy">
+            <span class="badge">Commercial Audio Systems</span>
+            <div class="solution-image-overlay">
+              <span>View Architecture &rarr;</span>
+            </div>
+          </a>
+          <div class="solution-card-body">
+            <h3 class="solution-title">
+              <a href="corporate-paging.html">Paging & Public Address</a>
+            </h3>
+            <p class="solution-summary">Commercial distributed sound reinforcement, multi-zone paging matrices, high-efficiency ceiling speakers, and life-safety emergency voice alarm broadcast integration.</p>
+            <div class="solution-features-list">
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Multi-Zone Amplification</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Voice Alarm Integration</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Ceiling Acoustic Speakers</span>
+            </div>
+            <div class="solution-card-actions">
+              <a href="corporate-paging.html" class="btn btn-outline btn-sm btn-explore-sol">
+                <span>Explore Solution</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/919942436956?text=Hi%20EYESOFT,%20I%20would%20like%20to%20enquire%20about%20Paging & Public Address%20(Corporate%20AV%20Solutions)." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card corporate-sol-card" data-href="corporate-background-music.html">
+          <a href="corporate-background-music.html" class="solution-image-container" aria-label="Explore Background Music Systems">
+            <img src="assets/images/solutions/background_music.jpg" alt="Background Music Systems" class="solution-img" loading="lazy">
+            <span class="badge">Commercial Audio Systems</span>
+            <div class="solution-image-overlay">
+              <span>View Architecture &rarr;</span>
+            </div>
+          </a>
+          <div class="solution-card-body">
+            <h3 class="solution-title">
+              <a href="corporate-background-music.html">Background Music Systems</a>
+            </h3>
+            <p class="solution-summary">Architectural background music systems for corporate dining facilities, executive lounges, and customer reception areas with seamless ambient coverage and digital volume zoning.</p>
+            <div class="solution-features-list">
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Architectural Speakers</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Digital Volume Zoning</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>High-Fidelity Audio DSP</span>
+            </div>
+            <div class="solution-card-actions">
+              <a href="corporate-background-music.html" class="btn btn-outline btn-sm btn-explore-sol">
+                <span>Explore Solution</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/919942436956?text=Hi%20EYESOFT,%20I%20would%20like%20to%20enquire%20about%20Background Music Systems%20(Corporate%20AV%20Solutions)." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card corporate-sol-card" data-href="corporate-cafeteria.html">
+          <a href="corporate-cafeteria.html" class="solution-image-container" aria-label="Explore Cafeteria / Break-out Room AV">
+            <img src="assets/images/solutions/cafeteria_breakout.jpg" alt="Cafeteria / Break-out Room AV" class="solution-img" loading="lazy">
+            <span class="badge">Commercial Audio Systems</span>
+            <div class="solution-image-overlay">
+              <span>View Architecture &rarr;</span>
+            </div>
+          </a>
+          <div class="solution-card-body">
+            <h3 class="solution-title">
+              <a href="corporate-cafeteria.html">Cafeteria / Break-out Room AV</a>
+            </h3>
+            <p class="solution-summary">Multi-purpose enterprise cafeterias and employee breakout spaces doubling as all-hands town-hall venues with distributed commercial displays and speech reinforcement.</p>
+            <div class="solution-features-list">
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Multi-Display Video Cast</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Town-Hall All-Hands Mode</span>
+              <span class="solution-feature-pill"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Acoustic Baffle Speakers</span>
+            </div>
+            <div class="solution-card-actions">
+              <a href="corporate-cafeteria.html" class="btn btn-outline btn-sm btn-explore-sol">
+                <span>Explore Solution</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/919942436956?text=Hi%20EYESOFT,%20I%20would%20like%20to%20enquire%20about%20Cafeteria / Break-out Room AV%20(Corporate%20AV%20Solutions)." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Consultation CTA -->
+    <section class="section section-dark" style="background: linear-gradient(135deg, #0B0B0E 0%, #1A1A24 100%);">
+      <div class="container" style="text-align: center; max-width: 800px;">
+        <span class="section-badge">Need Custom Corporate AV Solutions?</span>
+        <h2 class="section-title" style="color: #fff; margin-top: 0.5rem;">Schedule an On-Site Room Consultation</h2>
+        <p style="color: #D1D5DB; font-size: 1.125rem; margin-bottom: 2rem;">
+          Our Coimbatore engineering team provides room acoustic evaluation, lumen throw calculations, and multi-brand AV integration across Tamil Nadu.
+        </p>
+        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+          <a href="https://wa.me/919942436956?text=Hi%20EYESOFT,%20I%20would%20like%20to%20consult%20regarding%20Corporate%20AV%20Solutions." target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+            <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            <span>Consult on WhatsApp</span>
+          </a>
+          <a href="contact.html" class="btn btn-white btn-lg">Contact Coimbatore Office</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Corporate Footer (Exact catalogue Details) -->
+    <!-- ========================================================================
+       6 & 7. FOOTER: Exactly TWO Columns (Sri Hanum Sastha Screenshot 2 Allocation)
+       Left: Eyesoft Company Info | Right: Contact Us with Location, Phone, Email, Web
+       Copyright: ONE row with TWO sides (Flexbox space-between)
+       ======================================================================== -->
+    <!-- ========================================================================
+       SITE FOOTER: Sri Hanum Sastha Inspiration
+       1. Left: Original EYESOFT Logo, EXPERIENCE THE LIVE tagline, Company Description
+       2. Middle: Useful Navigation Links (NO heading word 'Navigation', NO Admin, NO Categories)
+       3. Right: Contact Us with Location, Phone, Email, Website Icons
+       ======================================================================== -->
+  <footer class="site-footer" style="background-color: #0B0E17; color: #FFFFFF; padding: 4.5rem 0 2.5rem; border-top: 1px solid #1E293B;">
+    <div class="container">
+      <div class="footer-three-col-grid">
+        
+        <!-- LEFT COLUMN: Eyesoft Company Information -->
+        <div class="footer-col-company">
+          <a href="index.html" style="display: inline-block; margin-bottom: 1.25rem;">
+            <img src="assets/logo/eyesoft_new_logo.png" alt="EYESOFT Logo" style="height: 48px; width: auto; object-fit: contain;">
+          </a>
+          <div style="font-family: var(--font-display); font-weight: 800; color: #CE93D8; letter-spacing: 0.12em; font-size: 0.875rem; margin-bottom: 1rem; text-transform: uppercase;">
+            EXPERIENCE THE LIVE
+          </div>
+          <p style="font-size: 0.9375rem; color: #94A3B8; line-height: 1.75; margin: 0; max-width: 460px;">
+            EYESOFT is one of the most experienced and leading audio-visual solutions providers in Tamil Nadu. We seamlessly integrate audio, video, high-definition display, lighting equipment, and centralized automation controls for boardrooms, auditoriums, digital classrooms, and 24/7 command centers.
+          </p>
+        </div>
+
+        <!-- MIDDLE COLUMN: Useful Navigation Links (NO Heading Word 'Navigation') -->
+        <div class="footer-col-links" style="padding-top: 0.5rem;">
+          <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.9rem;">
+            <li><a href="index.html" class="footer-nav-link">Home</a></li>
+            <li><a href="about.html" class="footer-nav-link">About Us</a></li>
+            <li><a href="products.html" class="footer-nav-link">Products</a></li>
+            <li><a href="clients.html" class="footer-nav-link">Our Clients</a></li>
+            <li><a href="news.html" class="footer-nav-link">News</a></li>
+            <li><a href="contact.html" class="footer-nav-link">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- RIGHT COLUMN: Contact Us with Professional Icons -->
+        <div class="footer-col-contact">
+          <h3 style="font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; color: #FFFFFF; margin-bottom: 1.5rem; letter-spacing: -0.01em;">
+            Contact Us
+          </h3>
+          
+          <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+            
+            <!-- Address with Location Icon -->
+            <div style="display: flex; align-items: flex-start; gap: 0.85rem;">
+              <div style="width: 24px; height: 24px; flex-shrink: 0; color: var(--electric-blue); margin-top: 2px;">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div style="font-size: 0.9375rem; color: #CBD5E1; line-height: 1.6;">
+                <strong style="color: #FFF;">EYESOFT Headquarters:</strong><br>
+                #270/40, 2nd Floor, Sri Balaji Complex,<br>
+                7th Street Extension, Gandhipuram,<br>
+                Coimbatore – 641012, Tamil Nadu, India.
+              </div>
+            </div>
+
+            <!-- Phone with Phone Icon -->
+            <div style="display: flex; align-items: center; gap: 0.85rem;">
+              <div style="width: 24px; height: 24px; flex-shrink: 0; color: var(--electric-blue);">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div style="font-size: 0.9375rem; color: #CBD5E1;">
+                Phone: <a href="tel:9942436956" style="color: #FFF; font-weight: 700; text-decoration: none;">+91 99424 36956</a>
+              </div>
+            </div>
+
+            <!-- Email with Email Icon -->
+            <div style="display: flex; align-items: center; gap: 0.85rem;">
+              <div style="width: 24px; height: 24px; flex-shrink: 0; color: var(--electric-blue);">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div style="font-size: 0.9375rem; color: #CBD5E1;">
+                Email: <a href="mailto:saleseyesoft@gmail.com" style="color: #FFF; text-decoration: none; font-weight: 600;">saleseyesoft@gmail.com</a>
+              </div>
+            </div>
+
+            <!-- Website with Globe Icon -->
+            <div style="display: flex; align-items: center; gap: 0.85rem;">
+              <div style="width: 24px; height: 24px; flex-shrink: 0; color: var(--electric-blue);">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <div style="font-size: 0.9375rem; color: #CBD5E1;">
+                Website: <a href="http://www.Eyesoft.info" target="_blank" rel="noopener" style="color: var(--electric-blue); text-decoration: none; font-weight: 700;">www.Eyesoft.info</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Copyright Bar (2-Sided Flexbox: Left Copyright, Right Location) -->
+      <div class="footer-bottom-bar" style="border-top: 1px solid #1E293B; padding-top: 1.75rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <div class="footer-copyright-left" style="font-size: 0.875rem; color: #64748B;">
+          &copy; 2026 EYESOFT. All rights reserved. <span style="color: #94A3B8; font-weight: 600;">EXPERIENCE THE LIVE.</span>
+        </div>
+        <div class="footer-copyright-right" style="font-size: 0.875rem; color: #64748B;">
+          Official Corporate Website &bull; Coimbatore, Tamil Nadu
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/ai-assistant.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.corporate-sol-card').forEach(card => {
+        card.addEventListener('click', (e) => {
+          if (e.target.closest('a') || e.target.closest('button')) return;
+          const href = card.getAttribute('data-href');
+          if (href) window.location.href = href;
+        });
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | EYESOFT — EXPERIENCE THE LIVE</title>
+  <meta name="description" content="Discover EYESOFT, one of Tamil Nadu's most experienced audio visual technology providers. Learn about our company expertise, integration methods, mission, and vision.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" type="image/png" href="assets/logo/eyesoft_new_logo.png">
+</head>
+<body style="background-color: #0A0E1A; color: #FFFFFF;">
+
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="header-logo-link" title="EYESOFT - Experience The Live">
+        <img src="assets/logo/eyesoft_new_logo.png" alt="EYESOFT Logo" class="site-logo">
+      </a>
+
+      <!-- Desktop Navigation Menu (Positioned towards the right side) -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link ">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link active" id="navAbout">About Us</a>
+          </li>
+          
+          <!-- Products Dropdown (Corporate, Education, Government - Screenshots 1 to 4) -->
+          <li class="nav-item has-products-dropdown">
+            <a href="products.html" class="nav-link ">
+              Products
+              <svg class="dropdown-icon" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+            
+            <div class="products-dropdown-menu">
+              <ul class="dropdown-categories">
+                
+                <!-- Category 1: Corporate (Screenshot 2) -->
+                <li class="category-item has-submenu">
+                  <a href="corporate.html" class="category-link">
+                    <span class="category-text">Corporate</span>
+                    <span class="category-plus">+</span>
+                  </a>
+                  <div class="category-submenu">
+                    <ul class="submenu-links">
+                      <li><a href="corporate-board-room.html">Board Room &amp; Conference Room Solutions</a></li>
+                      <li><a href="corporate-training-room.html">Training Room</a></li>
+                      <li><a href="corporate-audio-visual.html">Audio Visual Solutions</a></li>
+                      <li><a href="corporate-campus-networking.html">Campus Networking</a></li>
+                      <li><a href="corporate-video-wall.html">Signage &amp; Video Wall Solutions</a></li>
+                      <li><a href="corporate-security-surveillance.html">Surveillance &amp; Security Solutions</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <!-- Category 2: Education (Screenshot 3) -->
+                <li class="category-item has-submenu">
+                  <a href="education.html" class="category-link">
+                    <span class="category-text">Education</span>
+                    <span class="category-plus">+</span>
+                  </a>
+                  <div class="category-submenu">
+                    <ul class="submenu-links">
+                      <li><a href="education-digital-classroom.html">Digital Classroom Systems</a></li>
+                      <li><a href="education-smart-kg-curriculum.html">Smart KG Curriculum</a></li>
+                      <li><a href="education-language-lab.html">Language Lab</a></li>
+                      <li><a href="education-digital-information-display.html">Digital Information Display</a></li>
+                      <li><a href="education-lecture-capturing.html">Lecture Capturing And Broadcasting</a></li>
+                      <li><a href="education-campus-security.html">Campus Security Surveillance</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <!-- Category 3: Government (Screenshot 4) -->
+                <li class="category-item has-submenu">
+                  <a href="government.html" class="category-link">
+                    <span class="category-text">Government</span>
+                    <span class="category-plus">+</span>
+                  </a>
+                  <div class="category-submenu">
+                    <ul class="submenu-links">
+                      <li><a href="government-digital-classroom.html">Digital Classroom Systems (Institutions)</a></li>
+                      <li><a href="government-digital-signage.html">Digital Signage &amp; Display</a></li>
+                      <li><a href="government-security-surveillance.html">Security Surveillance</a></li>
+                      <li><a href="government-teleconferencing.html">Video &amp; Audio Tele Conferencing</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a href="clients.html" class="nav-link " id="navOurClients">Our Clients</a>
+          </li>
+          <li class="nav-item">
+            <a href="news.html" class="nav-link " id="navNews">News</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link " id="navContact">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer-backdrop"></div>
+  <div class="mobile-drawer" aria-label="Mobile Navigation">
+    <div class="mobile-drawer-header">
+      <img src="assets/logo/eyesoft_new_logo.png" alt="EYESOFT Logo" class="mobile-drawer-logo">
+      <button class="mobile-drawer-close" aria-label="Close menu">&times;</button>
+    </div>
+    
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link ">Home</a>
+      <a href="about.html" class="mobile-nav-link active" id="mobileNavAbout">About Us</a>
+      
+      <!-- Mobile Products Accordion -->
+      <div class="mobile-nav-accordion">
+        <button class="mobile-nav-accordion-toggle" aria-expanded="false">
+          <span>Products</span>
+          <svg class="mobile-accordion-arrow" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </button>
+        <div class="mobile-nav-accordion-content">
+          
+          <!-- Mobile Corporate -->
+          <div class="mobile-category-item">
+            <button class="mobile-category-toggle" aria-expanded="false">
+              <span class="category-text-green">Corporate</span>
+              <span class="category-plus-icon">+</span>
+            </button>
+            <div class="mobile-submenu-list">
+              <a href="corporate-board-room.html">Board Room &amp; Conference Room Solutions</a>
+              <a href="corporate-training-room.html">Training Room</a>
+              <a href="corporate-audio-visual.html">Audio Visual Solutions</a>
+              <a href="corporate-campus-networking.html">Campus Networking</a>
+              <a href="corporate-video-wall.html">Signage &amp; Video Wall Solutions</a>
+              <a href="corporate-security-surveillance.html">Surveillance &amp; Security Solutions</a>
+            </div>
+          </div>
+
+          <!-- Mobile Education -->
+          <div class="mobile-category-item">
+            <button class="mobile-category-toggle" aria-expanded="false">
+              <span class="category-text-green">Education</span>
+              <span class="category-plus-icon">+</span>
+            </button>
+            <div class="mobile-submenu-list">
+              <a href="education-digital-classroom.html">Digital Classroom Systems</a>
+              <a href="education-smart-kg-curriculum.html">Smart KG Curriculum</a>
+              <a href="education-language-lab.html">Language Lab</a>
+              <a href="education-digital-information-display.html">Digital Information Display</a>
+              <a href="education-lecture-capturing.html">Lecture Capturing And Broadcasting</a>
+              <a href="education-campus-security.html">Campus Security Surveillance</a>
+            </div>
+          </div>
+
+          <!-- Mobile Government -->
+          <div class="mobile-category-item">
+            <button class="mobile-category-toggle" aria-expanded="false">
+              <span class="category-text-green">Government</span>
+              <span class="category-plus-icon">+</span>
+            </button>
+            <div class="mobile-submenu-list">
+              <a href="government-digital-classroom.html">Digital Classroom Systems (Institutions)</a>
+              <a href="government-digital-signage.html">Digital Signage &amp; Display</a>
+              <a href="government-security-surveillance.html">Security Surveillance</a>
+              <a href="government-teleconferencing.html">Video &amp; Audio Tele Conferencing</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <a href="clients.html" class="mobile-nav-link " id="mobileNavOurClients">Our Clients</a>
+      <a href="news.html" class="mobile-nav-link " id="mobileNavNews">News</a>
+      <a href="contact.html" class="mobile-nav-link " id="mobileNavContact">Contact Us</a>
+    </div>
+
+    <div class="mobile-drawer-contact">
+      <div style="font-size:0.875rem; color:#6B7280; text-align:center;">
+        Coimbatore Headquarters: <a href="tel:9942436956" style="color:var(--electric-blue); font-weight:700;">+91 99424 36956</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ========================================================================
+         1. ABOUT US: SRI HANUM SASTHA INSPIRATION (3-COLUMN ALLOCATION)
+         Left: Original Logo, EXPERIENCE THE LIVE tagline, Company Description
+         Middle: Useful Links (Home, About Us, Products, Our Clients, News, Contact Us)
+         Right: Contact Us, Address (Location icon), Phone (Phone icon), Email (Email icon), Website (Globe icon)
+         ======================================================================== -->
+    <section id="about" style="padding: 5rem 0 4.5rem; background-color: #0A0E1A; border-bottom: 1px solid #1E293B;">
+      <div class="container">
+        <div class="footer-three-col-grid" style="align-items: flex-start;">
+          
+          <!-- LEFT COLUMN: Logo, Tagline, Company Description -->
+          <div class="footer-col-company">
+            <div style="background: #111827; border: 1px solid #1F2937; border-radius: 16px; padding: 2.25rem; margin-bottom: 2rem; box-shadow: 0 10px 25px rgba(0,0,0,0.3); display: inline-block; width: fit-content;">
+              <img src="assets/logo/eyesoft_new_logo.png" alt="EYESOFT Logo" style="height: 52px; width: auto; object-fit: contain; margin-bottom: 0.75rem;">
+              <div style="font-family: var(--font-display); font-weight: 800; color: #CE93D8; letter-spacing: 0.14em; font-size: 0.8125rem; text-transform: uppercase;">
+                EXPERIENCE THE LIVE
+              </div>
+            </div>
+
+            <h1 style="font-family: var(--font-display); font-size: 2.2rem; font-weight: 800; color: #FFFFFF; line-height: 1.25; margin-bottom: 1.25rem; letter-spacing: -0.02em;">
+              Experienced Audio-Visual Solutions Provider
+            </h1>
+            <p style="font-size: 1.0625rem; color: #CBD5E1; line-height: 1.75; margin-bottom: 1.25rem;">
+              EYESOFT is one of the most experienced and leading audio-visual solutions providers in Tamil Nadu. We engineer turnkey systems that seamlessly integrate audio, video, high-definition display, lighting equipment, and system automation controls.
+            </p>
+            <p style="font-size: 1.0625rem; color: #CBD5E1; line-height: 1.75; margin-bottom: 1.25rem;">
+              Our comprehensive audio-visual integration spans executive boardrooms, corporate conference rooms, digital classrooms, auditoriums, academic training rooms, commercial cafeterias, telepresence suites, command and control rooms, and video walls.
+            </p>
+            <p style="font-size: 1.0625rem; color: #CBD5E1; line-height: 1.75; margin: 0;">
+              Through partnerships with world-leading equipment manufacturers, EYESOFT delivers state-of-the-art products backed by a dedicated team of qualified sales and engineering consultants, ensuring prompt phone consultation and rapid on-site technical support.
+            </p>
+          </div>
+
+          <!-- MIDDLE COLUMN: Useful Navigation Links (NO Heading Word 'Navigation') -->
+          <div class="footer-col-links" style="padding-top: 1.5rem;">
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 1rem;">
+              <li><a href="index.html" class="footer-nav-link" style="font-size: 1rem;">Home</a></li>
+              <li><a href="about.html" class="footer-nav-link" style="color: #FFFFFF !important; font-weight: 700; font-size: 1rem;">About Us</a></li>
+              <li><a href="products.html" class="footer-nav-link" style="font-size: 1rem;">Products</a></li>
+              <li><a href="clients.html" class="footer-nav-link" style="font-size: 1rem;">Our Clients</a></li>
+              <li><a href="news.html" class="footer-nav-link" style="font-size: 1rem;">News</a></li>
+              <li><a href="contact.html" class="footer-nav-link" style="font-size: 1rem;">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- RIGHT COLUMN: Contact Us with Location, Phone, Email, Globe Icons -->
+          <div class="footer-col-contact" style="background: #111827; border: 1px solid #1F2937; border-radius: 16px; padding: 2.5rem; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+            <h2 style="font-family: var(--font-display); font-size: 1.6rem; font-weight: 800; color: #FFFFFF; margin-bottom: 1.75rem; letter-spacing: -0.01em;">
+              Contact Us
+            </h2>
+            
+            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+              
+              <!-- Address with Location Icon -->
+              <div style="display: flex; align-items: flex-start; gap: 1rem;">
+                <div style="width: 28px; height: 28px; flex-shrink: 0; color: var(--electric-blue); margin-top: 2px;">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div style="font-size: 0.95rem; color: #CBD5E1; line-height: 1.65;">
+                  <strong style="color: #FFFFFF; font-size: 1rem;">EYESOFT Headquarters:</strong><br>
+                  #270/40, 2nd Floor, Sri Balaji Complex,<br>
+                  7th Street Extension, Gandhipuram,<br>
+                  Coimbatore – 641012, Tamil Nadu, India.
+                </div>
+              </div>
+
+              <!-- Phone with Phone Icon -->
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 28px; height: 28px; flex-shrink: 0; color: var(--electric-blue);">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div style="font-size: 0.95rem; color: #CBD5E1;">
+                  Phone: <a href="tel:9942436956" style="color: #FFFFFF; font-weight: 700; text-decoration: none;">+91 99424 36956</a>
+                </div>
+              </div>
+
+              <!-- Email with Email Icon -->
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 28px; height: 28px; flex-shrink: 0; color: var(--electric-blue);">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div style="font-size: 0.95rem; color: #CBD5E1;">
+                  Email: <a href="mailto:saleseyesoft@gmail.com" style="color: #FFFFFF; text-decoration: none; font-weight: 600;">saleseyesoft@gmail.com</a>
+                </div>
+              </div>
+
+              <!-- Website with Globe Icon -->
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 28px; height: 28px; flex-shrink: 0; color: var(--electric-blue);">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                </div>
+                <div style="font-size: 0.95rem; color: #CBD5E1;">
+                  Website: <a href="http://www.Eyesoft.info" target="_blank" rel="noopener" style="color: var(--electric-blue); text-decoration: none; font-weight: 700;">www.Eyesoft.info</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         MISSION & VISION (Verbatim Brochure Text)
+         ======================================================================== -->
+    <section style="padding: 4.5rem 0; background-color: #0F172A; border-bottom: 1px solid #1E293B;">
+      <div class="container">
+        <div style="text-align: center; max-width: 680px; margin: 0 auto 3rem;">
+          <span style="display: inline-block; font-family: var(--font-display); font-size: 0.8125rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: #BA68C8; background: rgba(186, 104, 200, 0.15); border: 1px solid rgba(186, 104, 200, 0.3); padding: 0.35rem 0.85rem; border-radius: 9999px; margin-bottom: 0.75rem;">
+            GUIDING PRINCIPLES
+          </span>
+          <h2 style="font-family: var(--font-display); font-size: 2.25rem; font-weight: 800; color: #FFFFFF; letter-spacing: -0.02em;">
+            Mission &amp; Vision
+          </h2>
+          <p style="font-size: 1.0625rem; color: #94A3B8; line-height: 1.6;">
+            Authentic corporate commitments published in the official EYESOFT company catalogue.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+          <div style="background: #1E293B; border-radius: 14px; padding: 2.5rem; border: 1px solid #334155; box-shadow: 0 4px 20px rgba(0,0,0,0.25);">
+            <h3 style="font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; color: #FFFFFF; margin-bottom: 1rem;">OUR MISSION</h3>
+            <p style="color: #CBD5E1; font-size: 1.0625rem; line-height: 1.75; margin: 0;">
+              "EYESOFT is dedicated to providing exceptional technology solutions and unparalleled service to our clients across India. Our mission is to provide the best solutions available in support of our customers' goals and to maintain our standing as the top technology team to trust."
+            </p>
+          </div>
+
+          <div style="background: #1E293B; border-radius: 14px; padding: 2.5rem; border: 1px solid #334155; box-shadow: 0 4px 20px rgba(0,0,0,0.25);">
+            <h3 style="font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; color: #FFFFFF; margin-bottom: 1rem;">OUR VISION</h3>
+            <p style="color: #CBD5E1; font-size: 1.0625rem; line-height: 1.75; margin: 0;">
+              "Our vision is to be the complete technology resource for audio visual products and services, completing projects of all types and sizes with high energy, innovation, and uncompromising quality."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         MANUFACTURER ALLIANCES (Brochure Page 3)
+         ======================================================================== -->
+    <section style="padding: 3.5rem 0; background-color: #0A0E1A;">
+      <div class="container" style="text-align: center;">
+        <div style="font-size: 0.8125rem; font-weight: 800; color: #94A3B8; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 1.5rem;">
+          MULTI-BRAND ALLIANCES &amp; INTEGRATION PARTNERS
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1.5rem; flex-wrap: wrap; color: #E2E8F0; font-family: var(--font-display); font-weight: 700; font-size: 1rem;">
+          <span style="padding: 0.45rem 0.9rem; background: #111827; border-radius: 8px; border: 1px solid #1F2937;">BOSE</span>
+          <span style="padding: 0.45rem 0.9rem; background: #111827; border-radius: 8px; border: 1px solid #1F2937;">EPSON</span>
+          <span style="padding: 0.45rem 0.9rem; background: #111827; border-radius: 8px; border: 1px solid #1F2937;">EXTRON</span>
+          <span style="padding: 0.45rem 0.9rem; background: #111827; border-radius: 8px; border: 1px solid #1F2937;">HARMAN</span>
+          <span style="padding: 0.45rem 0.9rem; background: #111827; border-radius: 8px; border: 1px solid #1F2937;">KRAMER</span>
+          <span style="padding: 0.45rem 0.9rem; background: #111827; border-radius: 8px; border: 1px solid #1F2937;">MATROX</span>
+          <span style="padding: 0.45rem 0.9rem; background: #111827; border-radius: 8px; border: 1px solid #1F2937;">PANASONIC</span>
+          <span style="padding: 0.45rem 0.9rem; background: #111827; border-radius: 8px; border: 1px solid #1F2937;">POLYCOM</span>
+          <span style="padding: 0.45rem 0.9rem; background: #111827; border-radius: 8px; border: 1px solid #1F2937;">SAMSUNG</span>
+          <span style="padding: 0.45rem 0.9rem; background: #111827; border-radius: 8px; border: 1px solid #1F2937;">SHURE</span>
+          <span style="padding: 0.45rem 0.9rem; background: #111827; border-radius: 8px; border: 1px solid #1F2937;">SKYMAX</span>
+          <span style="padding: 0.45rem 0.9rem; background: #111827; border-radius: 8px; border: 1px solid #1F2937;">VIVITEK</span>
+          <span style="padding: 0.45rem 0.9rem; background: #111827; border-radius: 8px; border: 1px solid #1F2937;">YAMAHA</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER: Exactly TWO Columns, Copyright Left & Right on Same Line
+       ======================================================================== -->
+    <!-- ========================================================================
+       6 & 7. FOOTER: Exactly TWO Columns (Sri Hanum Sastha Screenshot 2 Allocation)
+       Left: Eyesoft Company Info | Right: Contact Us with Location, Phone, Email, Web
+       Copyright: ONE row with TWO sides (Flexbox space-between)
+       ======================================================================== -->
+    <!-- ========================================================================
+       SITE FOOTER: Sri Hanum Sastha Inspiration
+       1. Left: Original EYESOFT Logo, EXPERIENCE THE LIVE tagline, Company Description
+       2. Middle: Useful Navigation Links (NO heading word 'Navigation')
+       3. Right: Contact Us with Location, Phone, Email, Website Icons
+       ======================================================================== -->
+  <footer class="site-footer" style="background-color: #0B0E17; color: #FFFFFF; padding: 4.5rem 0 2.5rem; border-top: 1px solid #1E293B;">
+    <div class="container">
+      <div class="footer-three-col-grid">
+        
+        <!-- LEFT COLUMN: Eyesoft Company Information -->
+        <div class="footer-col-company">
+          <a href="index.html" style="display: inline-block; margin-bottom: 1.25rem;">
+            <img src="assets/logo/eyesoft_new_logo.png" alt="EYESOFT Logo" style="height: 48px; width: auto; object-fit: contain;">
+          </a>
+          <div style="font-family: var(--font-display); font-weight: 800; color: #CE93D8; letter-spacing: 0.12em; font-size: 0.875rem; margin-bottom: 1rem; text-transform: uppercase;">
+            EXPERIENCE THE LIVE
+          </div>
+          <p style="font-size: 0.9375rem; color: #94A3B8; line-height: 1.75; margin: 0; max-width: 460px;">
+            EYESOFT is one of the most experienced and leading audio-visual solutions providers in Tamil Nadu. We seamlessly integrate audio, video, high-definition display, lighting equipment, and centralized automation controls for boardrooms, auditoriums, digital classrooms, and 24/7 command centers.
+          </p>
+        </div>
+
+        <!-- MIDDLE COLUMN: Useful Navigation Links (NO Heading Word 'Navigation') -->
+        <div class="footer-col-links" style="padding-top: 0.5rem;">
+          <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.9rem;">
+            <li><a href="index.html" class="footer-nav-link">Home</a></li>
+            <li><a href="about.html" class="footer-nav-link">About Us</a></li>
+            <li><a href="products.html" class="footer-nav-link">Products</a></li>
+            <li><a href="clients.html" class="footer-nav-link">Our Clients</a></li>
+            <li><a href="news.html" class="footer-nav-link">News</a></li>
+            <li><a href="contact.html" class="footer-nav-link">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- RIGHT COLUMN: Contact Us with Professional Icons -->
+        <div class="footer-col-contact">
+          <h3 style="font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; color: #FFFFFF; margin-bottom: 1.5rem; letter-spacing: -0.01em;">
+            Contact Us
+          </h3>
+          
+          <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+            
+            <!-- Address with Location Icon -->
+            <div style="display: flex; align-items: flex-start; gap: 0.85rem;">
+              <div style="width: 24px; height: 24px; flex-shrink: 0; color: var(--electric-blue); margin-top: 2px;">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div style="font-size: 0.9375rem; color: #CBD5E1; line-height: 1.6;">
+                <strong style="color: #FFF;">EYESOFT Headquarters:</strong><br>
+                #270/40, 2nd Floor, Sri Balaji Complex,<br>
+                7th Street Extension, Gandhipuram,<br>
+                Coimbatore – 641012, Tamil Nadu, India.
+              </div>
+            </div>
+
+            <!-- Phone with Phone Icon -->
+            <div style="display: flex; align-items: center; gap: 0.85rem;">
+              <div style="width: 24px; height: 24px; flex-shrink: 0; color: var(--electric-blue);">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div style="font-size: 0.9375rem; color: #CBD5E1;">
+                Phone: <a href="tel:9942436956" style="color: #FFF; font-weight: 700; text-decoration: none;">+91 99424 36956</a>
+              </div>
+            </div>
+
+            <!-- Email with Email Icon -->
+            <div style="display: flex; align-items: center; gap: 0.85rem;">
+              <div style="width: 24px; height: 24px; flex-shrink: 0; color: var(--electric-blue);">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div style="font-size: 0.9375rem; color: #CBD5E1;">
+                Email: <a href="mailto:saleseyesoft@gmail.com" style="color: #FFF; text-decoration: none; font-weight: 600;">saleseyesoft@gmail.com</a>
+              </div>
+            </div>
+
+            <!-- Website with Globe Icon -->
+            <div style="display: flex; align-items: center; gap: 0.85rem;">
+              <div style="width: 24px; height: 24px; flex-shrink: 0; color: var(--electric-blue);">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <div style="font-size: 0.9375rem; color: #CBD5E1;">
+                Website: <a href="http://www.Eyesoft.info" target="_blank" rel="noopener" style="color: var(--electric-blue); text-decoration: none; font-weight: 700;">www.Eyesoft.info</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Copyright Bar (2-Sided Flexbox: Left Copyright, Right Location) -->
+      <div class="footer-bottom-bar" style="border-top: 1px solid #1E293B; padding-top: 1.75rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <div class="footer-copyright-left" style="font-size: 0.875rem; color: #64748B;">
+          &copy; 2026 EYESOFT. All rights reserved. <span style="color: #94A3B8; font-weight: 600;">EXPERIENCE THE LIVE.</span>
+        </div>
+        <div class="footer-copyright-right" style="font-size: 0.875rem; color: #64748B;">
+          Official Corporate Website &bull; Coimbatore, Tamil Nadu
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AI Catalogue Assistant Widget -->
+  <script src="assets/js/ai-assistant.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

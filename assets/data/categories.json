@@ -1,0 +1,628 @@
+{
+  "corporate": {
+    "title": "Corporate AV Solutions",
+    "badge": "Enterprise & Business",
+    "description": "Seamless integration of high-definition audio, video, display, and lighting controls engineered for modern corporate boardrooms, executive collaboration, and operations centers.",
+    "subcategories": [
+      {
+        "id": "board-room",
+        "slug": "corporate-board-room.html",
+        "name": "Board Room Solutions",
+        "brochure_page": "Brochure Page 4",
+        "image": "assets/images/solutions/boardroom_conference.jpg",
+        "banner_image": "assets/images/hero/hero_slide_1_boardroom.jpg",
+        "intro": "In today's competitive business environment, the use of audio visual aids has become a necessity for modern corporate boardrooms. EYESOFT engineers high-impact boardrooms designed for improved collaboration, productive meetings, and faster decision-making.",
+        "explanation": "A typical state-of-the-art EYESOFT Boardroom integrates various technologies like high-definition display, crystal-clear sound reinforcement, automated lighting, and intuitive touch-panel system controls. Our expert sales and design consultants work closely with organizations across India to evaluate venue acoustics and implement tailored collaboration environments.",
+        "features": [
+          "High definition multimedia projection and 4K commercial display systems for crystal-clear images",
+          "High definition video conference system for effortless multi-party collaboration",
+          "Wireless BYOD presentation systems for hassle-free device sharing",
+          "Acoustically tuned sound reinforcement systems ensuring clarity of speech",
+          "Interactive display systems with intuitive annotation capabilities",
+          "Visualizers and document camera systems for sharing physical documents and 3D objects",
+          "Room booking systems and preset architectural lighting controls",
+          "Centralized equipment control through an intuitive touch panel interface"
+        ],
+        "verified_products": [
+          "High-Lumen Laser Projector / 4K Commercial Display",
+          "Touch-Panel Central Control Automation System",
+          "Wireless Presentation Gateway & Dongles",
+          "Ceiling Beamforming Microphone Arrays"
+        ]
+      },
+      {
+        "id": "conference-room",
+        "slug": "corporate-conference-room.html",
+        "name": "Conference Room Solutions",
+        "brochure_page": "Brochure Page 4",
+        "image": "assets/images/solutions/conference_room.jpg",
+        "banner_image": "assets/images/hero/hero_slide_1_boardroom.jpg",
+        "intro": "Modern conference rooms and huddle spaces require user-friendly, highly reliable AV aids that allow teams to connect quickly and conduct meetings without technical delays.",
+        "explanation": "EYESOFT conference room solutions combine smart display screens, motorized projection screens, speech-reinforcement audio, and centralized touch controllers. Designed to be completely intuitive so participants can share screens from laptops, tablets, or smartphones in seconds.",
+        "features": [
+          "High-resolution presentation displays and motorized projection screens",
+          "Integrated video conferencing cameras with wide-angle participant framing",
+          "Acoustic echo cancellation and noise suppression for crystal-clear audio",
+          "Wireless content sharing from any laptop or mobile device",
+          "Motorized ceiling lifts and concealed in-wall cable management",
+          "Intuitive one-touch meeting join controls"
+        ],
+        "verified_products": [
+          "Motorized High-Gain Projector Screen",
+          "Universal Projector Ceiling Mounting Kit",
+          "High-Bandwidth Active Optical HDMI Cabling",
+          "Conference Room Table Connectivity Pop-Up Boxes"
+        ]
+      },
+      {
+        "id": "training-room",
+        "slug": "corporate-training-room.html",
+        "name": "Corporate Training Room",
+        "brochure_page": "Brochure Page 6",
+        "image": "assets/images/solutions/training_room.jpg",
+        "banner_image": "assets/images/hero/hero_slide_3_classroom.jpg",
+        "intro": "Corporate training facilities require flexible, interactive audio visual environments that support instructor-led presentations, group workshops, and hands-on digital training.",
+        "explanation": "EYESOFT equips corporate training rooms with interactive displays, multi-screen repeater monitors, digital instructor podiums, and speech-optimized sound systems to ensure every trainee remains engaged and absorbs information effectively.",
+        "features": [
+          "Multi-touch interactive flat panels for active instructor annotation",
+          "Dual-display setups allowing simultaneous presentation and live software demo",
+          "Evenly distributed ceiling loudspeakers for uniform audio coverage",
+          "Wireless presenter microphones with anti-feedback frequency agility",
+          "Instructor digital podium with master power and input selector"
+        ],
+        "verified_products": [
+          "Interactive Flat Panel 4K Touch Display",
+          "Multimedia Digital Podium with Gooseneck Mic",
+          "Distributed Ceiling Speaker System",
+          "Wireless Lapel / Handheld Microphone Set"
+        ]
+      },
+      {
+        "id": "video-conferencing",
+        "slug": "corporate-video-conferencing.html",
+        "name": "Video Conferencing Solutions",
+        "brochure_page": "Brochure Page 5",
+        "image": "assets/images/solutions/video_conferencing.jpg",
+        "banner_image": "assets/images/hero/hero_slide_2_videoconf.jpg",
+        "intro": "Organizations need to move faster than ever and adapt to changing environments. EYESOFT provides high-definition video conferencing solutions that eliminate travel time and travel costs.",
+        "explanation": "Visual communication allows geographically dispersed teams, partners, and customers to hold real-time, face-to-face interactions. EYESOFT is one of the most experienced market leaders in delivering turnkey video conferencing setups across Tamil Nadu and India.",
+        "features": [
+          "Ultra-clear Full HD and 4K video conferencing endpoints",
+          "Intelligent speaker-tracking cameras that automatically frame the active speaker",
+          "Full-duplex audio with multi-microphone beamforming arrays",
+          "Multi-party conference bridging and seamless interoperability",
+          "Dual-screen output support for simultaneous participant view and data sharing"
+        ],
+        "verified_products": [
+          "Enterprise Video Conferencing Codec & 4K PTZ Camera",
+          "Tabletop Speakerphone & Ceiling Microphone Pods",
+          "Dual Ultra-HD Commercial Displays",
+          "Touch Controller with One-Touch Meeting Launch"
+        ]
+      },
+      {
+        "id": "real-presence",
+        "slug": "corporate-real-presence.html",
+        "name": "Real Presence / Telepresence",
+        "brochure_page": "Brochure Page 5",
+        "image": "assets/images/solutions/real_presence.jpg",
+        "banner_image": "assets/images/hero/hero_slide_2_videoconf.jpg",
+        "intro": "Real Presence delivers immersive, life-size telepresence communication where distant participants appear to be sitting directly across the meeting table.",
+        "explanation": "With 1:1 true-to-life visual representation, spatial acoustic alignment where voices emanate from the speaker's exact seat, and calibrated studio lighting, EYESOFT Real Presence systems represent the pinnacle of executive visual collaboration.",
+        "features": [
+          "True-to-life 1:1 scale participant display on seamless displays",
+          "Spatialized directional audio matching physical seating positions",
+          "Concealed architectural lighting and optimized background acoustics",
+          "Zero-latency content sharing with interactive markup",
+          "Integrated touch-screen scheduling and executive concierge control"
+        ],
+        "verified_products": [
+          "Immersive Telepresence Display Suite",
+          "Spatial Audio Digital Sound Processor (DSP)",
+          "Architectural Studio LED Lighting Matrix",
+          "Custom Ergonomic Telepresence Executive Table Integration"
+        ]
+      },
+      {
+        "id": "auditorium",
+        "slug": "corporate-auditorium.html",
+        "name": "Corporate Auditorium",
+        "brochure_page": "Brochure Page 7",
+        "image": "assets/images/solutions/auditorium.jpg",
+        "banner_image": "assets/images/hero/hero_slide_4_auditorium.jpg",
+        "intro": "Auditoriums are constantly evolving into multi-purpose venues hosting corporate annual general meetings, product launches, seminars, and live cultural events.",
+        "explanation": "The AV technology in an auditorium must be state-of-the-art for communication to be effective and impactful. EYESOFT engineers large-venue laser projection, motorized tensioned screens, acoustic line-array sound reinforcement, and digital mixing consoles.",
+        "features": [
+          "High-lumen laser venue projection systems delivering vibrant imagery across wide screens",
+          "Acoustically tuned line-array loudspeakers ensuring balanced sound dispersion",
+          "Multi-channel digital audio mixing consoles with stage digital snakes",
+          "Stage lighting systems with programmable scene presets",
+          "Centralized touchscreen master show automation"
+        ],
+        "verified_products": [
+          "High-Lumen Laser Venue Projector (5,000 - 12,000+ ANSI)",
+          "Extra-Large Motorized Tensioned Projector Screen",
+          "Professional Line-Array Speaker System",
+          "Digital Audio Mixer & Stage Snake Box"
+        ]
+      },
+      {
+        "id": "large-seminar-hall",
+        "slug": "corporate-seminar-hall.html",
+        "name": "Large Seminar Hall",
+        "brochure_page": "Brochure Page 7",
+        "image": "assets/images/solutions/large_seminar_hall.jpg",
+        "banner_image": "assets/images/hero/hero_slide_4_auditorium.jpg",
+        "intro": "Large seminar halls require balanced audio dispersion, high-gain projection, and presenter confidence monitoring so every delegate hears and sees clearly.",
+        "explanation": "EYESOFT designs large seminar halls with synchronized repeater monitors, motorized drop screens, digital lecterns with built-in switching, and feedback-free microphone systems.",
+        "features": [
+          "Large-venue multimedia projection with motorized ceiling drop lifts",
+          "Distributed acoustic reinforcement preventing audio dead zones or echoes",
+          "Presenter confidence monitors and visualizer integration",
+          "Central audio recording and webcasting output feeds",
+          "Digital podium with comprehensive room AV switching"
+        ],
+        "verified_products": [
+          "High-Lumen Laser Seminar Projector",
+          "Motorized Projector Lift & Screen Kit",
+          "Smart Digital Presentation Podium",
+          "Multi-Zone Audio Power Amplifiers"
+        ]
+      },
+      {
+        "id": "video-wall",
+        "slug": "corporate-video-wall.html",
+        "name": "Video Wall Solutions",
+        "brochure_page": "Brochure Page 8",
+        "image": "assets/images/solutions/video_wall.jpg",
+        "banner_image": "assets/images/hero/hero_slide_5_videowall.jpg",
+        "intro": "Video wall solutions give power to communicate more effectively with dynamic and engaging messages, engineered for demanding applications with high durability.",
+        "explanation": "EYESOFT installs ultra-narrow bezel commercial LCD and fine-pitch LED video wall matrices for corporate reception lobbies, executive boardrooms, and command centers, providing 24/7 continuous operation.",
+        "features": [
+          "Ultra-narrow bezel commercial display panels with seamless alignment",
+          "Multi-window hardware video wall controllers with 4K/8K input processing",
+          "24/7 continuous mission-critical commercial reliability",
+          "Dynamic source switching across live video, telemetry data, and PC feeds",
+          "Redundant power supplies and failsafe backup signal routing"
+        ],
+        "verified_products": [
+          "Ultra-Narrow Bezel Commercial Video Wall Panels",
+          "Hardware Multi-Screen Video Wall Processor",
+          "Precision Push-In Pop-Out Video Wall Brackets",
+          "4K High-Speed Active Optical Interconnects"
+        ]
+      },
+      {
+        "id": "digital-signage",
+        "slug": "corporate-digital-signage.html",
+        "name": "Digital Signage Systems",
+        "brochure_page": "Brochure Page 8",
+        "image": "assets/images/solutions/digital_signage.jpg",
+        "banner_image": "assets/images/hero/hero_slide_5_videowall.jpg",
+        "intro": "Digital signage delivers specific and dynamic content to target audiences, helping organizations communicate corporate news, visitor greetings, and emergency notices.",
+        "explanation": "EYESOFT digital signage networks allow administrators to design, schedule, and distribute dynamic multimedia content across hundreds of displays from a single centralized web console.",
+        "features": [
+          "Electronic information display systems to showcase real-time messages",
+          "Present useful announcements, videos, and branding at eye-catching positions",
+          "Digital building directories and corporate wayfinding navigation",
+          "Efficient content distribution over networked multi-display installations",
+          "Central monitoring and scheduling for effortless facility management"
+        ],
+        "verified_products": [
+          "Commercial 24/7 Digital Signage Displays",
+          "Networked Signage Media Player Hardware",
+          "Content Management & Scheduling Software",
+          "Slim Architectural Wall & Kiosk Mounting Brackets"
+        ]
+      },
+      {
+        "id": "control-room",
+        "slug": "corporate-control-room.html",
+        "name": "Control Room Solutions",
+        "brochure_page": "Brochure Page 8",
+        "image": "assets/images/solutions/control_room.jpg",
+        "banner_image": "assets/images/hero/hero_slide_5_videowall.jpg",
+        "intro": "Network Operating Centres (NOC) and control rooms require continuous 24/7 operational reliability, instant multi-screen visualization, and zero operator fatigue.",
+        "explanation": "EYESOFT builds end-to-end control room infrastructure, integrating video wall matrices, operator KVM workstation switching, and multi-source surveillance feeds.",
+        "features": [
+          "Continuous 24/7/365 commercial-grade display walls",
+          "KVM over IP switching for seamless operator workstation control",
+          "Multi-channel IP video streaming and emergency surveillance feeds",
+          "Ergonomic display positioning engineered for zero eye fatigue",
+          "Centralized supervisory management console"
+        ],
+        "verified_products": [
+          "Continuous 24/7 Mission-Critical Display Wall",
+          "IP-Based KVM Matrix Switcher",
+          "Operator Control Workstations & Laptops",
+          "Redundant Power Distribution Units"
+        ]
+      },
+      {
+        "id": "paging",
+        "slug": "corporate-paging.html",
+        "name": "Paging & Public Address",
+        "brochure_page": "Brochure Page 9",
+        "image": "assets/images/solutions/paging_system.jpg",
+        "banner_image": "assets/images/hero/hero_slide_1_boardroom.jpg",
+        "intro": "An audio system needs to be designed properly to prevent feedback, hums, or buzzes, and areas of seating that are too loud or too soft.",
+        "explanation": "EYESOFT deploys IP-networked and analog multi-zone public address systems for crystal-clear announcements across corporate campuses, factories, and commercial complexes.",
+        "features": [
+          "Multi-zone selective and all-call paging microphone consoles",
+          "Network IP audio distribution over standard campus Ethernet",
+          "Acoustic feedback suppression and automatic gain leveling",
+          "Emergency broadcast priority override integration with fire alarms",
+          "High-efficiency weatherproof horn speakers and flush ceiling speakers"
+        ],
+        "verified_products": [
+          "Multi-Zone Paging Master Call Station",
+          "Commercial 100V Line Power Amplifiers",
+          "High-Fidelity Ceiling Loudspeakers",
+          "Weatherproof Outdoor Column Speakers"
+        ]
+      },
+      {
+        "id": "background-music",
+        "slug": "corporate-background-music.html",
+        "name": "Background Music Systems",
+        "brochure_page": "Brochure Page 9",
+        "image": "assets/images/solutions/background_music.jpg",
+        "banner_image": "assets/images/hero/hero_slide_1_boardroom.jpg",
+        "intro": "Properly engineered background music systems enrich corporate lobbies, dining spaces, and retail areas without intruding on conversation.",
+        "explanation": "EYESOFT designs distributed soundscapes featuring uniform acoustic coverage, high-fidelity architectural speakers, and multi-zone independent volume control.",
+        "features": [
+          "High-fidelity distributed ceiling and surface-mount architectural speakers",
+          "Multi-zone volume control with individual room source selection",
+          "Scheduled playlist automation and cloud streaming integration",
+          "Balanced 70V/100V line distribution for large spaces",
+          "Uniform acoustic coverage with crystal-clear tonal balance"
+        ],
+        "verified_products": [
+          "Multi-Channel Background Music Amplifiers",
+          "Flush Architectural Coaxial Ceiling Speakers",
+          "In-Wall Digital Source & Volume Controllers",
+          "Balanced Audio Cabling & Junction Hardware"
+        ]
+      },
+      {
+        "id": "cafeteria",
+        "slug": "corporate-cafeteria.html",
+        "name": "Cafeteria / Break-out Room AV",
+        "brochure_page": "Brochure Page 9",
+        "image": "assets/images/solutions/cafeteria_breakout.jpg",
+        "banner_image": "assets/images/hero/hero_slide_1_boardroom.jpg",
+        "intro": "Cafeteria / Break-out rooms are typical places where employees unwind, while also doubling up as venue for large company gatherings and town-hall meetings.",
+        "explanation": "EYESOFT equips multi-functional break-out spaces with high-brightness projection, sound reinforcement, digital signage entertainment, and DJ music capabilities.",
+        "features": [
+          "High brightness multimedia projection systems for presentations and gatherings",
+          "Sound reinforcement for clarity of speech across large dining areas",
+          "Information Display (Digital Signage) systems for news & entertainment",
+          "DJ systems for live music, celebrations, and employee events",
+          "Background music systems for playing music and announcements",
+          "Lighting systems with presets for leisure vs. presentation scenarios",
+          "User-friendly touch-panel control interface for control of all equipment"
+        ],
+        "verified_products": [
+          "High-Lumen Commercial Cafeteria Projector",
+          "Motorized Projection Screen",
+          "Public Address & Live DJ Audio Mixer",
+          "User-Friendly Touch-Panel Room Controller"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education AV Solutions",
+    "badge": "Academic & Training Institutions",
+    "description": "Transforming learning environments across Indian schools, polytechnics, colleges, and universities with interactive projectors, smart whiteboards, digital podiums, and campus audio systems.",
+    "subcategories": [
+      {
+        "id": "digital-classroom",
+        "slug": "education-digital-classroom.html",
+        "name": "Digital Classroom Systems",
+        "brochure_page": "Brochure Page 6",
+        "image": "assets/images/solutions/digital_classroom.jpg",
+        "banner_image": "assets/images/hero/hero_slide_3_classroom.jpg",
+        "intro": "Modern education demands interactive tools that engage learners, accommodate diverse teaching methodologies, and enable interactive multimedia curriculum delivery.",
+        "explanation": "EYESOFT digital classroom systems combine interactive short-throw projection, ceramic whiteboards, digital podiums, and document visualizers, trusted by premier institutions like Bannari Amman Institute of Technology and Sri Krishna Institutions.",
+        "features": [
+          "High-lumen interactive multimedia projection with dual-pen touch support",
+          "Porcelain ceramic steel interactive writing whiteboards (100% scratch-proof)",
+          "Digital podium with integrated touch controller and gooseneck microphone",
+          "Document camera visualizers for real-time textbook and 3D specimen display",
+          "Speech-reinforcement sound systems engineered for classroom intelligibility"
+        ],
+        "verified_products": [
+          "Interactive Ultra Short Throw Projector",
+          "Magnetic Ceramic Steel Whiteboard",
+          "Multimedia Digital Podium",
+          "Classroom Document Visualizer Camera"
+        ]
+      },
+      {
+        "id": "training-room",
+        "slug": "education-training-room.html",
+        "name": "Academic Training Room",
+        "brochure_page": "Brochure Page 6",
+        "image": "assets/images/solutions/training_room.jpg",
+        "banner_image": "assets/images/hero/hero_slide_3_classroom.jpg",
+        "intro": "Flexible college seminar and faculty training rooms requiring dynamic presentation displays and student interaction capabilities.",
+        "explanation": "EYESOFT provides training rooms with multi-screen confidence displays, BYOD wireless mirroring, and acoustic reinforcement, allowing instructors to deliver interactive lectures seamlessly.",
+        "features": [
+          "Multi-touch interactive panels with dual Android and Windows OS",
+          "Wireless screen sharing from student and trainer devices",
+          "Ceiling distributed audio with uniform acoustic dispersion",
+          "Centralized instructor lectern with master power switching",
+          "Preset lighting scenes for presentation and writing modes"
+        ],
+        "verified_products": [
+          "4K Multi-Touch Interactive Flat Panel",
+          "Smart Digital Presentation Podium",
+          "Ceiling Acoustic Speaker Set",
+          "Wireless Presentation Gateway Dongle"
+        ]
+      },
+      {
+        "id": "interactive-display",
+        "slug": "education-interactive-display.html",
+        "name": "Interactive Display Solutions",
+        "brochure_page": "Brochure Page 6 & 10",
+        "image": "assets/images/solutions/digital_classroom.jpg",
+        "banner_image": "assets/images/hero/hero_slide_3_classroom.jpg",
+        "intro": "Interactive Flat Panels (IFPD) and touch display screens empower educators and students with intuitive multi-touch annotation, wireless screen sharing, and 4K ultra-high-definition visual clarity.",
+        "explanation": "EYESOFT integrates cutting-edge commercial 4K interactive display panels engineered for active learning environments. Combining anti-glare toughened safety glass, 20-point simultaneous multi-touch, built-in collaborative whiteboarding software, and wireless BYOD content sharing, these interactive panels transform lectures into collaborative, engaging learning sessions.",
+        "features": [
+          "4K Ultra HD commercial panels with 178\u00b0 viewing angles and anti-glare glass",
+          "20-point simultaneous touch writing with zero latency and optical bonding",
+          "Wireless screen casting from multiple student and faculty devices simultaneously",
+          "Integrated digital whiteboard software with session recording and cloud saving",
+          "Dual OS support with built-in Android and plug-and-play Windows OPS slots",
+          "Front-facing stereo audio sound reinforcement designed for speech intelligibility"
+        ],
+        "verified_products": [
+          "Commercial 4K Interactive Flat Panel (65\" / 75\" / 86\")",
+          "Heavy-Duty Mobile Height-Adjustable Floor Stand",
+          "Dual-Tip Magnetic High-Precision Stylus Pens",
+          "Wireless Presentation Gateway Dongle"
+        ]
+      },
+      {
+        "id": "projector-solutions",
+        "slug": "education-projector-solutions.html",
+        "name": "Projector Solutions for Education",
+        "brochure_page": "Brochure Page 10",
+        "image": "assets/images/products/product_projector.jpg",
+        "banner_image": "assets/images/hero/hero_slide_3_classroom.jpg",
+        "intro": "Comprehensive educational projection systems from ultra-short-throw classroom units to high-lumen campus auditorium laser projectors.",
+        "explanation": "EYESOFT supplies and services commercial projectors from leading manufacturers, tailored to classroom throw distances, ceiling heights, and ambient daylight levels.",
+        "features": [
+          "Ultra short throw projectors (0.27:1) eliminating presenter shadow and eye glare",
+          "Laser diode light engine offering 20,000+ hours of maintenance-free operation",
+          "High brightness (3,600 to 12,000+ ANSI lumens) for daylight-lit classrooms",
+          "Instant on/off power management and filter-free sealed optical engines",
+          "Universal ceiling mounting and theft-resistant mounting security"
+        ],
+        "verified_products": [
+          "Ultra Short Throw Interactive Classroom Projector",
+          "High-Lumen Laser Venue Projector",
+          "Universal Projector Ceiling Mounting Kit",
+          "OEM Replacement Lamp Modules & Optics"
+        ]
+      },
+      {
+        "id": "digital-podium",
+        "slug": "education-digital-podium.html",
+        "name": "Multimedia Digital Podium",
+        "brochure_page": "Brochure Page 10",
+        "image": "assets/images/products/product_digital_podium.jpg",
+        "banner_image": "assets/images/hero/hero_slide_3_classroom.jpg",
+        "intro": "The modern instructor lectern integrating touch display, audio amplification, visualizer bay, and master room controller into a single lockable metallic podium.",
+        "explanation": "EYESOFT digital podiums empower professors to manage multimedia presentations, write notes with digital styluses, speak through shock-mounted gooseneck microphones, and control projection screens with one touch.",
+        "features": [
+          "21.5-inch Full HD motorized capacitive touch screen with pen annotation",
+          "Dual professional gooseneck condenser microphones with shock mounts",
+          "Centralized touch switcher for projector, motorized screen, lights, and audio",
+          "Heavy-duty CRCA steel housing with security RFID / physical lock",
+          "Integrated audio amplifier and wireless microphone receiver bay"
+        ],
+        "verified_products": [
+          "Multimedia Metallic Digital Podium",
+          "Gooseneck Condenser Podium Microphones",
+          "Centralized Touchpad AV Controller",
+          "In-Podium Host PC & Cable Spine"
+        ]
+      },
+      {
+        "id": "projection-screens",
+        "slug": "education-projection-screens.html",
+        "name": "Projection Screens",
+        "brochure_page": "Brochure Page 10",
+        "image": "assets/images/products/product_projector_screen.jpg",
+        "banner_image": "assets/images/hero/hero_slide_3_classroom.jpg",
+        "intro": "Commercial-grade projection screens designed for maximum image contrast, wide viewing angles, and long-lasting durability in educational institutions.",
+        "explanation": "EYESOFT supplies motorized electric screens, manual pull-down screens, tripod portable screens, and fixed frame auditorium screens in sizes ranging from 84 inches to 300 inches.",
+        "features": [
+          "Matte white high-gain multi-layer fabric for crystal-clear image reproduction",
+          "Wide 160-degree viewing angle so every student in the room sees perfectly",
+          "Heavy-duty tubular motors with thermal overload protection for motorized screens",
+          "Black borders for enhanced perceived contrast and sharp frame focus",
+          "Ceiling recessed and wall surface mounting brackets included"
+        ],
+        "verified_products": [
+          "Motorized Electric Projection Screen (RF Remote)",
+          "Manual Pull-Down Classroom Screen",
+          "Extra-Large Tensioned Auditorium Screen",
+          "Heavy-Duty Portable Tripod Screen"
+        ]
+      },
+      {
+        "id": "av-learning",
+        "slug": "education-av-learning.html",
+        "name": "Audio Visual Learning Solutions",
+        "brochure_page": "Brochure Page 2 & 6",
+        "image": "assets/images/solutions/smart_classroom.jpg",
+        "banner_image": "assets/images/hero/hero_slide_3_classroom.jpg",
+        "intro": "Complete turnkey audiovisual learning integration combining audio, video, ceramic writing boards, and lecture capture technology.",
+        "explanation": "With our extensive experience deploying solutions for 26+ marquee clients including universities, medical colleges, and schools across Tamil Nadu, EYESOFT creates future-ready learning ecosystems.",
+        "features": [
+          "Hybrid classroom lecture capture and webcasting hardware",
+          "Ceramic porcelain marker boards integrated alongside interactive projection",
+          "Acoustically tuned speech reinforcement preventing vocal fatigue for teachers",
+          "High-bandwidth 4K active optical cabling infrastructure",
+          "Multi-brand equipment maintenance and prompt on-site engineering support"
+        ],
+        "verified_products": [
+          "Ceramic Interactive Whiteboard Surface",
+          "High-Bandwidth Active Optical HDMI Cabling",
+          "Classroom Speech Intelligibility Sound Kit",
+          "Annual Maintenance Contract (AMC) Service"
+        ]
+      }
+    ]
+  },
+  "government": {
+    "title": "Government AV Solutions",
+    "badge": "Public Sector & Defense",
+    "description": "High-security, mission-critical audiovisual systems engineered for government departments, defense facilities, municipal command centers, and public assembly halls.",
+    "subcategories": [
+      {
+        "id": "digital-classroom-gov",
+        "slug": "government-digital-classroom.html",
+        "name": "Government Digital Classroom Systems",
+        "brochure_page": "Brochure Page 6",
+        "image": "assets/images/solutions/digital_classroom.jpg",
+        "banner_image": "assets/images/hero/hero_slide_3_classroom.jpg",
+        "intro": "Modern interactive multimedia classroom systems implemented for government training institutes, civil services academies, and public schools.",
+        "explanation": "EYESOFT has equipped premier government institutions like the Government College of Technology (GCT) Coimbatore and Airforce School with verified interactive classrooms, digital podiums, and high-lumen projection.",
+        "features": [
+          "Standardized smart classroom architecture complying with government tenders",
+          "Durable ceramic interactive boards and multi-touch commercial displays",
+          "Digital podiums with secure keycard / key-lock equipment bays",
+          "Uniform acoustic sound reinforcement for clear trainer audibility",
+          "Prompt on-site technical support across Tamil Nadu and South India"
+        ],
+        "verified_products": [
+          "Interactive Short Throw Projector System",
+          "Magnetic Ceramic Steel Whiteboard",
+          "Centralized Multimedia Digital Podium",
+          "High-Speed Shielded AV Interconnect Cables"
+        ]
+      },
+      {
+        "id": "digital-signage-gov",
+        "slug": "government-digital-signage.html",
+        "name": "Digital Signage & Display",
+        "brochure_page": "Brochure Page 8",
+        "image": "assets/images/solutions/digital_signage.jpg",
+        "banner_image": "assets/images/hero/hero_slide_5_videowall.jpg",
+        "intro": "Public information display networks for government administrative secretariats, transport hubs, civic centers, and commodity boards.",
+        "explanation": "EYESOFT signage networks deliver real-time public announcements, citizen service directories, emergency bulletins, and official notices across tamper-proof commercial displays.",
+        "features": [
+          "Electronic information display systems to showcase real-time public notices",
+          "Present citizen service information, guidelines, and announcements at eye-catching locations",
+          "Emergency bulletin priority overrides for rapid public safety alerts",
+          "Tamper-proof architectural display enclosures and commercial wall brackets",
+          "Centralized content scheduling and remote network health monitoring"
+        ],
+        "verified_products": [
+          "Continuous 24/7 Commercial Public Displays",
+          "Networked Signage Media Hardware Players",
+          "Vandal-Resistant Display Enclosures",
+          "Centralized Web Management System"
+        ]
+      },
+      {
+        "id": "security-surveillance",
+        "slug": "government-security-surveillance.html",
+        "name": "Security Surveillance Integration",
+        "brochure_page": "Brochure Page 8",
+        "image": "assets/images/solutions/control_room.jpg",
+        "banner_image": "assets/images/hero/hero_slide_5_videowall.jpg",
+        "intro": "Integrated surveillance visualization consoles and multi-camera display matrices for security headquarters, municipal monitoring, and perimeter surveillance.",
+        "explanation": "EYESOFT integrates high-definition video wall matrices with security monitoring consoles, allowing operators to monitor live surveillance feeds with zero latency.",
+        "features": [
+          "Ultra-narrow bezel multi-screen video display arrays for continuous camera monitoring",
+          "Dynamic multi-window tiling supporting dozens of simultaneous camera feeds",
+          "High-durability commercial components rated for 24/7/365 uninterrupted operation",
+          "KVM console switching enabling operators to control multiple surveillance workstations",
+          "Redundant power supplies and failsafe video input switching"
+        ],
+        "verified_products": [
+          "Surveillance Matrix Video Wall Displays",
+          "Multi-Channel Hardware Video Processors",
+          "Operator KVM Workstation Controllers",
+          "Surveillance Monitoring Host PC Workstations"
+        ]
+      },
+      {
+        "id": "teleconferencing-gov",
+        "slug": "government-teleconferencing.html",
+        "name": "Video & Audio Teleconferencing",
+        "brochure_page": "Brochure Page 5",
+        "image": "assets/images/solutions/video_conferencing.jpg",
+        "banner_image": "assets/images/hero/hero_slide_2_videoconf.jpg",
+        "intro": "Encrypted high-security teleconferencing systems for inter-departmental government meetings, district collectorates, and official briefings.",
+        "explanation": "EYESOFT deploys video conferencing endpoints that connect government headquarters with regional offices, commodity boards (such as the Tea Board Coonoor), and field teams with high audio intelligibility and encrypted video.",
+        "features": [
+          "High-definition video teleconferencing codecs with secure encryption standards",
+          "Auto-tracking cameras with automated participant framing",
+          "Ceiling beamforming microphone arrays with acoustic echo suppression",
+          "Multi-site conference bridging for district-level and state-level reviews",
+          "Simple one-touch meeting launch touch-screens"
+        ],
+        "verified_products": [
+          "Enterprise Video Teleconferencing Codec & PTZ Camera",
+          "Digital Sound Processor (DSP) with Echo Cancellation",
+          "High-Fidelity Ceiling Microphone Arrays",
+          "Commercial Dual Presentation Displays"
+        ]
+      },
+      {
+        "id": "control-room-gov",
+        "slug": "government-control-room.html",
+        "name": "Government Control Room Solutions",
+        "brochure_page": "Brochure Page 8",
+        "image": "assets/images/solutions/control_room.jpg",
+        "banner_image": "assets/images/hero/hero_slide_5_videowall.jpg",
+        "intro": "Command and control centers for emergency response, municipal traffic monitoring, smart city operations, and disaster management.",
+        "explanation": "EYESOFT control room solutions combine video walls, operator consoles, multi-source KVM switching, and environmental automation to ensure real-time situational awareness.",
+        "features": [
+          "Continuous 24/7 mission-critical commercial display walls",
+          "Instant multi-source switching across GIS maps, live telemetry, and video feeds",
+          "Ergonomic operator console layouts designed to minimize eye and neck fatigue",
+          "Multi-level administrator permissions and incident response overrides",
+          "Redundant backup hardware guaranteeing uninterrupted operation"
+        ],
+        "verified_products": [
+          "Mission-Critical 24/7 Video Wall Display Matrix",
+          "Hardware Multi-Screen Video Processor",
+          "KVM-over-IP Operator Management Matrix",
+          "Heavy-Duty Rackmount Equipment Cabinets"
+        ]
+      },
+      {
+        "id": "video-wall-gov",
+        "slug": "government-video-wall.html",
+        "name": "Government Video Wall Solutions",
+        "brochure_page": "Brochure Page 8",
+        "image": "assets/images/solutions/video_wall.jpg",
+        "banner_image": "assets/images/hero/hero_slide_5_videowall.jpg",
+        "intro": "Large-format video wall matrices for government assembly halls, briefing rooms, auditoriums, and convention centers.",
+        "explanation": "EYESOFT video wall installations provide dynamic, high-impact visual communication with ultra-narrow bezels, true color calibration, and commercial-grade durability.",
+        "features": [
+          "Ultra-narrow bezel LCD and direct-view fine pitch LED matrices",
+          "Multi-window hardware controllers capable of 4K/8K presentation",
+          "Centralized monitoring and remote diagnostic management",
+          "Wide 178-degree viewing angles with uniform brightness across the entire array",
+          "Professional precision push-in pop-out bracket mounts for rapid front service access"
+        ],
+        "verified_products": [
+          "Ultra-Narrow Bezel Commercial Video Wall Panels",
+          "4K Hardware Multi-Window Video Processor",
+          "Precision Front-Service Video Wall Mounting Frames",
+          "High-Bandwidth Active Optical HDMI Interconnects"
+        ]
+      }
+    ]
+  }
+}

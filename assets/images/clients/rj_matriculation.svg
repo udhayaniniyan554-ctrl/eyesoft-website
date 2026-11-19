@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <defs>
+    <linearGradient id="rjGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#581C87"/>
+      <stop offset="100%" stop-color="#7E22CE"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="80" rx="8" fill="#FFFFFF"/>
+  <g transform="translate(14, 12)">
+    <!-- Academic Shield -->
+    <path d="M28 4 L48 10 C48 32 28 48 28 52 C28 48 8 32 8 10 Z" fill="url(#rjGrad)"/>
+    <polygon points="28,14 31,22 39,22 33,27 35,35 28,30 21,35 23,27 17,22 25,22" fill="#FBBF24"/>
+    <text x="28" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="900" fill="#FFFFFF" text-anchor="middle">RJ</text>
+  </g>
+  <text x="74" y="29" font-family="'Plus Jakarta Sans', sans-serif" font-size="13.5" font-weight="800" fill="#581C87">RJ MATRICULATION</text>
+  <text x="74" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#B45309" letter-spacing="0.02em">HIGHER SECONDARY SCHOOL</text>
+  <text x="74" y="60" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600" fill="#64748B">K-12 Quality Education &#8226; Coimbatore</text>
+</svg>
