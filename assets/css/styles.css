@@ -3822,9 +3822,518 @@ a[href="about.html"].mobile-nav-link,
   border-color: var(--electric-blue, #0066FF);
 }
 
+/* ==========================================================================
+   MASTER MOBILE RESPONSIVENESS SYSTEM (320px, 375px, 430px, 768px, 900px)
+   Strictly scoped to mobile & tablet breakpoints. Preserves desktop untouched.
+   ========================================================================== */
+
+/* 1. Global Overflow Prevention & Safe Box Sizing */
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img, video, iframe {
+  max-width: 100%;
+}
+
+/* 2. Tablet Portrait & Mid-Screen Breakpoint (<= 900px) */
+@media (max-width: 900px) {
+  /* 2-Column Desktop Grids stack into 1 Column */
+  .about-grid,
+  .contact-two-col-grid,
+  .product-detail-layout,
+  [style*="grid-template-columns: 1fr 1fr"],
+  [style*="grid-template-columns:1fr 1fr"],
+  [style*="grid-template-columns: 1fr 1.25fr"],
+  [style*="grid-template-columns:1fr 1.25fr"] {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+
+  /* About Us buttons and layout */
+  .about-grid > div,
+  .contact-two-col-grid > div {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Footer 3 columns stack nicely */
+  .footer-three-col-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 2rem !important;
+  }
+}
+
+/* 3. Primary Mobile Phone Breakpoint (<= 768px) */
 @media (max-width: 768px) {
+  :root {
+    --nav-height: 66px;
+    --container-pad: 1rem;
+  }
+
+  .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Sections: clean vertical rhythm without huge desktop gaps */
+  .section,
+  [style*="padding: 5rem 0"],
+  [style*="padding: 4.5rem 0"],
+  [style*="padding: 5rem 0 4rem"] {
+    padding: 2.75rem 0 !important;
+  }
+
+  .section-sm {
+    padding: 1.75rem 0 !important;
+  }
+
+  .section-header {
+    margin-bottom: 1.75rem !important;
+  }
+
+  .section-title {
+    font-size: 1.65rem !important;
+    line-height: 1.25 !important;
+  }
+
+  .section-subtitle {
+    font-size: 0.9375rem !important;
+    line-height: 1.55 !important;
+  }
+
+  /* Global Button Mobile Fix: prevent overflow caused by long text */
+  .btn {
+    white-space: normal !important;
+    text-align: center !important;
+    max-width: 100% !important;
+    word-break: break-word !important;
+    min-height: 44px;
+    padding: 0.75rem 1.25rem !important;
+  }
+
+  .btn-lg {
+    padding: 0.85rem 1.25rem !important;
+    font-size: 0.9375rem !important;
+  }
+
+  /* Header & Mobile Toggle */
+  .site-header {
+    height: 66px !important;
+  }
+
+  .header-container {
+    height: 100% !important;
+    padding: 0 1rem !important;
+  }
+
+  .site-logo {
+    height: 38px !important;
+    max-width: 150px !important;
+  }
+
+  .mobile-nav-toggle {
+    display: flex !important;
+    min-width: 44px;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Hero Slider Section */
+  .hero-slider-section {
+    height: auto !important;
+    min-height: 500px !important;
+    padding: 3.5rem 0 3.25rem !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .hero-slider-section .slider-btn {
+    display: none !important; /* Hide left/right arrows on mobile touch */
+  }
+
+  .slide-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 0.25rem !important;
+  }
+
+  .slide-badge {
+    font-size: 0.75rem !important;
+    padding: 4px 10px !important;
+    margin-bottom: 0.65rem !important;
+  }
+
+  .slide-title {
+    font-size: 1.65rem !important;
+    line-height: 1.25 !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  .slide-desc {
+    font-size: 0.875rem !important;
+    line-height: 1.5 !important;
+    margin-bottom: 1.25rem !important;
+    max-width: 100% !important;
+  }
+
+  .slide-actions {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 0.65rem !important;
+  }
+
+  .slide-actions .btn {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  .slider-indicators {
+    bottom: 0.75rem !important;
+  }
+
+  /* About Us Section Mobile Refinements */
+  #about .about-grid,
+  #about [style*="grid-template-columns: 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+
+  #about [style*="display:flex; gap:1rem"] {
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 0.75rem !important;
+  }
+
+  #about [style*="display:flex; gap:1rem"] .btn {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  #about [style*="padding: 2rem"],
+  #about [style*="padding:2rem"] {
+    padding: 1.25rem 1rem !important;
+  }
+
+  /* Customer Categories Grid & Cards */
+  .customer-categories-grid,
+  [style*="minmax(320px, 1fr)"],
+  [style*="minmax(340px, 1fr)"] {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+
+  .category-card-white,
+  .category-card-white > div {
+    width: 100% !important;
+  }
+
+  .category-card-image-box {
+    height: 180px !important;
+  }
+
+  .category-card-content,
+  [style*="padding: 1.75rem"] {
+    padding: 1.25rem 1rem !important;
+  }
+
+  .category-card-content .btn {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  /* Featured Commercial Hardware & Products */
+  .featured-products-grid,
+  [style*="minmax(270px, 1fr)"],
+  [style*="minmax(290px, 1fr)"],
+  [style*="minmax(300px, 1fr)"] {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+
+  .home-product-card,
+  .product-card {
+    width: 100% !important;
+  }
+
+  .product-card-body,
+  .home-product-card > div > div:last-child {
+    padding: 1.25rem 1rem !important;
+  }
+
+  .product-card-actions {
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+  }
+
+  .product-card-actions .btn {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  /* Explore All 13 Corporate AV Solutions */
   .solutions-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+
+  .solution-card.corporate-sol-card .solution-card-body {
+    padding: 1.25rem 1rem !important;
+  }
+
+  .solution-title {
+    font-size: 1.15rem !important;
+  }
+
+  .solution-card-actions {
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+  }
+
+  .solution-card-actions .btn,
+  .btn-explore-sol {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  /* Our Clients */
+  .clients-names-grid,
+  .clients-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.65rem !important;
+  }
+
+  .client-box {
+    padding: 0.85rem 1rem !important;
+    font-size: 0.875rem !important;
+    text-align: center !important;
+  }
+
+  /* Customer Reviews & Feedback */
+  .feedback-header-row {
+    flex-direction: column !important;
+    gap: 1.25rem !important;
+    align-items: stretch !important;
+  }
+
+  .feedback-main-title {
+    font-size: 1.75rem !important;
+  }
+
+  .rating-summary-strip {
+    padding: 0.65rem 0.85rem !important;
+    gap: 0.5rem !important;
+  }
+
+  .feedback-action-block,
+  .btn-submit-review {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  .reviews-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+
+  .review-card-premium {
+    padding: 1.25rem 1rem !important;
+  }
+
+  /* News Section */
+  .news-header-row {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 1rem !important;
+  }
+
+  .news-header-row .btn {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  .news-cards-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+
+  .news-cards-grid article {
+    width: 100% !important;
+  }
+
+  .news-cards-grid article [style*="padding:1.5rem"],
+  .news-cards-grid article [style*="padding: 1.5rem"] {
+    padding: 1.25rem 1rem !important;
+  }
+
+  /* Get in Touch & Contact */
+  .contact-two-col-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+
+  #contact [style*="padding:2rem"],
+  #contact [style*="padding: 2rem"] {
+    padding: 1.25rem 1rem !important;
+  }
+
+  #contact iframe,
+  [style*="height:380px"] iframe,
+  [style*="height: 380px"] iframe {
+    height: 280px !important;
+  }
+
+  [style*="height:380px"],
+  [style*="height: 380px"] {
+    height: auto !important;
+    min-height: 280px !important;
+  }
+
+  /* Forms & Modals */
+  input, select, textarea {
+    font-size: 16px !important; /* Prevents auto-zoom in iOS Safari */
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  form [style*="grid-template-columns:1fr 1fr"],
+  form [style*="grid-template-columns: 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+    gap: 0.85rem !important;
+  }
+
+  .modal-backdrop > div {
+    max-width: calc(100vw - 2rem) !important;
+    margin: 1rem !important;
+  }
+
+  .modal-backdrop form {
+    padding: 1.15rem 1rem !important;
+  }
+
+  /* Footer */
+  .site-footer {
+    padding: 3rem 0 2rem !important;
+  }
+
+  .footer-three-col-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+
+  .footer-col-company,
+  .footer-col-links,
+  .footer-col-contact {
+    width: 100% !important;
+  }
+
+  .footer-bottom-bar {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 0.5rem !important;
+  }
+
+  /* Product Details Layout */
+  .product-detail-layout {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+}
+
+/* 4. Small Smartphone Breakpoint (<= 480px) */
+@media (max-width: 480px) {
+  :root {
+    --container-pad: 0.875rem;
+  }
+
+  .container {
+    padding-left: 0.875rem !important;
+    padding-right: 0.875rem !important;
+  }
+
+  .section-title {
+    font-size: 1.5rem !important;
+  }
+
+  .hero-slider-section {
+    min-height: 480px !important;
+    padding: 3rem 0 2.75rem !important;
+  }
+
+  .slide-title {
+    font-size: 1.5rem !important;
+  }
+
+  .feedback-main-title {
+    font-size: 1.55rem !important;
+  }
+
+  .rating-summary-strip {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+}
+
+/* 5. Extra-Small Smartphone Breakpoint (<= 360px) */
+@media (max-width: 360px) {
+  :root {
+    --container-pad: 0.75rem;
+  }
+
+  .container {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+
+  .site-header {
+    height: 60px !important;
+  }
+
+  .site-logo {
+    height: 32px !important;
+    max-width: 130px !important;
+  }
+
+  .section-title {
+    font-size: 1.35rem !important;
+  }
+
+  .slide-title {
+    font-size: 1.35rem !important;
+  }
+
+  .slide-desc {
+    font-size: 0.8125rem !important;
+  }
+
+  .btn {
+    padding: 0.65rem 1rem !important;
+    font-size: 0.875rem !important;
+  }
+
+  .feedback-main-title {
+    font-size: 1.35rem !important;
+  }
+
+  .rating-numeric {
+    font-size: 1.5rem !important;
+  }
+
+  .tagline-badge,
+  .section-badge,
+  .slide-badge {
+    font-size: 0.7rem !important;
+    padding: 3px 7px !important;
   }
 }
