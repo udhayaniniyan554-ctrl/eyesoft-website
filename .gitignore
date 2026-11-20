@@ -7,6 +7,9 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Ignore all helper/audit Python scripts except server.py
+# Ignore helper scripts but track server, backend modules, and test suite
 *.py
 !server.py
+!backend/*.py
+!backend/__init__.py
+!test_admin_review_workflow.py

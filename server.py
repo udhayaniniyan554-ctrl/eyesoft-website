@@ -18,7 +18,7 @@ from backend.database import (
     init_db, get_stats, get_products, get_product, create_product, update_product, delete_product,
     get_categories, get_clients, create_client, update_client, delete_client,
     get_all_news, get_news_article, create_news_article, update_news_article, delete_news_article,
-    get_public_reviews, get_admin_reviews, create_review, update_review_status, delete_review,
+    get_public_reviews, get_admin_reviews, get_review, create_review, update_review_status, delete_review,
     get_settings, update_settings, get_user_by_username, verify_password, update_user_password
 )
 from backend.auth import (
@@ -263,9 +263,22 @@ def submit_customer_review(rev: ReviewSubmission):
     }
 
 @app.get("/api/admin/reviews")
-def admin_list_reviews(status: str = Query(None), user: dict = Depends(get_current_admin)):
-    """Admin view: list all reviews or filter by status."""
-    return get_admin_reviews(status_filter=status)
+def admin_list_reviews(
+    status: str = Query(None),
+    search: str = Query(None),
+    rating: int = Query(None),
+    user: dict = Depends(get_current_admin)
+):
+    """Admin view: list all reviews or filter by status, search keyword, or star rating."""
+    return get_admin_reviews(status_filter=status, search=search, rating=rating)
+
+@app.get("/api/admin/reviews/{review_id}")
+def admin_get_single_review(review_id: int, user: dict = Depends(get_current_admin)):
+    """Admin view: fetch single review by ID."""
+    rev = get_review(review_id)
+    if not rev:
+        raise HTTPException(status_code=404, detail="Review not found")
+    return rev
 
 @app.put("/api/admin/reviews/{review_id}/status")
 def admin_update_review_status(review_id: int, body: ReviewStatusUpdate, user: dict = Depends(get_current_admin)):
@@ -325,6 +338,10 @@ async def upload_image(file: UploadFile = File(...), user: dict = Depends(get_cu
 # Mount assets directory
 if os.path.exists(ASSETS_DIR):
     app.mount("/assets", StaticFiles(directory=ASSETS_DIR), name="assets")
+
+@app.api_route("/admin", methods=["GET", "HEAD"])
+def serve_admin_root():
+    return FileResponse(os.path.join(ADMIN_DIR, "index.html"))
 
 # Mount admin directory
 if os.path.exists(ADMIN_DIR):
