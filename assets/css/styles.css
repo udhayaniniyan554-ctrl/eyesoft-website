@@ -2005,6 +2005,14 @@ ul, ol {
   display: block;
 }
 
+/* Laptop/Desktop View: Keep full speaker visible without cropping, matching clean crop used in mobile view */
+@media (min-width: 769px) {
+  .slide-item[data-slide="2"] .slide-img {
+    object-fit: contain !important;
+    object-position: right 6% center !important;
+  }
+}
+
 .slide-overlay {
   position: absolute;
   inset: 0;
