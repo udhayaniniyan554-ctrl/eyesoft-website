@@ -24,6 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Preload all slide images immediately to prevent black/blank gaps on mobile networks
   slides.forEach((slide) => {
+    const source = slide.querySelector('source');
+    if (source && source.srcset) {
+      const mobilePreloader = new Image();
+      mobilePreloader.src = source.srcset;
+    }
     const img = slide.querySelector('.slide-img');
     if (img && img.src) {
       const preloader = new Image();
