@@ -13,3 +13,9 @@ Thumbs.db
 !backend/*.py
 !backend/__init__.py
 !test_admin_review_workflow.py
+
+# Temporary brochure extraction artifacts
+extracted_brochure_full/
+page_10_crops/
+image78_converted.png
+page_10_full_rendered.png
