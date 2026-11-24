@@ -171,11 +171,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Touch Swipe for Mobile / Tablets
-  let touchStartX = 0;
-  let touchEndX = 0;
+  // Entire Slide Clickable Functionality
+  let isSwiping = false;
+  slider.addEventListener('touchmove', () => {
+    isSwiping = true;
+  }, { passive: true });
 
   slider.addEventListener('touchstart', (e) => {
+    isSwiping = false;
     touchStartX = e.changedTouches[0].screenX;
   }, { passive: true });
 
@@ -183,6 +186,28 @@ document.addEventListener('DOMContentLoaded', () => {
     touchEndX = e.changedTouches[0].screenX;
     handleGesture();
   }, { passive: true });
+
+  slides.forEach((slide) => {
+    slide.addEventListener('click', (e) => {
+      if (isSwiping) {
+        isSwiping = false;
+        return;
+      }
+      // If click originated from carousel arrows, indicators, or dots, ignore
+      if (e.target.closest('.slider-btn, .slider-indicators, .indicator-dot')) {
+        return;
+      }
+      // If click was on an interactive anchor or button with its own href
+      const clickedLink = e.target.closest('a, button');
+      if (clickedLink && clickedLink.getAttribute('href') && !clickedLink.classList.contains('slide-full-hitbox')) {
+        return; // Allow the explicit button/link to perform its navigation
+      }
+      const targetHref = slide.getAttribute('data-href');
+      if (targetHref) {
+        window.location.href = targetHref;
+      }
+    });
+  });
 
   function handleGesture() {
     const diff = touchEndX - touchStartX;
