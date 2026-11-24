@@ -18,11 +18,10 @@ from backend.database import (
     init_db, get_stats, get_products, get_product, create_product, update_product, delete_product,
     get_categories, get_clients, create_client, update_client, delete_client,
     get_all_news, get_news_article, create_news_article, update_news_article, delete_news_article,
-    get_public_reviews, get_admin_reviews, get_review, create_review, update_review_status, delete_review,
     get_settings, update_settings, get_user_by_username, verify_password, update_user_password
 )
 from backend.auth import (
-    LoginRequest, PasswordChangeRequest, ReviewSubmission, ReviewStatusUpdate,
+    LoginRequest, PasswordChangeRequest,
     ClientCreate, NewsCreate, ProductCreate, ContactUpdate,
     create_access_token, get_current_admin
 )
@@ -237,64 +236,6 @@ def admin_delete_news(news_id: int, user: dict = Depends(get_current_admin)):
     if not deleted:
         raise HTTPException(status_code=404, detail="News article not found")
     return {"status": "success", "message": "News article permanently deleted from database"}
-
-# ==============================================================================
-# Customer Reviews APIs (Submit -> Pending; Admin -> Approve / Reject / Delete)
-# ==============================================================================
-
-@app.get("/api/reviews")
-def list_public_reviews():
-    """Returns ONLY approved reviews for public website display."""
-    return get_public_reviews()
-
-@app.post("/api/reviews")
-def submit_customer_review(rev: ReviewSubmission):
-    """Customer submits review; saved with status 'pending' awaiting admin approval."""
-    created = create_review(
-        customer_name=rev.customer_name,
-        rating=rev.rating,
-        review_text=rev.review_text,
-        company_or_designation=rev.company_or_designation or ""
-    )
-    return {
-        "status": "success",
-        "message": "Thank you! Your review has been submitted and is pending verification.",
-        "review": created
-    }
-
-@app.get("/api/admin/reviews")
-def admin_list_reviews(
-    status: str = Query(None),
-    search: str = Query(None),
-    rating: int = Query(None),
-    user: dict = Depends(get_current_admin)
-):
-    """Admin view: list all reviews or filter by status, search keyword, or star rating."""
-    return get_admin_reviews(status_filter=status, search=search, rating=rating)
-
-@app.get("/api/admin/reviews/{review_id}")
-def admin_get_single_review(review_id: int, user: dict = Depends(get_current_admin)):
-    """Admin view: fetch single review by ID."""
-    rev = get_review(review_id)
-    if not rev:
-        raise HTTPException(status_code=404, detail="Review not found")
-    return rev
-
-@app.put("/api/admin/reviews/{review_id}/status")
-def admin_update_review_status(review_id: int, body: ReviewStatusUpdate, user: dict = Depends(get_current_admin)):
-    """Admin approves or rejects a review."""
-    updated = update_review_status(review_id, body.status)
-    if not updated:
-        raise HTTPException(status_code=404, detail="Review not found")
-    return {"status": "success", "message": f"Review status updated to {body.status}"}
-
-@app.delete("/api/admin/reviews/{review_id}")
-def admin_delete_review(review_id: int, user: dict = Depends(get_current_admin)):
-    """Admin permanently deletes review from database."""
-    deleted = delete_review(review_id)
-    if not deleted:
-        raise HTTPException(status_code=404, detail="Review not found")
-    return {"status": "success", "message": "Review permanently deleted from database"}
 
 # ==============================================================================
 # Contact & Settings APIs
