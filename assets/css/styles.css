@@ -2005,11 +2005,49 @@ ul, ol {
   display: block;
 }
 
-/* Laptop/Desktop View: Keep full speaker visible without cropping, matching clean crop used in mobile view */
+/* Hero Slider: Slide 1 (Projector) & Slide 3 (Speaker) Desktop Custom Layouts */
 @media (min-width: 769px) {
+  .slide-item[data-slide="0"] .slide-content-wrapper {
+    display: flex !important;
+    justify-content: flex-start !important;
+    max-width: 1400px !important;
+    padding-left: 2rem !important;
+  }
+
+  .slide-item[data-slide="0"] .slide-content {
+    background: rgba(11, 14, 23, 0.78);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(56, 189, 248, 0.35);
+    border-radius: 16px;
+    padding: 1.75rem 2.25rem;
+    max-width: 450px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+  }
+
+  .slide-item[data-slide="2"] .slide-content-wrapper {
+    display: flex !important;
+    justify-content: flex-end !important;
+    max-width: 1400px !important;
+    padding-right: 2rem !important;
+  }
+
+  .slide-item[data-slide="2"] .slide-content {
+    margin-left: auto !important;
+    margin-right: 1rem !important;
+    max-width: 440px !important;
+    background: rgba(11, 14, 23, 0.65);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    padding: 1.75rem 2.25rem;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+  }
+
   .slide-item[data-slide="2"] .slide-img {
-    object-fit: contain !important;
-    object-position: right 6% center !important;
+    object-fit: cover !important;
+    object-position: center left !important;
   }
 }
 
@@ -2070,6 +2108,69 @@ ul, ol {
   border-radius: var(--radius-full);
   margin-bottom: 1.25rem;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.slide-pricing-options-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.slide-pricing-options-wrap .slide-price-badge {
+  margin-bottom: 0;
+}
+
+.slide-service-options {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.service-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.95rem;
+  border-radius: var(--radius-full);
+  font-family: var(--font-display);
+  font-size: 0.8125rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.service-pill .pill-svg {
+  display: block;
+  flex-shrink: 0;
+}
+
+.service-pill.pill-sales {
+  background: rgba(239, 68, 68, 0.18);
+  border: 1.5px solid #EF4444;
+  color: #FEE2E2;
+  box-shadow: 0 2px 10px rgba(239, 68, 68, 0.25);
+}
+
+.service-pill.pill-rentals {
+  background: rgba(168, 85, 247, 0.18);
+  border: 1.5px solid #A855F7;
+  color: #F3E8FF;
+  box-shadow: 0 2px 10px rgba(168, 85, 247, 0.25);
+}
+
+.service-pill:hover {
+  transform: translateY(-1px);
+}
+
+.service-pill.pill-sales:hover {
+  box-shadow: 0 4px 14px rgba(239, 68, 68, 0.4);
+}
+
+.service-pill.pill-rentals:hover {
+  box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4);
 }
 
 .slide-price-badge .price-tag {
@@ -3987,6 +4088,32 @@ img, video, iframe {
     font-size: 0.6875rem !important;
     white-space: normal !important;
     word-break: break-word !important;
+  }
+
+  .slide-pricing-options-wrap {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.5rem 0.65rem !important;
+    flex-wrap: wrap !important;
+    margin-bottom: 0.75rem !important;
+    width: 100% !important;
+  }
+
+  .slide-service-options {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.45rem !important;
+  }
+
+  .service-pill {
+    font-size: 0.72rem !important;
+    padding: 3px 9px !important;
+    gap: 0.35rem !important;
+  }
+
+  .service-pill .pill-svg {
+    width: 12px !important;
+    height: 12px !important;
   }
 
   .slide-desc {
